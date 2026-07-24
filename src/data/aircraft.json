@@ -1,21 +1,128 @@
 [
   {
-    "id": "string",
-    "name": "string",
-    "manufacturer": "string",
-    "category": "string",
-    "imageUrl": "string",
-    "accentColor": "string",
+    "id": "airbus-a220-300",
+    "name": "Airbus A220-300",
+    "manufacturer": "Airbus",
+    "category": "Single-aisle",
+    "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+    "accentColor": "#00205b",
     "specs": {
-      "passengerCapacity": "number",
-      "maxRangeNm": 25,
-      "maxRangeKm": 0,
-      "cruisingSpeedMach": "number",
-      "wingspanMeters": "number",
-      "lengthMeters": "number",
-      "engineType": "string"
+      "passengerCapacity": 150,
+      "maxRangeNm": 3450,
+      "cruisingSpeedMach": 0.78,
+      "wingspanMeters": 35.1,
+      "lengthMeters": 38.7,
+      "engineType": "2x Pratt & Whitney PW1500G"
     },
-    "short_description": "string",
-    "description": "string"
+    "short_description": "Ultra-efficient small narrow-body airliner designed for regional and short-haul transcontinental routes.",
+    "description": "Originally developed as the Bombardier CSeries, the A220-300 features 5-abreast seating, extra-large windows, and GTF engines delivering 25% lower fuel burn per seat compared to previous generation aircraft."
+  },
+  {
+    "id": "airbus-a320neo",
+    "name": "Airbus A320neo",
+    "manufacturer": "Airbus",
+    "category": "Single-aisle",
+    "imageUrl": "https://images.unsplash.com/photo-1529074963764-98f45c47344b",
+    "accentColor": "#00205b",
+    "specs": {
+      "passengerCapacity": 180,
+      "maxRangeNm": 3400,
+      "cruisingSpeedMach": 0.78,
+      "wingspanMeters": 35.8,
+      "lengthMeters": 37.57,
+      "engineType": "2x CFM LEAP-1A / PW1100G"
+    },
+    "short_description": "The world's best-selling single-aisle commercial jetliner family.",
+    "description": "The A320neo (New Engine Option) incorporates modern Sharklet wingtip devices and fuel-efficient engines that reduce fuel burn by 20% and significantly reduce engine noise footprint."
+  },
+  {
+    "id": "airbus-a321xlr",
+    "name": "Airbus A321XLR",
+    "manufacturer": "Airbus",
+    "category": "Single-aisle",
+    "imageUrl": "https://images.unsplash.com/photo-1556388158-158ea5ccacbd",
+    "accentColor": "#00205b",
+    "specs": {
+      "passengerCapacity": 220,
+      "maxRangeNm": 4700,
+      "cruisingSpeedMach": 0.78,
+      "wingspanMeters": 35.8,
+      "lengthMeters": 44.51,
+      "engineType": "2x CFM LEAP-1A / PW1100G-JM"
+    },
+    "short_description": "Extra-long-range narrow-body capable of flying non-stop transatlantic routes.",
+    "description": "The A321XLR unlocks new point-to-point long-haul routes (like London to Miami) by introducing a permanent Rear Center Tank (RCT) for unprecedented narrow-body fuel capacity."
+  },
+  {
+    "id": "airbus-a330-900neo",
+    "name": "Airbus A330-900neo",
+    "manufacturer": "Airbus",
+    "category": "Wide-body",
+    "imageUrl": "https://images.unsplash.com/photo-1519074069444-1ba4e21a221f",
+    "accentColor": "#0b2545",
+    "specs": {
+      "passengerCapacity": 287,
+      "maxRangeNm": 7200,
+      "cruisingSpeedMach": 0.82,
+      "wingspanMeters": 64.0,
+      "lengthMeters": 63.66,
+      "engineType": "2x Rolls-Royce Trent 7000"
+    },
+    "short_description": "Modern re-engined wide-body known for versatile medium-to-long range operations.",
+    "description": "Building on the successful A330 baseline, the A330-900neo adds high-span A350-inspired wings, new Rolls-Royce Trent 7000 engines, and the ultra-quiet Airspace cabin interior."
+  },
+  {
+    "id": "airbus-a350-900",
+    "name": "Airbus A350-900",
+    "manufacturer": "Airbus",
+    "category": "Wide-body",
+    "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+    "accentColor": "#0b2545",
+    "specs": {
+      "passengerCapacity": 325,
+      "maxRangeNm": 8300,
+      "cruisingSpeedMach": 0.85,
+      "wingspanMeters": 64.75,
+      "lengthMeters": 66.8,
+      "engineType": "2x Rolls-Royce Trent XWB-84"
+    },
+    "short_description": "Advanced long-range composite wide-body airliner featuring signature curved winglets.",
+    "description": "Over 50% of the A350's airframe is made of carbon-fiber composite materials. Combined with aerodynamic morphing wings, it sets high standards for long-haul operating efficiency."
+  },
+  {
+    "id": "airbus-a350-1000",
+    "name": "Airbus A350-1000",
+    "manufacturer": "Airbus",
+    "category": "Wide-body",
+    "imageUrl": "https://images.unsplash.com/photo-1556388158-158ea5ccacbd",
+    "accentColor": "#0b2545",
+    "specs": {
+      "passengerCapacity": 410,
+      "maxRangeNm": 8700,
+      "cruisingSpeedMach": 0.85,
+      "wingspanMeters": 64.75,
+      "lengthMeters": 73.79,
+      "engineType": "2x Rolls-Royce Trent XWB-97"
+    },
+    "short_description": "Airbus's largest twin-engine flagship wide-body airliner with six-wheel landing gear.",
+    "description": "The stretched variant of the A350 family designed to challenge large twin-engine jets, featuring a modified wing trailing-edge and higher thrust Trent XWB-97 engines."
+  },
+  {
+    "id": "airbus-a380-800",
+    "name": "Airbus A380-800",
+    "manufacturer": "Airbus",
+    "category": "Wide-body",
+    "imageUrl": "https://images.unsplash.com/photo-1519074069444-1ba4e21a221f",
+    "accentColor": "#1d2d44",
+    "specs": {
+      "passengerCapacity": 525,
+      "maxRangeNm": 8000,
+      "cruisingSpeedMach": 0.85,
+      "wingspanMeters": 79.75,
+      "lengthMeters": 72.72,
+      "engineType": "4x Engine Alliance GP7200 / Rolls-Royce Trent 900"
+    },
+    "short_description": "The world's largest commercial passenger jet with a full double-deck cabin.",
+    "description": "The Superjumbo is the only full-length double-decker passenger aircraft ever built. Designed for high-density global hub-to-hub routes, offering unmatched space and luxury amenities like onboard showers and bars."
   }
 ]
