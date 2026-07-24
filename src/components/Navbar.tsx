@@ -1,7 +1,7 @@
 import { NavLink } from "react-router";
 
 function Navbar() {
-  const pages = ["Home", "Aircrafts", "Airlines"];
+  const pages = ["Home", "Aircrafts", "Airlines", "About"];
   return (
     <nav className="flex items-center justify-center">
       <div className="flex items-center justify-around gap-4 p-4 mt-2 rounded-full bg-sky-400 text-neutral-50">
