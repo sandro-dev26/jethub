@@ -45,7 +45,7 @@ function Home() {
                 onClick={() => {
                   navigate(`/aircrafts/${item.id}`);
                 }}
-                className="text-2xl text-sky-50 [text-shadow:0_1px_2px_rgb(0_0_0_/_0.5)] font-semibold"
+                className="text-2xl text-sky-50 [text-shadow:0_1px_2px_rgb(0_0_0/0.5)] font-semibold"
               >
                 {item.name}
               </h2>
