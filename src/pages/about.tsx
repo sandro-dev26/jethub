@@ -74,6 +74,66 @@ function About() {
         </p>
       </section>
 
+      <section className="mb-12">
+        <h2 className="text-xl font-semibold mb-4">Who is this project for?</h2>
+
+        <ul className="flex flex-col gap-2 mt-2 list-disc list-inside">
+          <li>
+            Aviation Enthusiasts & Planespotters: Anyone looking for a free,
+            centralized hub to access flight and aircraft data without
+            navigating paywalls or fragmented tools.
+          </li>
+          <li>
+            Developers & Contributors: Coders of any skill level looking to
+            practice frontend skills, work with JSON datasets, refine UI
+            layouts, and contribute to an active open-source project.
+          </li>
+        </ul>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-xl font-semibold mb-4">Tech Stack</h2>
+
+        <p>
+          <Link
+            to="/"
+            className="hover:underline underline-offset-2 font-semibold"
+          >
+            JetHub
+          </Link>{" "}
+          uses stack listed below:
+        </p>
+        <ul className="flex flex-col gap-2 mt-2 list-disc list-inside">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Typescript</li>
+          <li>React</li>
+          <li>Tailwind CSS</li>
+          <li>Motion (unused so far)</li>
+        </ul>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-xl font-semibold mb-4">
+          What we hope to add in future
+        </h2>
+
+        <p>
+          Currently, as said before, JetHub is small and doesn't contain much
+          data, in future we hope we have:
+        </p>
+        <ul className="flex flex-col gap-2 mt-2 list-disc list-inside">
+          <li>Extended data with 50+ aircrafts and 30+ airlines</li>
+          <li>Improved flight tracker</li>
+          <li>Improved UI/UX</li>
+          <li>
+            JetHub helping developers to get contributions and aviation
+            enthusiasts accesing different kinds of data in single and orginized
+            web app
+          </li>
+        </ul>
+      </section>
+
       <section>
         <h2 className="text-xl font-semibold">Data</h2>
 
@@ -106,6 +166,20 @@ function About() {
           </li>
         </ul>
       </section>
+
+      <hr className="my-4" />
+
+      <p className="">
+        If you are looking forward to contributing and need guide, we reccomend
+        to check out{" "}
+        <a
+          href="https://github.com/sandro-dev26/jethub/blob/main/README.md"
+          className="font-semibold hover:underline underline-offset-2"
+        >
+          README.md
+        </a>{" "}
+        for more info.
+      </p>
     </main>
   );
 }
