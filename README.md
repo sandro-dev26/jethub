@@ -1,75 +1,92 @@
-# React + TypeScript + Vite
+# JetHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A free, open-source web application for aircraft specs, airline fleet data, and live flight tracking
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+JetHub is project targeting to be way of accesing aviation data in combined single web app for free. It is still early in development and lacks data.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Features
 
-## Expanding the ESLint configuration
+Features that currently work
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- view airplanes on homepage
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+This project uses stack below:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- HTML5
+- CSS3
+- Typescript
+- React
+- React Router (not mentioned on about page)
+- Tailwind CSS
+- Motion (unused so far)
 
+## Local Setup & Installation Guide
+
+Follow these steps to run JetHub on your computer or contribute to the project.
+
+### Prerequisites
+
+> [!NOTE]
+> Make sure you have [Node.js](https://nodejs.org/) installed on your system before starting.
+
+---
+
+### Step-by-Step Setup
+
+#### 1. Fork the Repository
+
+Click the **Fork** button at the top right of this page to create a copy of this repository under your GitHub account.
+
+#### 2. Clone Your Fork
+
+Open your terminal and clone your copy of JetHub:
+
+```bash
+git clone [https://github.com/sandro-dev26/jethub.git](https://github.com/sandro-dev26/jethub.git)
+cd jethub
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## How To Contribute
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Adding a New Aircraft
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
+To add a new aircraft, open `src/data/aircraft.json` and append a new object inside the main array (`[...]`).
+
+#### Required Data Structure
+
+Each entry in `aircraft.json` must follow this structure:
+
+```json
+{
+  "id": "string (unique-kebab-case)",
+  "name": "string",
+  "manufacturer": "string",
+  "category": "string",
+  "imageUrl": "string (valid image URL)",
+  "accentColor": "string (hex color code)",
+  "specs": {
+    "passengerCapacity": number,
+    "maxRangeNm": number,
+    "maxRangeKm": number,
+    "cruisingSpeedMach": number,
+    "wingspanMeters": number,
+    "lengthMeters": number,
+    "engineType": "string"
   },
-])
-
+  "short_description": "string",
+  "description": "string"
+}
 ```
+
+> [!TIP]
+> Make sure to add a comma (,) between aircraft objects inside the JSON array, and verify there are no trailing commas at the end of the file.
+> [!NOTE]
+> The current `aircraft.json` contains some placeholder image URLs. If you wish, feel free to update them with working links via a Pull Request.
+> [!NOTE]
+> Found a bug or issue? Feel free to fix it and open a Pull Request!
