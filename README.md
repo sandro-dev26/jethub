@@ -86,7 +86,9 @@ Each entry in `aircraft.json` must follow this structure:
 
 > [!TIP]
 > Make sure to add a comma (,) between aircraft objects inside the JSON array, and verify there are no trailing commas at the end of the file.
+
 > [!NOTE]
 > The current `aircraft.json` contains some placeholder image URLs. If you wish, feel free to update them with working links via a Pull Request.
+
 > [!NOTE]
 > Found a bug or issue? Feel free to fix it and open a Pull Request!
