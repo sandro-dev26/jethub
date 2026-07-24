@@ -7,6 +7,7 @@ export interface Aircraft {
   accentColor: string;
   specs: {
     passengerCapacity: number;
+    maxRangeNm: number;
     maxRangeKm: number;
     cruisingSpeedMach: number;
     wingspanMeters: number;

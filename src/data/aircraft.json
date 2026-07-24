@@ -8,7 +8,8 @@
     "accentColor": "string",
     "specs": {
       "passengerCapacity": "number",
-      "maxRangeKm": "number",
+      "maxRangeNm": 25,
+      "maxRangeKm": 0,
       "cruisingSpeedMach": "number",
       "wingspanMeters": "number",
       "lengthMeters": "number",
