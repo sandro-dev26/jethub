@@ -8,6 +8,7 @@
     "specs": {
       "passengerCapacity": 150,
       "maxRangeNm": 3450,
+      "maxRangeKm": 0,
       "cruisingSpeedMach": 0.78,
       "wingspanMeters": 35.1,
       "lengthMeters": 38.7,
@@ -25,6 +26,7 @@
     "specs": {
       "passengerCapacity": 180,
       "maxRangeNm": 3400,
+      "maxRangeKm": 0,
       "cruisingSpeedMach": 0.78,
       "wingspanMeters": 35.8,
       "lengthMeters": 37.57,
@@ -42,6 +44,7 @@
     "specs": {
       "passengerCapacity": 220,
       "maxRangeNm": 4700,
+      "maxRangeKm": 0,
       "cruisingSpeedMach": 0.78,
       "wingspanMeters": 35.8,
       "lengthMeters": 44.51,
@@ -59,6 +62,7 @@
     "specs": {
       "passengerCapacity": 287,
       "maxRangeNm": 7200,
+      "maxRangeKm": 0,
       "cruisingSpeedMach": 0.82,
       "wingspanMeters": 64.0,
       "lengthMeters": 63.66,
@@ -76,6 +80,7 @@
     "specs": {
       "passengerCapacity": 325,
       "maxRangeNm": 8300,
+      "maxRangeKm": 0,
       "cruisingSpeedMach": 0.85,
       "wingspanMeters": 64.75,
       "lengthMeters": 66.8,
@@ -93,6 +98,7 @@
     "specs": {
       "passengerCapacity": 410,
       "maxRangeNm": 8700,
+      "maxRangeKm": 0,
       "cruisingSpeedMach": 0.85,
       "wingspanMeters": 64.75,
       "lengthMeters": 73.79,
@@ -110,6 +116,7 @@
     "specs": {
       "passengerCapacity": 525,
       "maxRangeNm": 8000,
+      "maxRangeKm": 0,
       "cruisingSpeedMach": 0.85,
       "wingspanMeters": 79.75,
       "lengthMeters": 72.72,

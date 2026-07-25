@@ -3,6 +3,7 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import About from "./pages/about";
 import AircraftPage from "./pages/aircraft";
+import AircraftDetails from "./pages/aircraftDetails";
 
 function AppRouter() {
   return (
@@ -12,7 +13,7 @@ function AppRouter() {
           <Route path="/" element={<Home />} />
 
           <Route path="/aircraft" element={<AircraftPage />} />
-          <Route path="/aircraft/:aircraftid" />
+          <Route path="/aircraft/:aircraftid" element={<AircraftDetails />} />
           <Route path="/aircraft/:categoryid" />
 
           <Route path="/airline" />
