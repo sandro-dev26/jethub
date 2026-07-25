@@ -84,6 +84,33 @@ Each entry in `aircraft.json` must follow this structure:
 }
 ```
 
+### Adding a New Airline
+
+To add a new airline, open `src/data/airline.json` and append a new object inside the main array (`[...]`).
+
+#### Required Data Structure
+
+Each entry in `airline.json` must follow this structure:
+
+```json
+{
+  "id": "string (unique-kebab-case)",
+  "name": "string",
+  "country": "string",
+  "iata": "string (2-letter IATA code)",
+  "icao": "string (3-letter ICAO code)",
+  "callsign": "string",
+  "logoUrl": "string (valid image URL)",
+  "accentColor": "string (hex color code)",
+  "hubAirport": "string (Airport Name and Code)",
+  "fleetCount": number,
+  "foundedYear": number,
+  "activeFleet": ["string (array of aircraft IDs matching aircraft.json)"],
+  "short_description": "string",
+  "description": "string"
+}
+```
+
 > [!TIP]
 > Make sure to add a comma (,) between aircraft objects inside the JSON array, and verify there are no trailing commas at the end of the file.
 
@@ -92,3 +119,7 @@ Each entry in `aircraft.json` must follow this structure:
 
 > [!NOTE]
 > Found a bug or issue? Feel free to fix it and open a Pull Request!
+
+```
+
+```
