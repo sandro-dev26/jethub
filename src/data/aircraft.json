@@ -4,7 +4,6 @@
     "name": "Airbus A220-300",
     "manufacturer": "Airbus",
     "category": "Single-aisle",
-    "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
     "accentColor": "#00205b",
     "specs": {
       "passengerCapacity": 150,
@@ -22,7 +21,6 @@
     "name": "Airbus A320neo",
     "manufacturer": "Airbus",
     "category": "Single-aisle",
-    "imageUrl": "https://images.unsplash.com/photo-1529074963764-98f45c47344b",
     "accentColor": "#00205b",
     "specs": {
       "passengerCapacity": 180,
@@ -40,7 +38,6 @@
     "name": "Airbus A321XLR",
     "manufacturer": "Airbus",
     "category": "Single-aisle",
-    "imageUrl": "https://images.unsplash.com/photo-1556388158-158ea5ccacbd",
     "accentColor": "#00205b",
     "specs": {
       "passengerCapacity": 220,
@@ -58,7 +55,6 @@
     "name": "Airbus A330-900neo",
     "manufacturer": "Airbus",
     "category": "Wide-body",
-    "imageUrl": "https://images.unsplash.com/photo-1519074069444-1ba4e21a221f",
     "accentColor": "#0b2545",
     "specs": {
       "passengerCapacity": 287,
@@ -76,7 +72,6 @@
     "name": "Airbus A350-900",
     "manufacturer": "Airbus",
     "category": "Wide-body",
-    "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
     "accentColor": "#0b2545",
     "specs": {
       "passengerCapacity": 325,
@@ -94,7 +89,6 @@
     "name": "Airbus A350-1000",
     "manufacturer": "Airbus",
     "category": "Wide-body",
-    "imageUrl": "https://images.unsplash.com/photo-1556388158-158ea5ccacbd",
     "accentColor": "#0b2545",
     "specs": {
       "passengerCapacity": 410,
@@ -112,7 +106,6 @@
     "name": "Airbus A380-800",
     "manufacturer": "Airbus",
     "category": "Wide-body",
-    "imageUrl": "https://images.unsplash.com/photo-1519074069444-1ba4e21a221f",
     "accentColor": "#1d2d44",
     "specs": {
       "passengerCapacity": 525,

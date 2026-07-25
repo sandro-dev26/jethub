@@ -10,12 +10,15 @@ function AppRouter() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+
           <Route path="/aircraft" element={<AircraftPage />} />
           <Route path="/aircraft/:aircraftid" />
           <Route path="/aircraft/:categoryid" />
+
           <Route path="/airline" />
           <Route path="/airline/:airlineid" />
+
+          <Route path="/about" element={<About />} />
         </Route>
       </Routes>
     </BrowserRouter>
