@@ -119,7 +119,3 @@ Each entry in `airline.json` must follow this structure:
 
 > [!NOTE]
 > Found a bug or issue? Feel free to fix it and open a Pull Request!
-
-```
-
-```
