@@ -1,16 +1,15 @@
 export interface Airline {
-  id: "emirates";
-  name: "Emirates";
-  country: "United Arab Emirates";
-  iata: "EK";
-  icao: "UAE";
-  callsign: "EMIRATES";
-  logoUrl: "https://example.com/emirates-logo.png";
-  accentColor: "#d71921";
-  hubAirport: "Dubai International Airport (DXB)";
-  fleetCount: 260;
-  foundedYear: 1985;
-  activeFleet: ["airbus-a380-800", "boeing-777-300er"];
-  short_description: "The flag carrier of the UAE, known for operating the world's largest A380 fleet.";
-  description: "Emirates is one of the world's largest international airlines, operating out of its primary hub at Dubai International Airport. It operates an all-wide-body fleet consisting primarily of Airbus A380 and Boeing 777 aircraft.";
+  id: string;
+  name: string;
+  country: string;
+  iata: string;
+  icao: string;
+  callsign: string;
+  accentColor: string;
+  hubAirport: string;
+  fleetCount: number;
+  foundedYear: number;
+  activeFleet: Array<string>;
+  short_description: string;
+  description: string;
 }
