@@ -30,7 +30,7 @@ function AircraftDetails() {
             {specAircraft.name}
           </h1>
 
-          <div className="text-md font-semibold my-2 text-neutral-700">
+          <div className="text-md font-semibold my-2 text-neutral-700 dark:text-neutral-400">
             <p>
               Manufacturer:{" "}
               <span className="font-normal">{specAircraft.manufacturer}</span>
@@ -72,7 +72,7 @@ function AircraftDetails() {
             </p>
           </div>
 
-          <p className="font-semibold text-md text-neutral-600">
+          <p className="font-semibold text-md text-neutral-600 dark:text-neutral-300">
             {specAircraft.description}
           </p>
         </div>

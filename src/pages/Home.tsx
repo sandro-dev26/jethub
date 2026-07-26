@@ -21,7 +21,7 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <main className="m-4 mt-12">
+    <main className="m-4 mt-12 text-neutral-50">
       <header>
         <h1 className="text-4xl">JetHub</h1>
         <p className="text-sm font-light">
@@ -29,17 +29,17 @@ function Home() {
         </p>
       </header>
       <div className="mt-4">
-        <label htmlFor="aircrafts" className="text-xl">
+        <label htmlFor="aircrafts" className="text-2xl">
           Aircrafts
         </label>
         <section
           id="aircrafts"
-          className="flex flex-row flex-2 gap-2 min-h-60 overflow-auto p-4"
+          className="flex flex-row flex-2 gap-2 min-h-60 overflow-auto p-4 scrollbar-thumb-sky-500"
         >
-          {aircraftData?.map((item) => (
+          {aircraftData?.slice(0, 5).map((item) => (
             <div
               key={item.id}
-              className="bg-sky-100 text-sky-400 w-80 shrink-0 border border-sky-400 p-2 rounded-2xl transition-all duration-200 hover:-translate-y-1 hover:shadow-lg shadow-neutral-800/50"
+              className="bg-sky-100 dark:bg-sky-900 text-sky-500 w-80 shrink-0 border border-sky-500 p-2 rounded-2xl transition-all duration-200 hover:-translate-y-1 hover:shadow-lg shadow-black/50 dark:shadow-white/50"
             >
               <h2
                 onClick={() => {
@@ -68,6 +68,18 @@ function Home() {
               <p>{item.short_description}</p>
             </div>
           ))}
+          <div
+            key="aircrafts-more"
+            onClick={() => {
+              navigate("/aircraft");
+            }}
+            className="flex flex-col items-center justify-center bg-sky-100 dark:bg-sky-900 text-sky-500 w-80 shrink-0 border border-sky-500 p-2 rounded-2xl transition-all duration-200 hover:-translate-y-1 hover:shadow-lg shadow-black/50 dark:shadow-white/50"
+          >
+            <h2 className="text-4xl text-sky-50 hover:underline underline-offset-2 decoration-1">
+              MORE
+            </h2>
+            <p className="text-sm text-sky-50">See more aircrafts</p>
+          </div>
         </section>
       </div>
     </main>

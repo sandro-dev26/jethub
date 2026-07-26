@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 function About() {
   return (
-    <main className="m-4 mt-12 text-neutral-950">
+    <main className="m-4 mt-12 text-neutral-950 dark:text-neutral-50">
       <h1 className="text-4xl font-light">
         About{" "}
         <Link
