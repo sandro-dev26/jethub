@@ -1,6 +1,6 @@
 import { fetchAircraftData } from "../fetch";
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router";
+import { useNavigate, Link } from "react-router";
 import type { Aircraft } from "../types/aircraft";
 
 function Home() {
@@ -23,11 +23,24 @@ function Home() {
   return (
     <main className="m-4 mt-12 text-neutral-50">
       <header>
-        <h1 className="text-sky-400 text-4xl md:text-6xl lg:8xl font-orbitron font-bold">
+        <h1 className="text-sky-400 text-4xl md:text-6xl lg:8xl font-orbitron font-bold transition-all duration-200 hover:px-4 hover:border-l-6 hover:md:border-l-8 rounded-sm md:rounded-md">
           JetHub
         </h1>
         <p className="text-sm font-light">
-          Explore different Aircrafts and Airlines.
+          Explore different{" "}
+          <Link
+            to="/aircraft"
+            className="font-semibold hover:underline underline-offset-2"
+          >
+            Aircrafts
+          </Link>{" "}
+          and{" "}
+          <Link
+            to="/airlines"
+            className="font-semibold hover:underline underline-offset-2"
+          >
+            Airlines.
+          </Link>
         </p>
       </header>
       <div className="mt-4">
