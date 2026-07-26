@@ -37,7 +37,7 @@ function AircraftPage() {
                 onClick={() => {
                   navigate(`/aircraft/${item.id}`);
                 }}
-                className="text-xl font-semibold transition-all duration-200 hover:border-l-4 hover:px-2 hover:rounded-sm"
+                className="text-xl font-semibold transition-all duration-200 hover:bg-sky-200 hover:border-l-4 hover:px-2 hover:rounded-sm"
               >
                 {item.name}
               </h1>
