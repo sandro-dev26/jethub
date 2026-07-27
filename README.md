@@ -1,6 +1,6 @@
 # JetHub
 
-A free, open-source web application for aircraft specs, airline fleet data, and live flight tracking
+A free, open-source web application for aircraft specs, airline fleet data, and airport data
 
 ---
 
@@ -24,7 +24,8 @@ This project uses stack below:
 - React
 - React Router (not mentioned on about page)
 - Tailwind CSS
-- Motion (unused so far)
+- Motion
+- Lucide (Icons)
 
 ## Local Setup & Installation Guide
 
@@ -100,13 +101,56 @@ Each entry in `airline.json` must follow this structure:
   "iata": "string (2-letter IATA code)",
   "icao": "string (3-letter ICAO code)",
   "callsign": "string",
-  "logoUrl": "string (valid image URL)",
   "accentColor": "string (hex color code)",
   "hubAirport": "string (Airport Name and Code)",
   "fleetCount": number,
   "foundedYear": number,
   "activeFleet": ["string (array of aircraft IDs matching aircraft.json)"],
   "short_description": "string",
+  "description": "string"
+}
+```
+
+### Adding a New Airport
+
+To add a new airport, open `src/data/airport.json` and append a new object inside the main array (`[...]`).
+
+#### Required Data Structure
+
+Each entry in `airport.json` must follow this structure:
+
+```json
+{
+  "id": "string (unique-kebab-case)",
+  "name": "string",
+  "iata": "string (3-letter IATA code)",
+  "icao": "string (4-letter ICAO code)",
+  "city": "string",
+  "country": "string",
+  "coordinates": {
+    "latitude": number,
+    "longitude": number
+  },
+  "elevationFeet": number,
+  "category": "string",
+  "timeZone": "string",
+  "yearlyCapacity": number,
+  "terminalCount": number,
+  "gateCount": number,
+  "jetBridgeCount": number,
+  "parkingStands": number,
+  "runways": [
+    {
+      "id": "string (e.g. 09L/27R)",
+      "lengthMeters": number,
+      "surface": "string",
+      "illuminated": boolean
+    }
+  ],
+  "airlines": ["string (array of operating airline names or IDs)"],
+  "hasControlTower": boolean,
+  "isOpen247": boolean,
+  "shortDescription": "string",
   "description": "string"
 }
 ```

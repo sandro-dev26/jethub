@@ -73,8 +73,9 @@ function About() {
         <h2 className="text-xl font-semibold mb-2">Key Features</h2>
 
         <p>
-          Explore Aircrafts, Airlines and Airports. Click on specific aircraft,
-          airline or airport and see extended data.
+          Explore Aircrafts, Airlines and Airports. Click on star icon to add
+          specific aircraft/airline/airport to favorites. Click on specific
+          aircraft, airline or airport and see extended data.
         </p>
       </section>
 
