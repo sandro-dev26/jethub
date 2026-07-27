@@ -60,13 +60,13 @@ function AirlineDetails() {
                 </h3>
                 <code>{JSON.stringify(specAirline, null, 2)}</code>
               </pre>
-              <p className="flex flex-col text-sky-500 gap-2 text-md bg-neutral-800 p-2 rounded-md">
+              <div className="flex flex-col text-sky-500 gap-2 text-md bg-neutral-800 p-2 rounded-md">
                 Note
                 <p className="bg-neutral-700 text-neutral-400 text-sm font-semibold rounded-md p-2">
                   This raw JSON shows the underlying data structure running this
                   app, making the core data behind JetHub visible to everyone.
                 </p>
-              </p>
+              </div>
             </li>
           </ul>
 
