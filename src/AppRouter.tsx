@@ -16,7 +16,6 @@ function AppRouter() {
 
           <Route path="/aircraft" element={<AircraftPage />} />
           <Route path="/aircraft/:aircraftid" element={<AircraftDetails />} />
-          <Route path="/aircraft/:categoryid" />
 
           <Route path="/airlines" element={<AirlinePage />} />
           <Route path="/airlines/:airlineid" element={<AirlineDetails />} />

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { fetchAircraftData } from "../fetch";
 import type { Aircraft } from "../types/aircraft";
+import conventerData from "../utils/converter?raw";
 
 function AircraftDetails() {
   const [aircraftData, setAircraftData] = useState<Aircraft[] | null>(null);
@@ -31,45 +32,70 @@ function AircraftDetails() {
           </h1>
 
           <ul className="text-md font-semibold my-2 text-neutral-700 dark:text-neutral-400">
-            <p>
+            <li>
               Manufacturer:{" "}
               <span className="font-normal">{specAircraft.manufacturer}</span>
-            </p>
-            <p>
+            </li>
+            <li>
               Category:{" "}
               <span className="font-normal">{specAircraft.category}</span>
-            </p>
-            <p>
+            </li>
+            <li>
               Max Capacity:{" "}
               <span className="font-normal">
                 {specAircraft.specs.passengerCapacity}
               </span>
-            </p>
-            <p>
+            </li>
+            <li>
               Max Range:{" "}
               <span className="font-normal">
                 {specAircraft.specs.maxRangeKm} Km (
                 {specAircraft.specs.maxRangeNm} Nm)
               </span>
-            </p>
-            <p>
+            </li>
+            <li>
               Wingspan:{" "}
               <span className="font-normal">
                 {specAircraft.specs.wingspanMeters}m
               </span>
-            </p>
-            <p>
+            </li>
+            <li>
               Length:{" "}
               <span className="font-normal">
                 {specAircraft.specs.lengthMeters}m
               </span>
-            </p>
-            <p>
+            </li>
+            <li>
               Engine Type:{" "}
               <span className="font-normal">
                 {specAircraft.specs.engineType}
               </span>
-            </p>
+            </li>
+            <li className="text-2xl">
+              JSON:{" "}
+              <pre className="bg-neutral-900 p-4 rounded-lg overflow-x-auto text-sm font-mono my-2 scrollbar-thumb-sky-400">
+                <h3 className="bg-neutral-800 text-neutral-400 mb-2 p-2 rounded-md text-md">
+                  json
+                </h3>
+                <code>{JSON.stringify(specAircraft, null, 2)}</code>
+              </pre>
+            </li>
+            <li className="text-2xl">
+              Converter (for Nm {"->"} Km):{" "}
+              <pre className="bg-neutral-900 p-4 rounded-lg overflow-x-auto text-sm font-mono my-2 scrollbar-thumb-sky-400">
+                <h3 className="bg-neutral-800 text-neutral-400 mb-2 p-2 rounded-md text-md">
+                  typescript
+                </h3>
+                <code>{conventerData}</code>
+              </pre>
+              <div className="flex flex-col text-sky-500 gap-2 text-md bg-neutral-800 p-2 rounded-md">
+                Note
+                <p className="bg-neutral-700 text-neutral-400 text-sm font-semibold rounded-md p-2">
+                  This raw JSON shows the underlying data structure running this
+                  app, making the core data behind JetHub visible to everyone.
+                </p>
+              </div>
+            </li>
           </ul>
 
           <p className="font-semibold text-md text-neutral-600 dark:text-neutral-300">
