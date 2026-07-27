@@ -20,12 +20,12 @@ function About() {
 
         <p>
           JetHub is a free, non-commercial, open-source web app built with JSON
-          datasets and free public APIs. It brings together aircraft specs,
-          airline fleet info, and flight tracking into a single, clean
-          dashboard. Because JetHub is in its early stages, our datasets are
-          currently small and focused on a handpicked list of aircraft and
-          airlines. We are constantly looking to expand the database with more
-          commercial airliners, regional jets, and fleet details!
+          datasets. It brings together aircraft specs, airline fleet info, and
+          flight tracking into a single, clean dashboard. Because JetHub is in
+          its early stages, our datasets are currently small and focused on a
+          handpicked list of aircraft and airlines. We are constantly looking to
+          expand the database with more commercial airliners, regional jets,
+          airports and fleet details!
         </p>
 
         <h3 className="mt-8 text-lg mb-2">Want to help improve JetHub?</h3>
@@ -34,17 +34,21 @@ function About() {
           <code className="bg-neutral-200 p-1 rounded-md text-neutral-600">
             aircraft.json
           </code>
-          and{" "}
+          ,{" "}
           <code className="bg-neutral-200 p-1 rounded-md text-neutral-600">
             airline.json
+          </code>
+          and{" "}
+          <code className="bg-neutral-200 p-1 rounded-md text-neutral-600">
+            airport.json
           </code>
           ), adding new aircraft specs or fixing missing info is super easy and
           open to anyone.
         </p>
         <ul className="flex flex-col gap-2 mt-2 list-disc list-inside">
           <li>
-            Add Aircraft Data: If you’d like to add your favorite plane or
-            airline to the app, check out our{" "}
+            Add Aircraft Data: If you’d like to add your favorite plane, airline
+            or airport to the app, check out our{" "}
             <a
               href="https://github.com/sandro-dev26/jethub"
               className="hover:underline underline-offset-2 font-semibold"
@@ -69,8 +73,8 @@ function About() {
         <h2 className="text-xl font-semibold mb-2">Key Features</h2>
 
         <p>
-          Explore Aircrafts, Airlines and Track flights. Click on specific
-          aircraft or airline and see extended data.
+          Explore Aircrafts, Airlines and Airports. Click on specific aircraft,
+          airline or airport and see extended data.
         </p>
       </section>
 
@@ -80,7 +84,7 @@ function About() {
         <ul className="flex flex-col gap-2 mt-2 list-disc list-inside">
           <li>
             Aviation Enthusiasts & Planespotters: Anyone looking for a free,
-            centralized hub to access flight and aircraft data without
+            centralized hub to access aircraft (+airline & airport) data without
             navigating paywalls or fragmented tools.
           </li>
           <li>
@@ -142,8 +146,8 @@ function About() {
             aircraft.json
           </code>{" "}
           uses aviation-standard nautical miles (NM), so JetHub uses function
-          (nmToKm inside src/utils/converter.ts) that converts NM to KM. JetHub
-          gets data from json data files and free APIs:
+          (nmToKm inside <code>src/utils/converter.ts</code>) that converts NM
+          to KM. JetHub gets data from json data files and free APIs:
         </p>
         <ul className="flex flex-col gap-2 mt-2 list-disc list-inside">
           <li>
@@ -159,9 +163,9 @@ function About() {
             </code>
           </li>
           <li>
-            Tracker data:{" "}
+            Airport data:{" "}
             <code className="bg-neutral-200 p-1 rounded-md text-neutral-600">
-              undefined
+              airport.json
             </code>
           </li>
         </ul>
