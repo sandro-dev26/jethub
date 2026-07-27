@@ -5,6 +5,7 @@ import About from "./pages/about";
 import AircraftPage from "./pages/aircraft";
 import AircraftDetails from "./pages/aircraftDetails";
 import AirlinePage from "./pages/airline";
+import AirlineDetails from "./pages/airlineDetails";
 
 function AppRouter() {
   return (
@@ -18,7 +19,7 @@ function AppRouter() {
           <Route path="/aircraft/:categoryid" />
 
           <Route path="/airlines" element={<AirlinePage />} />
-          <Route path="/airlines/:airlineid" />
+          <Route path="/airlines/:airlineid" element={<AirlineDetails />} />
 
           <Route path="/about" element={<About />} />
         </Route>

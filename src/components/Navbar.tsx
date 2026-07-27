@@ -4,7 +4,7 @@ function Navbar() {
   const pages = ["Home", "Aircraft", "Airlines", "About"];
   return (
     <nav className="flex items-center justify-center mt-4">
-      <div className="flex items-center justify-around gap-4 p-4 mt-2 rounded-full transition-all duration-200 bg-sky-400 text-neutral-50 hover:bg-sky-500">
+      <div className="flex items-center justify-around gap-4 p-4 mt-2 rounded-full transition-all duration-200 bg-sky-500 text-neutral-50 hover:bg-sky-600">
         {pages.map((item) => (
           <NavLink
             key={item}
