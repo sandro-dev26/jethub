@@ -55,7 +55,7 @@ function AirlineDetails() {
             <li className="text-2xl">
               JSON:{" "}
               <pre className="bg-neutral-900 p-4 rounded-lg overflow-x-auto text-sm font-mono my-2 scrollbar-thumb-sky-400">
-                <h3 className="bg-neutral-300 text-neutral-400 mb-2 p-2 rounded-md text-md">
+                <h3 className="bg-neutral-300 text-neutral-400 dark:bg-neutral-800 mb-2 p-2 rounded-md text-md">
                   json
                 </h3>
                 <code>{JSON.stringify(specAirline, null, 2)}</code>
