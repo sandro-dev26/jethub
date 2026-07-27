@@ -1,0 +1,47 @@
+[
+  {
+    "id": "london-heathrow-lhr",
+    "name": "London Heathrow Airport",
+    "iata": "LHR",
+    "icao": "EGLL",
+    "city": "London",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 51.4707,
+      "longitude": -0.4599
+    },
+    "elevationFeet": 83,
+    "category": "Major International",
+    "timeZone": "UTC+1",
+    "yearlyCapacity": 80000000,
+    "terminalCount": 4,
+    "gateCount": 115,
+    "runways": [
+      {
+        "id": "09L/27R",
+        "lengthMeters": 3902,
+        "surface": "Asphalt",
+        "illuminated": true
+      },
+      {
+        "id": "09R/27L",
+        "lengthMeters": 3660,
+        "surface": "Asphalt",
+        "illuminated": true
+      }
+    ],
+    "airlines": [
+      "British Airways",
+      "Virgin Atlantic",
+      "Lufthansa",
+      "Emirates",
+      "Qatar Airways",
+      "United Airlines",
+      "Air France"
+    ],
+    "hasControlTower": true,
+    "isOpen247": true,
+    "shortDescription": "The primary international airport serving London and the busiest airport in Europe by passenger traffic.",
+    "description": "London Heathrow Airport is a major international airport in London, England. Located in the London Borough of Hillingdon, Heathrow serves as the primary global hub for British Airways and Virgin Atlantic. Featuring two parallel runways and four active passenger terminals, it connects London to over 200 destinations across more than 80 countries."
+  }
+]
