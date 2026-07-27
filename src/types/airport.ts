@@ -25,6 +25,8 @@ export interface Airport {
   yearlyCapacity: number;
   terminalCount: number;
   gateCount: number;
+  jetBridgeCount: number;
+  parkingStands: number;
 
   runways: Runway[];
   airlines: string[];

@@ -21,7 +21,7 @@ function AirportPage() {
         {airports.map((airport: Airport) => (
           <li
             onClick={() => {
-              navigate(`/airlines/${airport.id}`);
+              navigate(`/airports/${airport.id}`);
             }}
             className="flex flex-col gap-4 bg-sky-100 dark:bg-sky-900 border border-sky-500 p-2 rounded-xl shadow-black/50 dark:shadow-white/50 transition-all duration-200 hover:-translate-y-2 hover:shadow-xl"
             key={airport.id}

@@ -16,6 +16,8 @@
     "yearlyCapacity": 80000000,
     "terminalCount": 4,
     "gateCount": 115,
+    "jetBridgeCount": 180,
+    "parkingStands": 70,
     "runways": [
       {
         "id": "09L/27R",

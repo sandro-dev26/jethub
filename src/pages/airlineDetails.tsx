@@ -1,5 +1,6 @@
 import { useParams } from "react-router";
 import type { Airline } from "../types/airline";
+import NotFound from "./NotFound";
 import airlineData from "../data/airline.json";
 
 function AirlineDetails() {
@@ -7,13 +8,14 @@ function AirlineDetails() {
 
   const { airlineid } = useParams();
 
-  if (!airlineid) {
-    return <h1>404</h1>;
-  }
-
   const specAirline: Airline | undefined = airlines?.find(
     (item) => item.id === airlineid,
   );
+
+  if (!specAirline) {
+    return <NotFound type="Airline" />;
+  }
+
   return (
     <main className="m-4 text-neutral-950 dark:text-neutral-50">
       {specAirline && (
@@ -22,7 +24,7 @@ function AirlineDetails() {
             {specAirline.name}
           </h1>
 
-          <ul className="[&_p_span]:font-normal text-md font-semibold my-2 text-neutral-700 dark:text-neutral-400">
+          <ul className="[&_li_span]:font-normal text-md font-semibold my-2 text-neutral-700 dark:text-neutral-300">
             <li>
               Fleet Count: <span>{specAirline.fleetCount}</span>
             </li>

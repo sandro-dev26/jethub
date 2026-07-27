@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import { fetchAircraftData } from "../fetch";
 import type { Aircraft } from "../types/aircraft";
 import conventerData from "../utils/converter?raw";
+import NotFound from "./NotFound";
 
 function AircraftDetails() {
   const [aircraftData, setAircraftData] = useState<Aircraft[] | null>(null);
@@ -16,13 +17,13 @@ function AircraftDetails() {
   }, []);
   const { aircraftid } = useParams();
 
-  if (!aircraftData) {
-    return <h1>404</h1>;
-  }
-
   const specAircraft: Aircraft | undefined = aircraftData?.find(
     (item) => item.id === aircraftid,
   );
+
+  if (!specAircraft) {
+    return <NotFound type="Aircraft" />;
+  }
   return (
     <main className="m-4 mt-12 mb-8">
       {specAircraft && (
@@ -31,45 +32,31 @@ function AircraftDetails() {
             {specAircraft.name}
           </h1>
 
-          <ul className="text-md font-semibold my-2 text-neutral-700 dark:text-neutral-400">
+          <ul className="[&_li_span]:font-normal text-md font-semibold my-2 text-neutral-700 dark:text-neutral-300">
             <li>
-              Manufacturer:{" "}
-              <span className="font-normal">{specAircraft.manufacturer}</span>
+              Manufacturer: <span>{specAircraft.manufacturer}</span>
             </li>
             <li>
-              Category:{" "}
-              <span className="font-normal">{specAircraft.category}</span>
+              Category: <span>{specAircraft.category}</span>
             </li>
             <li>
-              Max Capacity:{" "}
-              <span className="font-normal">
-                {specAircraft.specs.passengerCapacity}
-              </span>
+              Max Capacity: <span>{specAircraft.specs.passengerCapacity}</span>
             </li>
             <li>
               Max Range:{" "}
-              <span className="font-normal">
+              <span>
                 {specAircraft.specs.maxRangeKm} Km (
                 {specAircraft.specs.maxRangeNm} Nm)
               </span>
             </li>
             <li>
-              Wingspan:{" "}
-              <span className="font-normal">
-                {specAircraft.specs.wingspanMeters}m
-              </span>
+              Wingspan: <span>{specAircraft.specs.wingspanMeters}m</span>
             </li>
             <li>
-              Length:{" "}
-              <span className="font-normal">
-                {specAircraft.specs.lengthMeters}m
-              </span>
+              Length: <span>{specAircraft.specs.lengthMeters}m</span>
             </li>
             <li>
-              Engine Type:{" "}
-              <span className="font-normal">
-                {specAircraft.specs.engineType}
-              </span>
+              Engine Type: <span>{specAircraft.specs.engineType}</span>
             </li>
             <li className="text-2xl">
               JSON:{" "}
