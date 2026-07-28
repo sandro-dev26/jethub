@@ -4,8 +4,25 @@ import { fetchAircraftData } from "../fetch";
 import type { Aircraft } from "../types/aircraft";
 import conventerData from "../utils/converter?raw";
 import NotFound from "./NotFound";
+import { Copy, Check } from "lucide-react";
 
 function AircraftDetails() {
+  const [showCopy, setShowCopy] = useState<boolean>(true);
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(copyJson);
+
+      setShowCopy(false);
+
+      setTimeout(() => {
+        setShowCopy(true);
+      }, 1000);
+    } catch (err) {
+      console.error("Failed to copy text: ", err);
+    }
+  };
+
   const [aircraftData, setAircraftData] = useState<Aircraft[] | null>(null);
   useEffect(() => {
     async function setData() {
@@ -24,6 +41,9 @@ function AircraftDetails() {
   if (!specAircraft) {
     return <NotFound type="Aircraft" />;
   }
+
+  const copyJson = JSON.stringify(specAircraft);
+
   return (
     <main className="m-4 mt-12 mb-8">
       {specAircraft && (
@@ -233,7 +253,13 @@ function AircraftDetails() {
 
             <li className="text-2xl mt-8">
               JSON:{" "}
-              <pre className="bg-neutral-900 p-4 rounded-lg overflow-x-auto text-sm font-mono my-2 scrollbar-thumb-sky-400">
+              <pre className="relative bg-neutral-900 p-4 rounded-lg overflow-x-auto text-sm font-mono my-2 scrollbar-thumb-sky-400">
+                <button
+                  onClick={() => showCopy && handleCopy()}
+                  className="absolute top-6 right-6 hover:bg-neutral-700 p-1 rounded-sm"
+                >
+                  {showCopy ? <Copy size={16} /> : <Check size={16} />}
+                </button>
                 <h3 className="bg-neutral-800 text-neutral-400 mb-2 p-2 rounded-md text-md">
                   json
                 </h3>
@@ -248,13 +274,13 @@ function AircraftDetails() {
                 </h3>
                 <code>{conventerData}</code>
               </pre>
-              <div className="flex flex-col text-sky-500 gap-2 text-md bg-neutral-800 p-2 rounded-md">
-                Note
-                <p className="bg-neutral-700 text-neutral-400 text-sm font-semibold rounded-md p-2">
-                  This raw JSON shows the underlying data structure running this
-                  app, making the core data behind JetHub visible to everyone.
-                </p>
-              </div>
+            </li>
+            <li className="flex flex-col text-2xl text-sky-500 text-md bg-neutral-800 p-2 rounded-md">
+              Note
+              <p className="bg-neutral-700 text-neutral-400 text-sm font-semibold rounded-md p-2">
+                This raw JSON shows the underlying data structure running this
+                app, making the core data behind JetHub visible to everyone.
+              </p>
             </li>
           </ul>
 
