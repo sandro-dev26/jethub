@@ -3,126 +3,3625 @@
     "id": "airbus-a220-300",
     "name": "Airbus A220-300",
     "manufacturer": "Airbus",
-    "category": "Single-aisle",
-    "accentColor": "#00205b",
-    "specs": {
-      "passengerCapacity": 150,
-      "maxRangeNm": 3450,
-      "maxRangeKm": 0,
-      "cruisingSpeedMach": 0.78,
-      "wingspanMeters": 35.1,
-      "lengthMeters": 38.7,
-      "engineType": "2x Pratt & Whitney PW1500G"
+    "family": "A220",
+    "model": "A220-300",
+    "icao": "A223",
+    "iata": "223",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#00205B",
+    "history": {
+      "firstFlight": "2015-02-27",
+      "introductionDate": "2016-07-15",
+      "productionStatus": "In Production",
+      "numberBuilt": 300,
+      "originCountry": ["Canada", "France"]
     },
-    "short_description": "Ultra-efficient small narrow-body airliner designed for regional and short-haul transcontinental routes.",
-    "description": "Originally developed as the Bombardier CSeries, the A220-300 features 5-abreast seating, extra-large windows, and GTF engines delivering 25% lower fuel burn per seat compared to previous generation aircraft."
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 35.1,
+        "lengthMeters": 38.7,
+        "heightMeters": 11.5,
+        "fuselageWidth": 3.5,
+        "wingAreaSquareMeters": 112.3
+      },
+      "performance": {
+        "maxRangeNm": 3450,
+        "maxRangeKm": 6390,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 1890,
+        "landingDistanceM": 1509,
+        "maxOperatingSpeedKt": 470
+      },
+      "weights": {
+        "operatingEmptyWeight": 37080,
+        "maxTakeoffWeightKg": 70900,
+        "maxLandingWeightKg": 58740,
+        "maxPayloadKg": 18711,
+        "fuelCapacityKg": 17215
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Pratt & Whitney PW1500G"],
+        "engineManufacturer": "Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 108
+      },
+      "capacity": {
+        "minSeating": 120,
+        "typicalSeating": 130,
+        "maxSeating": 160,
+        "flightCrew": 2,
+        "cabinCrew": 3,
+        "cargoVolumeCubicMeters": 31.6
+      }
+    },
+    "manufacturerCountry": ["France", "Canada"],
+    "short_description": "Modern single-aisle jet optimized for short-to-medium haul routes with state-of-the-art efficiency.",
+    "description": "Originally developed by Bombardier as the CSeries, the Airbus A220-300 delivers exceptional efficiency, wide seats, and reduced environmental impact, perfectly suited for regional and transcontinental routes.",
+    "keyFeatures": [
+      "Pratt & Whitney GTF Engines",
+      "Widest seats in the single-aisle market",
+      "Large overhead bins",
+      "Advanced composite wings"
+    ],
+    "notableOperators": [
+      "Delta Air Lines",
+      "airBaltic",
+      "Air France",
+      "Breeze Airways"
+    ],
+    "variants": ["A220-100", "A220-300"]
   },
   {
-    "id": "airbus-a320neo",
-    "name": "Airbus A320neo",
+    "id": "airbus-a310-300",
+    "name": "Airbus A310-300",
     "manufacturer": "Airbus",
-    "category": "Single-aisle",
-    "accentColor": "#00205b",
-    "specs": {
-      "passengerCapacity": 180,
-      "maxRangeNm": 3400,
-      "maxRangeKm": 0,
-      "cruisingSpeedMach": 0.78,
-      "wingspanMeters": 35.8,
-      "lengthMeters": 37.57,
-      "engineType": "2x CFM LEAP-1A / PW1100G"
+    "family": "A310",
+    "model": "A310-300",
+    "icao": "A310",
+    "iata": "310",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#0055A5",
+    "history": {
+      "firstFlight": "1982-04-03",
+      "introductionDate": "1983-04-01",
+      "endOfProduction": "1998-06-15",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 255,
+      "originCountry": ["France", "Germany", "United Kingdom", "Spain"]
     },
-    "short_description": "The world's best-selling single-aisle commercial jetliner family.",
-    "description": "The A320neo (New Engine Option) incorporates modern Sharklet wingtip devices and fuel-efficient engines that reduce fuel burn by 20% and significantly reduce engine noise footprint."
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 43.9,
+        "lengthMeters": 46.66,
+        "heightMeters": 15.8,
+        "fuselageWidth": 5.64,
+        "wingAreaSquareMeters": 219.0
+      },
+      "performance": {
+        "maxRangeNm": 5150,
+        "maxRangeKm": 9540,
+        "cruisingSpeedMach": 0.8,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 2290,
+        "landingDistanceM": 1480,
+        "maxOperatingSpeedKt": 480
+      },
+      "weights": {
+        "operatingEmptyWeight": 83100,
+        "maxTakeoffWeightKg": 150000,
+        "maxLandingWeightKg": 124000,
+        "maxPayloadKg": 33000,
+        "fuelCapacityKg": 49100
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["GE CF6-80C2", "PW4000"],
+        "engineManufacturer": "General Electric / Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 250
+      },
+      "capacity": {
+        "minSeating": 220,
+        "typicalSeating": 240,
+        "maxSeating": 280,
+        "flightCrew": 2,
+        "cabinCrew": 6,
+        "cargoVolumeCubicMeters": 112.4
+      }
+    },
+    "manufacturerCountry": ["France", "Germany", "United Kingdom", "Spain"],
+    "short_description": "Pioneering medium-to-long-range twin-engine wide-body jet liner.",
+    "description": "The Airbus A310 was a major milestone for Airbus, featuring a two-crew glass cockpit, revolutionary digital avionics, and composite materials on a shorter wide-body frame derived from the A300.",
+    "keyFeatures": [
+      "First wide-body two-crew glass cockpit",
+      "Carbon fiber composite tailfin",
+      "Transatlantic twin-engine pioneer"
+    ],
+    "notableOperators": [
+      "Royal Canadian Air Force",
+      "Mahan Air",
+      "ULS Airlines Cargo"
+    ],
+    "variants": ["A310-200", "A310-300", "A310 MRTT"]
   },
   {
-    "id": "airbus-a321xlr",
-    "name": "Airbus A321XLR",
+    "id": "airbus-a320-200",
+    "name": "Airbus A320-200",
     "manufacturer": "Airbus",
-    "category": "Single-aisle",
-    "accentColor": "#00205b",
-    "specs": {
-      "passengerCapacity": 220,
-      "maxRangeNm": 4700,
-      "maxRangeKm": 0,
-      "cruisingSpeedMach": 0.78,
-      "wingspanMeters": 35.8,
-      "lengthMeters": 44.51,
-      "engineType": "2x CFM LEAP-1A / PW1100G-JM"
+    "family": "A320",
+    "model": "A320-200",
+    "icao": "A320",
+    "iata": "320",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#003399",
+    "history": {
+      "firstFlight": "1987-02-22",
+      "introductionDate": "1988-04-18",
+      "productionStatus": "In Production",
+      "numberBuilt": 10800,
+      "originCountry": ["France", "Germany"]
     },
-    "short_description": "Extra-long-range narrow-body capable of flying non-stop transatlantic routes.",
-    "description": "The A321XLR unlocks new point-to-point long-haul routes (like London to Miami) by introducing a permanent Rear Center Tank (RCT) for unprecedented narrow-body fuel capacity."
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 35.8,
+        "lengthMeters": 37.57,
+        "heightMeters": 11.76,
+        "fuselageWidth": 3.95,
+        "wingAreaSquareMeters": 122.6
+      },
+      "performance": {
+        "maxRangeNm": 3300,
+        "maxRangeKm": 6112,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 39800,
+        "takeoffDistanceM": 2100,
+        "landingDistanceM": 1440,
+        "maxOperatingSpeedKt": 470
+      },
+      "weights": {
+        "operatingEmptyWeight": 42600,
+        "maxTakeoffWeightKg": 78000,
+        "maxLandingWeightKg": 66000,
+        "maxPayloadKg": 19900,
+        "fuelCapacityKg": 18730
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["CFM56-5B", "IAE V2500"],
+        "engineManufacturer": "CFM International / IAE",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 120
+      },
+      "capacity": {
+        "minSeating": 140,
+        "typicalSeating": 150,
+        "maxSeating": 180,
+        "flightCrew": 2,
+        "cabinCrew": 4,
+        "cargoVolumeCubicMeters": 37.4
+      }
+    },
+    "manufacturerCountry": ["France", "Germany", "China", "United States"],
+    "short_description": "The world's best-selling single-aisle commercial jet airliner family.",
+    "description": "The A320 introduced digital fly-by-wire flight control systems to commercial aviation and remains the backbone of short- and medium-haul commercial fleets around the globe.",
+    "keyFeatures": [
+      "Digital Fly-By-Wire control system",
+      "Side-stick flight controls",
+      "Containerized cargo loading system"
+    ],
+    "notableOperators": [
+      "American Airlines",
+      "easyJet",
+      "IndiGo",
+      "China Eastern Airlines"
+    ],
+    "variants": ["A318", "A319", "A320", "A321", "A320neo"]
   },
   {
-    "id": "airbus-a330-900neo",
-    "name": "Airbus A330-900neo",
+    "id": "airbus-a330-300",
+    "name": "Airbus A330-300",
     "manufacturer": "Airbus",
-    "category": "Wide-body",
-    "accentColor": "#0b2545",
-    "specs": {
-      "passengerCapacity": 287,
-      "maxRangeNm": 7200,
-      "maxRangeKm": 0,
-      "cruisingSpeedMach": 0.82,
-      "wingspanMeters": 64.0,
-      "lengthMeters": 63.66,
-      "engineType": "2x Rolls-Royce Trent 7000"
+    "family": "A330",
+    "model": "A330-300",
+    "icao": "A333",
+    "iata": "333",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#0A2540",
+    "history": {
+      "firstFlight": "1992-11-02",
+      "introductionDate": "1994-01-17",
+      "productionStatus": "In Production",
+      "numberBuilt": 1580,
+      "originCountry": ["France", "Germany", "United Kingdom", "Spain"]
     },
-    "short_description": "Modern re-engined wide-body known for versatile medium-to-long range operations.",
-    "description": "Building on the successful A330 baseline, the A330-900neo adds high-span A350-inspired wings, new Rolls-Royce Trent 7000 engines, and the ultra-quiet Airspace cabin interior."
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 60.3,
+        "lengthMeters": 63.66,
+        "heightMeters": 16.79,
+        "fuselageWidth": 5.64,
+        "wingAreaSquareMeters": 361.6
+      },
+      "performance": {
+        "maxRangeNm": 6350,
+        "maxRangeKm": 11750,
+        "cruisingSpeedMach": 0.82,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 2770,
+        "landingDistanceM": 1730,
+        "maxOperatingSpeedKt": 490
+      },
+      "weights": {
+        "operatingEmptyWeight": 129400,
+        "maxTakeoffWeightKg": 242000,
+        "maxLandingWeightKg": 187000,
+        "maxPayloadKg": 45600,
+        "fuelCapacityKg": 76839
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": [
+          "General Electric CF6-80E1",
+          "PW4000",
+          "Rolls-Royce Trent 700"
+        ],
+        "engineManufacturer": "Rolls-Royce / GE / PW",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 311
+      },
+      "capacity": {
+        "minSeating": 250,
+        "typicalSeating": 277,
+        "maxSeating": 440,
+        "flightCrew": 2,
+        "cabinCrew": 8,
+        "cargoVolumeCubicMeters": 162.8
+      }
+    },
+    "manufacturerCountry": ["France", "Germany", "United Kingdom", "Spain"],
+    "short_description": "Versatile twin-engine wide-body aircraft popular on long-haul routes.",
+    "description": "The Airbus A330-300 offers exceptional operational reliability and efficiency, filling long-haul routes seamlessly while offering operators high flexibility and twin-engine fuel savings.",
+    "keyFeatures": [
+      "Twin-engine long-haul efficiency",
+      "Shared cockpit commonality with A340",
+      "Spacious 8-abreast economy layout"
+    ],
+    "notableOperators": [
+      "Cathay Pacific",
+      "Delta Air Lines",
+      "Turkish Airlines",
+      "Korean Air"
+    ],
+    "variants": ["A330-200", "A330-300", "A330-800neo", "A330-900neo"]
+  },
+  {
+    "id": "airbus-a340-600",
+    "name": "Airbus A340-600",
+    "manufacturer": "Airbus",
+    "family": "A340",
+    "model": "A340-600",
+    "icao": "A346",
+    "iata": "346",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#1D3557",
+    "history": {
+      "firstFlight": "2001-04-23",
+      "introductionDate": "2002-08-01",
+      "endOfProduction": "2012-11-10",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 377,
+      "originCountry": ["France", "Germany", "United Kingdom", "Spain"]
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 63.45,
+        "lengthMeters": 75.36,
+        "heightMeters": 17.93,
+        "fuselageWidth": 5.64,
+        "wingAreaSquareMeters": 437.3
+      },
+      "performance": {
+        "maxRangeNm": 7800,
+        "maxRangeKm": 14450,
+        "cruisingSpeedMach": 0.83,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 3100,
+        "landingDistanceM": 1980,
+        "maxOperatingSpeedKt": 490
+      },
+      "weights": {
+        "operatingEmptyWeight": 177000,
+        "maxTakeoffWeightKg": 380000,
+        "maxLandingWeightKg": 265000,
+        "maxPayloadKg": 66000,
+        "fuelCapacityKg": 155500
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Rolls-Royce Trent 556"],
+        "engineManufacturer": "Rolls-Royce",
+        "engineCount": 4,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 249
+      },
+      "capacity": {
+        "minSeating": 320,
+        "typicalSeating": 380,
+        "maxSeating": 475,
+        "flightCrew": 2,
+        "cabinCrew": 10,
+        "cargoVolumeCubicMeters": 201.7
+      }
+    },
+    "manufacturerCountry": ["France", "Germany", "United Kingdom", "Spain"],
+    "short_description": "Four-engine ultra-long-haul airliner known for its impressive length.",
+    "description": "Once the world's longest commercial aircraft, the quad-engine A340-600 was built for long transoceanic routes without ETOPS restrictions, offering smooth rides and large passenger capacities.",
+    "keyFeatures": [
+      "Quad-engine safety margin for oceanic routes",
+      "Extremely long fuselage design",
+      "Underfloor lavatory option"
+    ],
+    "notableOperators": ["Lufthansa", "Mahan Air", "Hi Fly"],
+    "variants": ["A340-200", "A340-300", "A340-500", "A340-600"]
   },
   {
     "id": "airbus-a350-900",
     "name": "Airbus A350-900",
     "manufacturer": "Airbus",
-    "category": "Wide-body",
-    "accentColor": "#0b2545",
-    "specs": {
-      "passengerCapacity": 325,
-      "maxRangeNm": 8300,
-      "maxRangeKm": 0,
-      "cruisingSpeedMach": 0.85,
-      "wingspanMeters": 64.75,
-      "lengthMeters": 66.8,
-      "engineType": "2x Rolls-Royce Trent XWB-84"
+    "family": "A350",
+    "model": "A350-900",
+    "icao": "A359",
+    "iata": "359",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#00A896",
+    "history": {
+      "firstFlight": "2013-06-14",
+      "introductionDate": "2015-01-15",
+      "productionStatus": "In Production",
+      "numberBuilt": 580,
+      "originCountry": ["France", "Germany", "United Kingdom", "Spain"]
     },
-    "short_description": "Advanced long-range composite wide-body airliner featuring signature curved winglets.",
-    "description": "Over 50% of the A350's airframe is made of carbon-fiber composite materials. Combined with aerodynamic morphing wings, it sets high standards for long-haul operating efficiency."
-  },
-  {
-    "id": "airbus-a350-1000",
-    "name": "Airbus A350-1000",
-    "manufacturer": "Airbus",
-    "category": "Wide-body",
-    "accentColor": "#0b2545",
     "specs": {
-      "passengerCapacity": 410,
-      "maxRangeNm": 8700,
-      "maxRangeKm": 0,
-      "cruisingSpeedMach": 0.85,
-      "wingspanMeters": 64.75,
-      "lengthMeters": 73.79,
-      "engineType": "2x Rolls-Royce Trent XWB-97"
+      "dimensions": {
+        "wingspanMeters": 64.75,
+        "lengthMeters": 66.8,
+        "heightMeters": 17.05,
+        "fuselageWidth": 5.96,
+        "wingAreaSquareMeters": 442.0
+      },
+      "performance": {
+        "maxRangeNm": 8300,
+        "maxRangeKm": 15370,
+        "cruisingSpeedMach": 0.85,
+        "serviceCeilingFt": 43100,
+        "takeoffDistanceM": 2600,
+        "landingDistanceM": 1960,
+        "maxOperatingSpeedKt": 490
+      },
+      "weights": {
+        "operatingEmptyWeight": 142400,
+        "maxTakeoffWeightKg": 280000,
+        "maxLandingWeightKg": 207000,
+        "maxPayloadKg": 53300,
+        "fuelCapacityKg": 110500
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Rolls-Royce Trent XWB-84"],
+        "engineManufacturer": "Rolls-Royce",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 374
+      },
+      "capacity": {
+        "minSeating": 300,
+        "typicalSeating": 325,
+        "maxSeating": 440,
+        "flightCrew": 2,
+        "cabinCrew": 8,
+        "cargoVolumeCubicMeters": 172.2
+      }
     },
-    "short_description": "Airbus's largest twin-engine flagship wide-body airliner with six-wheel landing gear.",
-    "description": "The stretched variant of the A350 family designed to challenge large twin-engine jets, featuring a modified wing trailing-edge and higher thrust Trent XWB-97 engines."
+    "manufacturerCountry": ["France", "Germany", "United Kingdom", "Spain"],
+    "short_description": "Next-generation carbon-composite widebody built for ultra-long haul journeys.",
+    "description": "Featuring a airframe constructed of over 50% carbon composites, curved winglets, and lower cabin pressure altitude, the A350 XWB sets modern standards in flight range, fuel efficiency, and passenger comfort.",
+    "keyFeatures": [
+      "Carbon-fiber reinforced polymer (CFRP) body",
+      "Advanced aerodynamic winglets",
+      "Airspace cabin with lower cabin altitude"
+    ],
+    "notableOperators": [
+      "Singapore Airlines",
+      "Qatar Airways",
+      "Cathay Pacific",
+      "Delta Air Lines"
+    ],
+    "variants": ["A350-900", "A350-1000", "A350-900ULR", "A350F"]
   },
   {
     "id": "airbus-a380-800",
     "name": "Airbus A380-800",
     "manufacturer": "Airbus",
-    "category": "Wide-body",
-    "accentColor": "#1d2d44",
-    "specs": {
-      "passengerCapacity": 525,
-      "maxRangeNm": 8000,
-      "maxRangeKm": 0,
-      "cruisingSpeedMach": 0.85,
-      "wingspanMeters": 79.75,
-      "lengthMeters": 72.72,
-      "engineType": "4x Engine Alliance GP7200 / Rolls-Royce Trent 900"
+    "family": "A380",
+    "model": "A380-800",
+    "icao": "A388",
+    "iata": "388",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#102A43",
+    "history": {
+      "firstFlight": "2005-04-27",
+      "introductionDate": "2007-10-25",
+      "endOfProduction": "2021-12-16",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 254,
+      "originCountry": ["France", "Germany", "United Kingdom", "Spain"]
     },
-    "short_description": "The world's largest commercial passenger jet with a full double-deck cabin.",
-    "description": "The Superjumbo is the only full-length double-decker passenger aircraft ever built. Designed for high-density global hub-to-hub routes, offering unmatched space and luxury amenities like onboard showers and bars."
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 79.75,
+        "lengthMeters": 72.72,
+        "heightMeters": 24.09,
+        "fuselageWidth": 7.14,
+        "wingAreaSquareMeters": 845.0
+      },
+      "performance": {
+        "maxRangeNm": 8000,
+        "maxRangeKm": 14800,
+        "cruisingSpeedMach": 0.85,
+        "serviceCeilingFt": 43000,
+        "takeoffDistanceM": 3000,
+        "landingDistanceM": 1520,
+        "maxOperatingSpeedKt": 490
+      },
+      "weights": {
+        "operatingEmptyWeight": 276800,
+        "maxTakeoffWeightKg": 575000,
+        "maxLandingWeightKg": 394000,
+        "maxPayloadKg": 84000,
+        "fuelCapacityKg": 253983
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Rolls-Royce Trent 900", "Engine Alliance GP7200"],
+        "engineManufacturer": "Rolls-Royce / Engine Alliance",
+        "engineCount": 4,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 311
+      },
+      "capacity": {
+        "minSeating": 450,
+        "typicalSeating": 525,
+        "maxSeating": 853,
+        "flightCrew": 2,
+        "cabinCrew": 21,
+        "cargoVolumeCubicMeters": 184.0
+      }
+    },
+    "manufacturerCountry": ["France", "Germany", "United Kingdom", "Spain"],
+    "short_description": "The world's largest passenger airliner, featuring a full double-deck layout.",
+    "description": "The flagship superjumbo of modern aviation, the A380-800 is the largest mass-produced passenger airliner ever built, famous for quiet flight cabins, onboard showers, and massive hub-to-hub seat capacity.",
+    "keyFeatures": [
+      "Full-length double deck",
+      "Quiet cabin acoustic insulation",
+      "High-density megahub transport capability"
+    ],
+    "notableOperators": [
+      "Emirates",
+      "Singapore Airlines",
+      "British Airways",
+      "Qantas",
+      "All Nippon Airways"
+    ],
+    "variants": ["A380-800"]
+  },
+  {
+    "id": "airbus-a300-600r",
+    "name": "Airbus A300-600R",
+    "manufacturer": "Airbus",
+    "family": "A300",
+    "model": "A300-600R",
+    "icao": "A306",
+    "iata": "306",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#003366",
+    "history": {
+      "firstFlight": "1983-07-08",
+      "introductionDate": "1988-04-21",
+      "endOfProduction": "2007-07-18",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 561,
+      "originCountry": ["France", "Germany", "United Kingdom", "Spain"]
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 44.84,
+        "lengthMeters": 54.08,
+        "heightMeters": 16.62,
+        "fuselageWidth": 5.64,
+        "wingAreaSquareMeters": 260.0
+      },
+      "performance": {
+        "maxRangeNm": 4050,
+        "maxRangeKm": 7500,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 40000,
+        "takeoffDistanceM": 2324,
+        "landingDistanceM": 1530,
+        "maxOperatingSpeedKt": 480
+      },
+      "weights": {
+        "operatingEmptyWeight": 90900,
+        "maxTakeoffWeightKg": 171700,
+        "maxLandingWeightKg": 140000,
+        "maxPayloadKg": 41080,
+        "fuelCapacityKg": 54850
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": [
+          "General Electric CF6-80C2",
+          "Pratt & Whitney PW4000"
+        ],
+        "engineManufacturer": "General Electric / Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 273
+      },
+      "capacity": {
+        "minSeating": 240,
+        "typicalSeating": 266,
+        "maxSeating": 345,
+        "flightCrew": 2,
+        "cabinCrew": 8,
+        "cargoVolumeCubicMeters": 115.7
+      }
+    },
+    "manufacturerCountry": ["France", "Germany", "United Kingdom", "Spain"],
+    "short_description": "The world's first twin-engine wide-body commercial airliner.",
+    "description": "The pioneer that launched Airbus into global aviation dominance, the A300 proved that twin-engine widebodies could safely and efficiently replace older three- and four-engine jets on medium-to-long range routes.",
+    "keyFeatures": [
+      "First wide-body twin-engine airliner",
+      "Pioneered composite structural components in commercial jets",
+      "Widely converted to dedicated long-life cargo freighters"
+    ],
+    "notableOperators": [
+      "FedEx Express",
+      "UPS Airlines",
+      "Mahan Air",
+      "Air Korea"
+    ],
+    "variants": [
+      "A300B1",
+      "A300B2",
+      "A300B4",
+      "A300-600",
+      "A300-600R",
+      "A300-600F"
+    ]
+  },
+  {
+    "id": "airbus-a318-100",
+    "name": "Airbus A318-100",
+    "manufacturer": "Airbus",
+    "family": "A320",
+    "model": "A318-100",
+    "icao": "A318",
+    "iata": "318",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#0055A5",
+    "history": {
+      "firstFlight": "2002-01-15",
+      "introductionDate": "2003-07-22",
+      "endOfProduction": "2013-05-31",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 80,
+      "originCountry": ["France", "Germany"]
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 34.1,
+        "lengthMeters": 31.44,
+        "heightMeters": 12.51,
+        "fuselageWidth": 3.95,
+        "wingAreaSquareMeters": 122.6
+      },
+      "performance": {
+        "maxRangeNm": 3100,
+        "maxRangeKm": 5750,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 39800,
+        "takeoffDistanceM": 1355,
+        "landingDistanceM": 1230,
+        "maxOperatingSpeedKt": 470
+      },
+      "weights": {
+        "operatingEmptyWeight": 39500,
+        "maxTakeoffWeightKg": 68000,
+        "maxLandingWeightKg": 57500,
+        "maxPayloadKg": 15000,
+        "fuelCapacityKg": 19000
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": [
+          "CFM International CFM56-5B",
+          "Pratt & Whitney PW6000"
+        ],
+        "engineManufacturer": "CFM International / Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 106
+      },
+      "capacity": {
+        "minSeating": 90,
+        "typicalSeating": 107,
+        "maxSeating": 132,
+        "flightCrew": 2,
+        "cabinCrew": 3,
+        "cargoVolumeCubicMeters": 21.2
+      }
+    },
+    "manufacturerCountry": ["France", "Germany"],
+    "short_description": "The smallest member of the original Airbus A320 family, nicknamed the 'Baby Bus'.",
+    "description": "Designed for steep approaches and short-field performance, the A318 brought wide single-aisle comfort and full A320 fleet commonality to smaller regional routes and restricted airports.",
+    "keyFeatures": [
+      "Certified for London City Airport steep approach operations",
+      "Tallest vertical stabilizer in the A320ceo family relative to fuselage",
+      "Full fly-by-wire commonality with the A320 family"
+    ],
+    "notableOperators": ["Air France", "TAROM", "Titan Airways"],
+    "variants": ["A318-100", "A318 Elite (ACJ)"]
+  },
+  {
+    "id": "airbus-a319-100",
+    "name": "Airbus A319-100",
+    "manufacturer": "Airbus",
+    "family": "A320",
+    "model": "A319-100",
+    "icao": "A319",
+    "iata": "319",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#003399",
+    "history": {
+      "firstFlight": "1995-08-25",
+      "introductionDate": "1996-04-25",
+      "productionStatus": "In Production",
+      "numberBuilt": 1500,
+      "originCountry": ["France", "Germany"]
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 34.1,
+        "lengthMeters": 33.84,
+        "heightMeters": 11.76,
+        "fuselageWidth": 3.95,
+        "wingAreaSquareMeters": 122.6
+      },
+      "performance": {
+        "maxRangeNm": 3750,
+        "maxRangeKm": 6950,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 39800,
+        "takeoffDistanceM": 1850,
+        "landingDistanceM": 1360,
+        "maxOperatingSpeedKt": 470
+      },
+      "weights": {
+        "operatingEmptyWeight": 40800,
+        "maxTakeoffWeightKg": 75500,
+        "maxLandingWeightKg": 62500,
+        "maxPayloadKg": 17700,
+        "fuelCapacityKg": 19120
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["CFM International CFM56-5B", "IAE V2500"],
+        "engineManufacturer": "CFM International / IAE",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 111
+      },
+      "capacity": {
+        "minSeating": 110,
+        "typicalSeating": 124,
+        "maxSeating": 156,
+        "flightCrew": 2,
+        "cabinCrew": 3,
+        "cargoVolumeCubicMeters": 27.6
+      }
+    },
+    "manufacturerCountry": ["France", "Germany"],
+    "short_description": "Popular shortened variant of the A320 offering long range and versatile performance.",
+    "description": "The A319 shortened the baseline A320 fuselage by 3.7 meters while retaining the same wing fuel capacity, resulting in extended range and versatile performance popular on thin or high-altitude routes.",
+    "keyFeatures": [
+      "Extended range performance compared to baseline A320",
+      "Popular choice for corporate private jet conversions (ACJ)",
+      "High altitude airport operation capabilities"
+    ],
+    "notableOperators": [
+      "American Airlines",
+      "Delta Air Lines",
+      "United Airlines",
+      "EasyJet"
+    ],
+    "variants": ["A319-100", "A319neo", "A319LR", "ACJ319"]
+  },
+  {
+    "id": "airbus-a321-200",
+    "name": "Airbus A321-200",
+    "manufacturer": "Airbus",
+    "family": "A320",
+    "model": "A321-200",
+    "icao": "A321",
+    "iata": "321",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#0A2540",
+    "history": {
+      "firstFlight": "1996-12-12",
+      "introductionDate": "1997-04-24",
+      "productionStatus": "In Production",
+      "numberBuilt": 3536,
+      "originCountry": ["Germany", "France"]
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 35.8,
+        "lengthMeters": 44.51,
+        "heightMeters": 11.76,
+        "fuselageWidth": 3.95,
+        "wingAreaSquareMeters": 128.0
+      },
+      "performance": {
+        "maxRangeNm": 3200,
+        "maxRangeKm": 5930,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 39800,
+        "takeoffDistanceM": 2180,
+        "landingDistanceM": 1580,
+        "maxOperatingSpeedKt": 473
+      },
+      "weights": {
+        "operatingEmptyWeight": 48500,
+        "maxTakeoffWeightKg": 93500,
+        "maxLandingWeightKg": 77800,
+        "maxPayloadKg": 25300,
+        "fuelCapacityKg": 24050
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["CFM International CFM56-5B", "IAE V2500"],
+        "engineManufacturer": "CFM International / IAE",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 142
+      },
+      "capacity": {
+        "minSeating": 170,
+        "typicalSeating": 185,
+        "maxSeating": 220,
+        "flightCrew": 2,
+        "cabinCrew": 5,
+        "cargoVolumeCubicMeters": 51.7
+      }
+    },
+    "manufacturerCountry": ["Germany", "France", "United States", "China"],
+    "short_description": "Stretched single-aisle flagship offering high seat capacity and economical flight operations.",
+    "description": "Stretched by nearly 7 meters over the baseline A320, the A321-200 provides airlines with high passenger density and favorable seat-mile economics for trunk domestic routes.",
+    "keyFeatures": [
+      "Stretched fuselage for high passenger throughput",
+      "Double-slotted trailing-edge flaps for low-speed handling",
+      "Containerized underfloor cargo hold loading"
+    ],
+    "notableOperators": [
+      "American Airlines",
+      "Delta Air Lines",
+      "Lufthansa",
+      "IndiGo"
+    ],
+    "variants": ["A321-100", "A321-200", "A321neo", "A321P2F"]
+  },
+  {
+    "id": "airbus-a321xlr",
+    "name": "Airbus A321XLR",
+    "manufacturer": "Airbus",
+    "family": "A320",
+    "model": "A321XLR",
+    "icao": "A21N",
+    "iata": "32Q",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#00205B",
+    "history": {
+      "firstFlight": "2022-06-15",
+      "introductionDate": "2024-11-06",
+      "productionStatus": "In Production",
+      "numberBuilt": 25,
+      "originCountry": ["Germany", "France"]
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 35.8,
+        "lengthMeters": 44.51,
+        "heightMeters": 11.76,
+        "fuselageWidth": 3.95,
+        "wingAreaSquareMeters": 128.0
+      },
+      "performance": {
+        "maxRangeNm": 4700,
+        "maxRangeKm": 8700,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 39800,
+        "takeoffDistanceM": 2400,
+        "landingDistanceM": 1600,
+        "maxOperatingSpeedKt": 473
+      },
+      "weights": {
+        "operatingEmptyWeight": 50100,
+        "maxTakeoffWeightKg": 101000,
+        "maxLandingWeightKg": 79200,
+        "maxPayloadKg": 25500,
+        "fuelCapacityKg": 28753
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["CFM LEAP-1A", "Pratt & Whitney PW1100G-JM"],
+        "engineManufacturer": "CFM International / Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 147
+      },
+      "capacity": {
+        "minSeating": 180,
+        "typicalSeating": 206,
+        "maxSeating": 244,
+        "flightCrew": 2,
+        "cabinCrew": 5,
+        "cargoVolumeCubicMeters": 45.0
+      }
+    },
+    "manufacturerCountry": ["Germany", "France"],
+    "short_description": "Extra Long Range single-aisle liner capable of flying transatlantic long-haul sectors.",
+    "description": "The A321XLR represents the ultimate iteration of narrowbody range capability. Featuring a permanent Rear Center Tank (RCT) and a 101-tonne MTOW, it enables airlines to economically fly transatlantic and long thin point-to-point routes previously reserved for widebodies.",
+    "keyFeatures": [
+      "Permanent integrated Rear Center Tank (RCT)",
+      "4,700 nm maximum range with single-aisle fuel burn efficiency",
+      "Airspace cabin layout with lie-flat business class capability"
+    ],
+    "notableOperators": [
+      "Iberia",
+      "Aer Lingus",
+      "Wizz Air",
+      "Qantas",
+      "United Airlines"
+    ],
+    "variants": ["A321neo", "A321LR", "A321XLR"]
+  },
+  {
+    "id": "boeing-717-200",
+    "name": "Boeing 717-200",
+    "manufacturer": "Boeing",
+    "family": "717",
+    "model": "717-200",
+    "icao": "B712",
+    "iata": "712",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#003366",
+    "history": {
+      "firstFlight": "1998-09-02",
+      "introductionDate": "1999-10-12",
+      "endOfProduction": "2006-05-23",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 156,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 28.45,
+        "lengthMeters": 37.8,
+        "heightMeters": 8.92,
+        "fuselageWidth": 3.35,
+        "wingAreaSquareMeters": 92.97
+      },
+      "performance": {
+        "maxRangeNm": 2060,
+        "maxRangeKm": 3815,
+        "cruisingSpeedMach": 0.77,
+        "serviceCeilingFt": 37000,
+        "takeoffDistanceM": 1950,
+        "landingDistanceM": 1400,
+        "maxOperatingSpeedKt": 464
+      },
+      "weights": {
+        "operatingEmptyWeight": 31098,
+        "maxTakeoffWeightKg": 54884,
+        "maxLandingWeightKg": 47174,
+        "maxPayloadKg": 14515,
+        "fuelCapacityKg": 13381
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Rolls-Royce BR715"],
+        "engineManufacturer": "Rolls-Royce",
+        "engineCount": 2,
+        "enginePlacement": "Rear-mounted",
+        "thrustKN": 93.4
+      },
+      "capacity": {
+        "minSeating": 106,
+        "typicalSeating": 110,
+        "maxSeating": 134,
+        "flightCrew": 2,
+        "cabinCrew": 3,
+        "cargoVolumeCubicMeters": 26.5
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Twin-engine short-range regional jet originally designed as the MD-95.",
+    "description": "The Boeing 717 is a twin-engine, single-aisle commercial jet airliner designed specifically for the 100-seat regional market. Rebranded after Boeing acquired McDonnell Douglas, it gained a reputation for high reliability on frequent, short-haul routes.",
+    "keyFeatures": [
+      "Rear-mounted Rolls-Royce BR715 engines",
+      "5-abreast economy seating layout",
+      "High reliability on short-turnaround regional routes"
+    ],
+    "notableOperators": ["Delta Air Lines", "Hawaiian Airlines", "QantasLink"],
+    "variants": ["717-200", "717-200 High Gross Weight"]
+  },
+  {
+    "id": "boeing-737-800",
+    "name": "Boeing 737-800",
+    "manufacturer": "Boeing",
+    "family": "737",
+    "model": "737-800",
+    "icao": "B738",
+    "iata": "738",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#00529B",
+    "history": {
+      "firstFlight": "1997-07-31",
+      "introductionDate": "1998-04-24",
+      "productionStatus": "In Production",
+      "numberBuilt": 11800,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 35.8,
+        "lengthMeters": 39.5,
+        "heightMeters": 12.5,
+        "fuselageWidth": 3.76,
+        "wingAreaSquareMeters": 124.6
+      },
+      "performance": {
+        "maxRangeNm": 2935,
+        "maxRangeKm": 5436,
+        "cruisingSpeedMach": 0.789,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 2316,
+        "landingDistanceM": 1410,
+        "maxOperatingSpeedKt": 470
+      },
+      "weights": {
+        "operatingEmptyWeight": 41413,
+        "maxTakeoffWeightKg": 79010,
+        "maxLandingWeightKg": 66361,
+        "maxPayloadKg": 21319,
+        "fuelCapacityKg": 20894
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["CFM International CFM56-7B"],
+        "engineManufacturer": "CFM International",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 117
+      },
+      "capacity": {
+        "minSeating": 162,
+        "typicalSeating": 175,
+        "maxSeating": 189,
+        "flightCrew": 2,
+        "cabinCrew": 4,
+        "cargoVolumeCubicMeters": 44.0
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "The quintessential short-to-medium haul airliner of modern aviation history.",
+    "description": "As the most widely produced variant of the Boeing 737 Next Generation family, the 737-800 is a staple of global airline fleets, renowned for low operating costs and high operational flexibility.",
+    "keyFeatures": [
+      "Blended winglets for fuel efficiency",
+      "Boeing Sky Interior option",
+      "Flat-bottomed engine nacelles"
+    ],
+    "notableOperators": [
+      "Ryanair",
+      "Southwest Airlines",
+      "American Airlines",
+      "United Airlines"
+    ],
+    "variants": [
+      "737 Original (-100/-200)",
+      "737 Classic (-300/-400/-500)",
+      "737 NG (-600/-700/-800/-900)",
+      "737 MAX (-7/-8/-9/-10)"
+    ]
+  },
+  {
+    "id": "boeing-747-400",
+    "name": "Boeing 747-400",
+    "manufacturer": "Boeing",
+    "family": "747",
+    "model": "747-400",
+    "icao": "B744",
+    "iata": "744",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#1D2A44",
+    "history": {
+      "firstFlight": "1988-04-29",
+      "introductionDate": "1989-02-09",
+      "endOfProduction": "2023-01-31",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 1574,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 64.4,
+        "lengthMeters": 70.66,
+        "heightMeters": 19.4,
+        "fuselageWidth": 6.5,
+        "wingAreaSquareMeters": 560.0
+      },
+      "performance": {
+        "maxRangeNm": 7670,
+        "maxRangeKm": 14200,
+        "cruisingSpeedMach": 0.855,
+        "serviceCeilingFt": 45000,
+        "takeoffDistanceM": 3018,
+        "landingDistanceM": 2175,
+        "maxOperatingSpeedKt": 507
+      },
+      "weights": {
+        "operatingEmptyWeight": 178756,
+        "maxTakeoffWeightKg": 396890,
+        "maxLandingWeightKg": 295742,
+        "maxPayloadKg": 67400,
+        "fuelCapacityKg": 173525
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": [
+          "Pratt & Whitney PW4056",
+          "General Electric CF6-80C2",
+          "Rolls-Royce RB211-524G"
+        ],
+        "engineManufacturer": "GE / PW / Rolls-Royce",
+        "engineCount": 4,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 254
+      },
+      "capacity": {
+        "minSeating": 416,
+        "typicalSeating": 467,
+        "maxSeating": 660,
+        "flightCrew": 2,
+        "cabinCrew": 14,
+        "cargoVolumeCubicMeters": 170.0
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "The legendary 'Queen of the Skies' featuring a prominent upper deck hump.",
+    "description": "The Boeing 747-400 refined the iconic wide-body jumbo jet with glass cockpit technology, winglets, and improved engines, serving for decades as the premier long-haul flagship for airlines worldwide.",
+    "keyFeatures": [
+      "Iconic double-deck hump upper section",
+      "Quad-engine performance with high payload capacity",
+      "First 747 variant with a two-crew glass cockpit"
+    ],
+    "notableOperators": ["Atlas Air", "Lufthansa", "Cargolux", "Kalitta Air"],
+    "variants": ["747-100", "747-200", "747-300", "747-400", "747-8"]
+  },
+  {
+    "id": "boeing-757-200",
+    "name": "Boeing 757-200",
+    "manufacturer": "Boeing",
+    "family": "757",
+    "model": "757-200",
+    "icao": "B752",
+    "iata": "752",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#002B49",
+    "history": {
+      "firstFlight": "1982-02-19",
+      "introductionDate": "1983-01-01",
+      "endOfProduction": "2004-11-28",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 1050,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 38.05,
+        "lengthMeters": 47.32,
+        "heightMeters": 13.56,
+        "fuselageWidth": 3.76,
+        "wingAreaSquareMeters": 185.25
+      },
+      "performance": {
+        "maxRangeNm": 3915,
+        "maxRangeKm": 7250,
+        "cruisingSpeedMach": 0.8,
+        "serviceCeilingFt": 42000,
+        "takeoffDistanceM": 1980,
+        "landingDistanceM": 1370,
+        "maxOperatingSpeedKt": 486
+      },
+      "weights": {
+        "operatingEmptyWeight": 58390,
+        "maxTakeoffWeightKg": 115680,
+        "maxLandingWeightKg": 89810,
+        "maxPayloadKg": 25550,
+        "fuelCapacityKg": 34130
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Rolls-Royce RB211-535E4", "Pratt & Whitney PW2037"],
+        "engineManufacturer": "Rolls-Royce / Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 178
+      },
+      "capacity": {
+        "minSeating": 178,
+        "typicalSeating": 200,
+        "maxSeating": 239,
+        "flightCrew": 2,
+        "cabinCrew": 5,
+        "cargoVolumeCubicMeters": 43.3
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "High-performance single-aisle jet legendary for hot-and-high airport operations.",
+    "description": "The Boeing 757-200 is famous for its exceptional thrust-to-weight ratio, allowing it to take off from short runways and high-altitude airports while carrying heavy payloads across transatlantic distances.",
+    "keyFeatures": [
+      "Outstanding hot-and-high takeoff performance",
+      "Transatlantic range in a narrow-body frame",
+      "Common pilot type rating with the wide-body Boeing 767"
+    ],
+    "notableOperators": [
+      "Delta Air Lines",
+      "United Airlines",
+      "FedEx Express",
+      "Icelandair"
+    ],
+    "variants": ["757-200", "757-200PF", "757-300"]
+  },
+  {
+    "id": "boeing-767-300er",
+    "name": "Boeing 767-300ER",
+    "manufacturer": "Boeing",
+    "family": "767",
+    "model": "767-300ER",
+    "icao": "B763",
+    "iata": "763",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#003F6E",
+    "history": {
+      "firstFlight": "1986-12-19",
+      "introductionDate": "1988-03-03",
+      "productionStatus": "In Production",
+      "numberBuilt": 1280,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 47.57,
+        "lengthMeters": 54.94,
+        "heightMeters": 15.85,
+        "fuselageWidth": 5.03,
+        "wingAreaSquareMeters": 283.3
+      },
+      "performance": {
+        "maxRangeNm": 5980,
+        "maxRangeKm": 11070,
+        "cruisingSpeedMach": 0.8,
+        "serviceCeilingFt": 43000,
+        "takeoffDistanceM": 2530,
+        "landingDistanceM": 1550,
+        "maxOperatingSpeedKt": 486
+      },
+      "weights": {
+        "operatingEmptyWeight": 90010,
+        "maxTakeoffWeightKg": 186880,
+        "maxLandingWeightKg": 136077,
+        "maxPayloadKg": 38010,
+        "fuelCapacityKg": 72580
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": [
+          "General Electric CF6-80C2",
+          "Pratt & Whitney PW4060",
+          "Rolls-Royce RB211-524H"
+        ],
+        "engineManufacturer": "GE / PW / Rolls-Royce",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 276
+      },
+      "capacity": {
+        "minSeating": 218,
+        "typicalSeating": 269,
+        "maxSeating": 351,
+        "flightCrew": 2,
+        "cabinCrew": 7,
+        "cargoVolumeCubicMeters": 114.1
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Workhorse wide-body twinjet that pioneered ETOPS transatlantic routes.",
+    "description": "The Boeing 767-300ER was central to the expansion of long-range twin-engine flights across the Atlantic. Its 7-abreast 2-3-2 economy seating remains popular among passengers for giving everyone a seat near an aisle.",
+    "keyFeatures": [
+      "Seven-abreast twin-aisle seating",
+      "Pioneered long-haul ETOPS overwater capabilities",
+      "Shared cockpit commonality with the Boeing 757"
+    ],
+    "notableOperators": [
+      "Delta Air Lines",
+      "United Airlines",
+      "UPS Airlines",
+      "FedEx Express"
+    ],
+    "variants": [
+      "767-200",
+      "767-200ER",
+      "767-300",
+      "767-300ER",
+      "767-300F",
+      "767-400ER"
+    ]
+  },
+  {
+    "id": "boeing-777-300er",
+    "name": "Boeing 777-300ER",
+    "manufacturer": "Boeing",
+    "family": "777",
+    "model": "777-300ER",
+    "icao": "B77W",
+    "iata": "77W",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#0B3C5D",
+    "history": {
+      "firstFlight": "2003-02-24",
+      "introductionDate": "2004-05-10",
+      "productionStatus": "In Production",
+      "numberBuilt": 1791,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 64.8,
+        "lengthMeters": 73.86,
+        "heightMeters": 18.5,
+        "fuselageWidth": 6.19,
+        "wingAreaSquareMeters": 436.8
+      },
+      "performance": {
+        "maxRangeNm": 7370,
+        "maxRangeKm": 13650,
+        "cruisingSpeedMach": 0.84,
+        "serviceCeilingFt": 43100,
+        "takeoffDistanceM": 3050,
+        "landingDistanceM": 1600,
+        "maxOperatingSpeedKt": 490
+      },
+      "weights": {
+        "operatingEmptyWeight": 167829,
+        "maxTakeoffWeightKg": 351534,
+        "maxLandingWeightKg": 251290,
+        "maxPayloadKg": 69853,
+        "fuelCapacityKg": 145538
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric GE90-115B"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 513
+      },
+      "capacity": {
+        "minSeating": 365,
+        "typicalSeating": 396,
+        "maxSeating": 550,
+        "flightCrew": 2,
+        "cabinCrew": 10,
+        "cargoVolumeCubicMeters": 201.6
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "The world's largest twin-engine long-haul commercial airliner.",
+    "description": "Known as the 'Triple Seven', the Boeing 777-300ER combines massive twin-engine efficiency, high cargo capability, and extreme reliability, making it the primary long-haul flagship for airlines worldwide.",
+    "keyFeatures": [
+      "GE90 engines — among the most powerful jet engines in commercial aviation",
+      "Raked wingtips for optimized aerodynamic efficiency",
+      "Six-wheel main landing gear trucks"
+    ],
+    "notableOperators": [
+      "Emirates",
+      "Qatar Airways",
+      "Air France",
+      "Cathay Pacific",
+      "United Airlines"
+    ],
+    "variants": [
+      "777-200",
+      "777-200ER",
+      "777-200LR",
+      "777-300",
+      "777-300ER",
+      "777F",
+      "777X (-8/-9)"
+    ]
+  },
+  {
+    "id": "boeing-787-9",
+    "name": "Boeing 787-9 Dreamliner",
+    "manufacturer": "Boeing",
+    "family": "787",
+    "model": "787-9",
+    "icao": "B789",
+    "iata": "789",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#00A3E0",
+    "history": {
+      "firstFlight": "2013-09-17",
+      "introductionDate": "2014-08-07",
+      "productionStatus": "In Production",
+      "numberBuilt": 1289,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 60.12,
+        "lengthMeters": 62.82,
+        "heightMeters": 17.02,
+        "fuselageWidth": 5.77,
+        "wingAreaSquareMeters": 377.0
+      },
+      "performance": {
+        "maxRangeNm": 7565,
+        "maxRangeKm": 14010,
+        "cruisingSpeedMach": 0.85,
+        "serviceCeilingFt": 43000,
+        "takeoffDistanceM": 2800,
+        "landingDistanceM": 1730,
+        "maxOperatingSpeedKt": 490
+      },
+      "weights": {
+        "operatingEmptyWeight": 128850,
+        "maxTakeoffWeightKg": 254011,
+        "maxLandingWeightKg": 192777,
+        "maxPayloadKg": 52500,
+        "fuelCapacityKg": 101323
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric GEnx-1B", "Rolls-Royce Trent 1000"],
+        "engineManufacturer": "General Electric / Rolls-Royce",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 330
+      },
+      "capacity": {
+        "minSeating": 290,
+        "typicalSeating": 296,
+        "maxSeating": 406,
+        "flightCrew": 2,
+        "cabinCrew": 8,
+        "cargoVolumeCubicMeters": 172.0
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Composite-built wide-body wide-range liner with electrochromic windows.",
+    "description": "The Boeing 787-9 Dreamliner leverages composite material construction to deliver high fuel efficiency, lower cabin altitude pressures, higher humidity levels, and large electronically dimmable windows.",
+    "keyFeatures": [
+      "Carbon-laminate composite fuselage structure",
+      "Electrochromic dimmable passenger windows",
+      "Chevron-patterned engine nacelles for noise reduction"
+    ],
+    "notableOperators": [
+      "All Nippon Airways",
+      "United Airlines",
+      "American Airlines",
+      "British Airways"
+    ],
+    "variants": ["787-8", "787-9", "787-10"]
+  },
+  {
+    "id": "boeing-707-320c",
+    "name": "Boeing 707-320C",
+    "manufacturer": "Boeing",
+    "family": "707",
+    "model": "707-320C",
+    "icao": "B703",
+    "iata": "703",
+    "role": "Passenger/Cargo",
+    "status": "Retired",
+    "bodyType": "Narrow-body",
+    "accentColor": "#002B49",
+    "history": {
+      "firstFlight": "1957-12-20",
+      "introductionDate": "1958-10-26",
+      "endOfProduction": "1978-05-15",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 1010,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 44.42,
+        "lengthMeters": 46.61,
+        "heightMeters": 12.93,
+        "fuselageWidth": 3.76,
+        "wingAreaSquareMeters": 283.0
+      },
+      "performance": {
+        "maxRangeNm": 5000,
+        "maxRangeKm": 9260,
+        "cruisingSpeedMach": 0.8,
+        "serviceCeilingFt": 36000,
+        "takeoffDistanceM": 3050,
+        "landingDistanceM": 1890,
+        "maxOperatingSpeedKt": 516
+      },
+      "weights": {
+        "operatingEmptyWeight": 66400,
+        "maxTakeoffWeightKg": 151315,
+        "maxLandingWeightKg": 112000,
+        "maxPayloadKg": 41200,
+        "fuelCapacityKg": 72570
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Pratt & Whitney JT3D-7"],
+        "engineManufacturer": "Pratt & Whitney",
+        "engineCount": 4,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 84.5
+      },
+      "capacity": {
+        "minSeating": 141,
+        "typicalSeating": 174,
+        "maxSeating": 219,
+        "flightCrew": 3,
+        "cabinCrew": 5,
+        "cargoVolumeCubicMeters": 48.3
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "The pioneer of commercial jet air travel that ushered in the Jet Age.",
+    "description": "The Boeing 707 revolutionized passenger air travel in the late 1950s. Featuring swept wings and podded engines mounted underneath, it proved commercial jet transport was economically viable and established Boeing as a global commercial aviation leader.",
+    "keyFeatures": [
+      "Pioneered the Jet Age for mainstream passenger transport",
+      "Swept wing design podded engine pod layout",
+      "Three-crew flight deck layout (Pilot, Co-Pilot, Flight Engineer)"
+    ],
+    "notableOperators": [
+      "Pan Am",
+      "TWA",
+      "American Airlines",
+      "Lufthansa",
+      "BOAC"
+    ],
+    "variants": ["707-120", "707-220", "707-320", "707-320B", "707-320C", "720"]
+  },
+  {
+    "id": "boeing-727-200",
+    "name": "Boeing 727-200",
+    "manufacturer": "Boeing",
+    "family": "727",
+    "model": "727-200",
+    "icao": "B722",
+    "iata": "722",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#00529B",
+    "history": {
+      "firstFlight": "1963-02-09",
+      "introductionDate": "1964-02-01",
+      "endOfProduction": "1984-09-18",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 1831,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 32.92,
+        "lengthMeters": 46.68,
+        "heightMeters": 10.36,
+        "fuselageWidth": 3.76,
+        "wingAreaSquareMeters": 157.9
+      },
+      "performance": {
+        "maxRangeNm": 2550,
+        "maxRangeKm": 4720,
+        "cruisingSpeedMach": 0.79,
+        "serviceCeilingFt": 42000,
+        "takeoffDistanceM": 2530,
+        "landingDistanceM": 1460,
+        "maxOperatingSpeedKt": 510
+      },
+      "weights": {
+        "operatingEmptyWeight": 45360,
+        "maxTakeoffWeightKg": 95100,
+        "maxLandingWeightKg": 72570,
+        "maxPayloadKg": 18140,
+        "fuelCapacityKg": 24000
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Pratt & Whitney JT8D-17"],
+        "engineManufacturer": "Pratt & Whitney",
+        "engineCount": 3,
+        "enginePlacement": "Rear-mounted",
+        "thrustKN": 77.0
+      },
+      "capacity": {
+        "minSeating": 145,
+        "typicalSeating": 155,
+        "maxSeating": 189,
+        "flightCrew": 3,
+        "cabinCrew": 4,
+        "cargoVolumeCubicMeters": 41.2
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Trijet airliner famous for short runway capabilities and integrated airstairs.",
+    "description": "The Boeing 727 was designed to service short runways and smaller airports without ground power units or jet bridges. Its rear-mounted trijet design, T-tail, and triple-slotted flaps gave it unprecedented short-field takeoff and landing performance.",
+    "keyFeatures": [
+      "Rear S-duct intake for central third engine",
+      "Retractable ventral rear airstairs",
+      "High-lift triple-slotted flaps for short-field performance"
+    ],
+    "notableOperators": [
+      "FedEx Express",
+      "Total Linhas Aéreas",
+      "Raytheon Technologies"
+    ],
+    "variants": [
+      "727-100",
+      "727-100C",
+      "727-200",
+      "727-200 Advanced",
+      "727-200F"
+    ]
+  },
+  {
+    "id": "boeing-737-max-8",
+    "name": "Boeing 737 MAX 8",
+    "manufacturer": "Boeing",
+    "family": "737",
+    "model": "737 MAX 8",
+    "icao": "B38M",
+    "iata": "7M8",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#00A3E0",
+    "history": {
+      "firstFlight": "2016-01-29",
+      "introductionDate": "2017-05-22",
+      "productionStatus": "In Production",
+      "numberBuilt": 1600,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 35.92,
+        "lengthMeters": 39.52,
+        "heightMeters": 12.3,
+        "fuselageWidth": 3.76,
+        "wingAreaSquareMeters": 127.0
+      },
+      "performance": {
+        "maxRangeNm": 3550,
+        "maxRangeKm": 6570,
+        "cruisingSpeedMach": 0.79,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 2500,
+        "landingDistanceM": 1450,
+        "maxOperatingSpeedKt": 470
+      },
+      "weights": {
+        "operatingEmptyWeight": 45070,
+        "maxTakeoffWeightKg": 82190,
+        "maxLandingWeightKg": 69308,
+        "maxPayloadKg": 20882,
+        "fuelCapacityKg": 20730
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["CFM International LEAP-1B"],
+        "engineManufacturer": "CFM International",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 130
+      },
+      "capacity": {
+        "minSeating": 162,
+        "typicalSeating": 178,
+        "maxSeating": 210,
+        "flightCrew": 2,
+        "cabinCrew": 4,
+        "cargoVolumeCubicMeters": 43.7
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Fourth-generation 737 featuring LEAP-1B engines and split-scimitar winglets.",
+    "description": "The Boeing 737 MAX 8 features larger CFM LEAP-1B engines, distinctive Advanced Technology winglets, and updated flight deck displays derived from the 787 Dreamliner, providing double-digit fuel efficiency improvements over the 737 NG.",
+    "keyFeatures": [
+      "CFM LEAP-1B engines with chevrons on engine nacelles",
+      "Dual-feather Advanced Technology (AT) winglets",
+      "787-style widescreen glass cockpit displays"
+    ],
+    "notableOperators": [
+      "Southwest Airlines",
+      "Ryanair",
+      "United Airlines",
+      "American Airlines",
+      "Flydubai"
+    ],
+    "variants": [
+      "737 MAX 7",
+      "737 MAX 8",
+      "737 MAX 8-200",
+      "737 MAX 9",
+      "737 MAX 10"
+    ]
+  },
+  {
+    "id": "boeing-777-9",
+    "name": "Boeing 777-9 (777X)",
+    "manufacturer": "Boeing",
+    "family": "777",
+    "model": "777-9",
+    "icao": "B779",
+    "iata": "779",
+    "role": "Passenger",
+    "status": "Under Development",
+    "bodyType": "Wide-body",
+    "accentColor": "#0B3C5D",
+    "history": {
+      "firstFlight": "2020-01-25",
+      "introductionDate": "2027-01-01",
+      "productionStatus": "Under Development",
+      "numberBuilt": 30,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 71.75,
+        "lengthMeters": 76.72,
+        "heightMeters": 19.68,
+        "fuselageWidth": 6.19,
+        "wingAreaSquareMeters": 516.7
+      },
+      "performance": {
+        "maxRangeNm": 7285,
+        "maxRangeKm": 13500,
+        "cruisingSpeedMach": 0.85,
+        "serviceCeilingFt": 43100,
+        "takeoffDistanceM": 2980,
+        "landingDistanceM": 1680,
+        "maxOperatingSpeedKt": 490
+      },
+      "weights": {
+        "operatingEmptyWeight": 188240,
+        "maxTakeoffWeightKg": 351534,
+        "maxLandingWeightKg": 266000,
+        "maxPayloadKg": 73750,
+        "fuelCapacityKg": 158900
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric GE9X"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 470
+      },
+      "capacity": {
+        "minSeating": 384,
+        "typicalSeating": 426,
+        "maxSeating": 475,
+        "flightCrew": 2,
+        "cabinCrew": 11,
+        "cargoVolumeCubicMeters": 218.2
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Boeing's flagship twinjet wide-body featuring folding composite wingtips.",
+    "description": "The Boeing 777-9 is the largest twin-engine jetliner built to date. It introduces a high-aspect-ratio carbon composite wing with innovative folding wingtips, GE9X engines (the largest fan jet engines ever built), and wider internal cabin dimensions.",
+    "keyFeatures": [
+      "Folding composite wingtips to fit existing airport gate dimensions",
+      "GE9X engines featuring 3D-printed fuel nozzles and ceramic matrix composites",
+      "Wider cabin architecture with enlarged windows inspired by the 787"
+    ],
+    "notableOperators": [
+      "Emirates",
+      "Lufthansa",
+      "Qatar Airways",
+      "Singapore Airlines",
+      "Cathay Pacific"
+    ],
+    "variants": ["777-8", "777-9", "777-8F"]
+  },
+  {
+    "id": "embraer-e170",
+    "name": "Embraer E170",
+    "manufacturer": "Embraer",
+    "family": "E-Jet",
+    "model": "E170",
+    "icao": "E170",
+    "iata": "E70",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#00205B",
+    "history": {
+      "firstFlight": "2002-02-19",
+      "introductionDate": "2004-03-17",
+      "endOfProduction": "2017-08-31",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 191,
+      "originCountry": "Brazil"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 26.0,
+        "lengthMeters": 29.9,
+        "heightMeters": 9.67,
+        "fuselageWidth": 3.01,
+        "wingAreaSquareMeters": 72.72
+      },
+      "performance": {
+        "maxRangeNm": 2150,
+        "maxRangeKm": 3982,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 1644,
+        "landingDistanceM": 1241,
+        "maxOperatingSpeedKt": 470
+      },
+      "weights": {
+        "operatingEmptyWeight": 21140,
+        "maxTakeoffWeightKg": 37200,
+        "maxLandingWeightKg": 32800,
+        "maxPayloadKg": 9840,
+        "fuelCapacityKg": 9335
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric CF34-8E"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 62.3
+      },
+      "capacity": {
+        "minSeating": 70,
+        "typicalSeating": 72,
+        "maxSeating": 80,
+        "flightCrew": 2,
+        "cabinCrew": 2,
+        "cargoVolumeCubicMeters": 18.5
+      }
+    },
+    "manufacturerCountry": "Brazil",
+    "short_description": "The founding model of Embraer's highly successful regional E-Jet family.",
+    "description": "The E170 launched Embraer's double-bubble fuselage regional series, offering mainline passenger comforts like four-across seating with no middle seats and full-height stand-up cabins.",
+    "keyFeatures": [
+      "Double-bubble cross-section for maximum shoulder room",
+      "2x2 seating layout with no middle seats",
+      "Fly-by-wire flight control system"
+    ],
+    "notableOperators": [
+      "Republic Airways",
+      "Envoy Air",
+      "J-AIR",
+      "S7 Airlines"
+    ],
+    "variants": ["E170STD", "E170LR", "E170AR"]
+  },
+  {
+    "id": "embraer-e175",
+    "name": "Embraer E175",
+    "manufacturer": "Embraer",
+    "family": "E-Jet",
+    "model": "E175",
+    "icao": "E75L",
+    "iata": "E75",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#0055A5",
+    "history": {
+      "firstFlight": "2003-06-14",
+      "introductionDate": "2005-07-28",
+      "productionStatus": "In Production",
+      "numberBuilt": 850,
+      "originCountry": "Brazil"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 28.65,
+        "lengthMeters": 31.68,
+        "heightMeters": 9.73,
+        "fuselageWidth": 3.01,
+        "wingAreaSquareMeters": 72.72
+      },
+      "performance": {
+        "maxRangeNm": 2200,
+        "maxRangeKm": 4074,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 1690,
+        "landingDistanceM": 1261,
+        "maxOperatingSpeedKt": 470
+      },
+      "weights": {
+        "operatingEmptyWeight": 21810,
+        "maxTakeoffWeightKg": 40370,
+        "maxLandingWeightKg": 34100,
+        "maxPayloadKg": 10360,
+        "fuelCapacityKg": 9335
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric CF34-8E"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 63.2
+      },
+      "capacity": {
+        "minSeating": 76,
+        "typicalSeating": 78,
+        "maxSeating": 88,
+        "flightCrew": 2,
+        "cabinCrew": 2,
+        "cargoVolumeCubicMeters": 20.2
+      }
+    },
+    "manufacturerCountry": "Brazil",
+    "short_description": "Dominant regional airliner optimized for US airline scope clauses.",
+    "description": "Slightly stretched over the E170, the E175 became the gold standard for regional fleets across North America due to its alignment with US scope clause limits and low unit operating costs.",
+    "keyFeatures": [
+      "Optimized capacity for US Scope Clause requirements",
+      "Extended angled winglets for fuel reduction",
+      "Spacious overhead bins for standard roller bags"
+    ],
+    "notableOperators": [
+      "SkyWest Airlines",
+      "Republic Airways",
+      "Mesa Airlines",
+      "Horizon Air"
+    ],
+    "variants": ["E175STD", "E175LR", "E175-E2"]
+  },
+  {
+    "id": "embraer-e190",
+    "name": "Embraer E190",
+    "manufacturer": "Embraer",
+    "family": "E-Jet",
+    "model": "E190",
+    "icao": "E190",
+    "iata": "E90",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#003399",
+    "history": {
+      "firstFlight": "2004-03-12",
+      "introductionDate": "2005-11-08",
+      "productionStatus": "In Production",
+      "numberBuilt": 568,
+      "originCountry": "Brazil"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 28.72,
+        "lengthMeters": 36.24,
+        "heightMeters": 10.57,
+        "fuselageWidth": 3.01,
+        "wingAreaSquareMeters": 92.5
+      },
+      "performance": {
+        "maxRangeNm": 2450,
+        "maxRangeKm": 4537,
+        "cruisingSpeedMach": 0.82,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 2056,
+        "landingDistanceM": 1323,
+        "maxOperatingSpeedKt": 481
+      },
+      "weights": {
+        "operatingEmptyWeight": 28080,
+        "maxTakeoffWeightKg": 51800,
+        "maxLandingWeightKg": 44000,
+        "maxPayloadKg": 13080,
+        "fuelCapacityKg": 12970
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric CF34-10E"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 89.0
+      },
+      "capacity": {
+        "minSeating": 96,
+        "typicalSeating": 100,
+        "maxSeating": 114,
+        "flightCrew": 2,
+        "cabinCrew": 3,
+        "cargoVolumeCubicMeters": 27.2
+      }
+    },
+    "manufacturerCountry": "Brazil",
+    "short_description": "100-seat regional jet bridging the gap between feeder and mainline aircraft.",
+    "description": "Featuring a larger wing and more powerful GE CF34-10E engines than the E170/E175, the E190 extended regional carrier capabilities into mainstream point-to-point trunk routes.",
+    "keyFeatures": [
+      "Steep approach approval for London City Airport",
+      "High cruising speed comparable to narrowbody mainliners",
+      "Dual underfloor cargo holds"
+    ],
+    "notableOperators": [
+      "JetBlue",
+      "KLM Cityhopper",
+      "Alliance Airlines",
+      "Aeroméxico Connect"
+    ],
+    "variants": ["E190STD", "E190LR", "E190AR", "E190F (Freighter)"]
+  },
+  {
+    "id": "embraer-e195",
+    "name": "Embraer E195",
+    "manufacturer": "Embraer",
+    "family": "E-Jet",
+    "model": "E195",
+    "icao": "E195",
+    "iata": "E95",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#0A2540",
+    "history": {
+      "firstFlight": "2004-12-07",
+      "introductionDate": "2006-09-01",
+      "productionStatus": "In Production",
+      "numberBuilt": 172,
+      "originCountry": "Brazil"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 28.72,
+        "lengthMeters": 38.65,
+        "heightMeters": 10.55,
+        "fuselageWidth": 3.01,
+        "wingAreaSquareMeters": 92.5
+      },
+      "performance": {
+        "maxRangeNm": 2300,
+        "maxRangeKm": 4260,
+        "cruisingSpeedMach": 0.82,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 2179,
+        "landingDistanceM": 1335,
+        "maxOperatingSpeedKt": 481
+      },
+      "weights": {
+        "operatingEmptyWeight": 28970,
+        "maxTakeoffWeightKg": 52290,
+        "maxLandingWeightKg": 45800,
+        "maxPayloadKg": 13650,
+        "fuelCapacityKg": 12970
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric CF34-10E"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 89.0
+      },
+      "capacity": {
+        "minSeating": 116,
+        "typicalSeating": 120,
+        "maxSeating": 124,
+        "flightCrew": 2,
+        "cabinCrew": 3,
+        "cargoVolumeCubicMeters": 30.8
+      }
+    },
+    "manufacturerCountry": "Brazil",
+    "short_description": "Largest model of the first-generation Embraer E-Jet family.",
+    "description": "Stretched by 2.4 meters compared to the E190, the E195 targeted low-cost carriers looking for low trip costs on short-haul routes where narrow-body mainline aircraft were too large.",
+    "keyFeatures": [
+      "Maximum seat capacity in the original E-Jet generation",
+      "Low seat-mile cost for regional operations",
+      "Shared type rating with the E190"
+    ],
+    "notableOperators": [
+      "Azul Brazilian Airlines",
+      "Lufthansa CityLine",
+      "LOT Polish Airlines",
+      "Breeze Airways"
+    ],
+    "variants": ["E195STD", "E195LR", "E195AR"]
+  },
+  {
+    "id": "embraer-e190-e2",
+    "name": "Embraer E190-E2",
+    "manufacturer": "Embraer",
+    "family": "E-Jet E2",
+    "model": "E190-E2",
+    "icao": "E290",
+    "iata": "290",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#00A896",
+    "history": {
+      "firstFlight": "2016-05-23",
+      "introductionDate": "2018-04-24",
+      "productionStatus": "In Production",
+      "numberBuilt": 45,
+      "originCountry": "Brazil"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 33.72,
+        "lengthMeters": 36.25,
+        "heightMeters": 10.95,
+        "fuselageWidth": 3.01,
+        "wingAreaSquareMeters": 103.0
+      },
+      "performance": {
+        "maxRangeNm": 2850,
+        "maxRangeKm": 5278,
+        "cruisingSpeedMach": 0.82,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 1650,
+        "landingDistanceM": 1215,
+        "maxOperatingSpeedKt": 481
+      },
+      "weights": {
+        "operatingEmptyWeight": 31500,
+        "maxTakeoffWeightKg": 56400,
+        "maxLandingWeightKg": 49000,
+        "maxPayloadKg": 13080,
+        "fuelCapacityKg": 13690
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Pratt & Whitney PW1900G"],
+        "engineManufacturer": "Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 97.9
+      },
+      "capacity": {
+        "minSeating": 96,
+        "typicalSeating": 106,
+        "maxSeating": 114,
+        "flightCrew": 2,
+        "cabinCrew": 3,
+        "cargoVolumeCubicMeters": 27.2
+      }
+    },
+    "manufacturerCountry": "Brazil",
+    "short_description": "Second-generation ultra-efficient regional jet with Geared Turbofan engines.",
+    "description": "The E190-E2 upgrades the E190 with high-bypass Pratt & Whitney GTF engines, an all-new ultra-high-aspect-ratio wing, and closed-loop full fly-by-wire controls for double-digit fuel savings.",
+    "keyFeatures": [
+      "Pratt & Whitney Geared Turbofan (GTF) propulsion",
+      "Ultra-high-aspect-ratio wing with no winglets",
+      "Full closed-loop fly-by-wire architecture"
+    ],
+    "notableOperators": ["Widerøe", "Air Astana", "Helvetic Airways", "Scoot"],
+    "variants": ["E190-E2"]
+  },
+  {
+    "id": "embraer-e195-e2",
+    "name": "Embraer E195-E2",
+    "manufacturer": "Embraer",
+    "family": "E-Jet E2",
+    "model": "E195-E2",
+    "icao": "E295",
+    "iata": "295",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#102A43",
+    "history": {
+      "firstFlight": "2017-03-29",
+      "introductionDate": "2019-09-12",
+      "productionStatus": "In Production",
+      "numberBuilt": 110,
+      "originCountry": "Brazil"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 35.12,
+        "lengthMeters": 41.5,
+        "heightMeters": 10.92,
+        "fuselageWidth": 3.01,
+        "wingAreaSquareMeters": 103.0
+      },
+      "performance": {
+        "maxRangeNm": 2600,
+        "maxRangeKm": 4815,
+        "cruisingSpeedMach": 0.82,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 1805,
+        "landingDistanceM": 1290,
+        "maxOperatingSpeedKt": 481
+      },
+      "weights": {
+        "operatingEmptyWeight": 35700,
+        "maxTakeoffWeightKg": 61500,
+        "maxLandingWeightKg": 54000,
+        "maxPayloadKg": 16150,
+        "fuelCapacityKg": 13690
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Pratt & Whitney PW1900G"],
+        "engineManufacturer": "Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 102.3
+      },
+      "capacity": {
+        "minSeating": 120,
+        "typicalSeating": 132,
+        "maxSeating": 146,
+        "flightCrew": 2,
+        "cabinCrew": 4,
+        "cargoVolumeCubicMeters": 33.2
+      }
+    },
+    "manufacturerCountry": "Brazil",
+    "short_description": "Embraer's flagship 'Profit Hunter' designed to challenge smaller mainline jets.",
+    "description": "Known as the 'Profit Hunter', the E195-E2 is the largest aircraft built by Embraer. It offers single-aisle mainline capacity with regional jet efficiency and quiet cabin acoustics.",
+    "keyFeatures": [
+      "Lowest fuel burn per seat in the 120–150 seat market",
+      "Redesigned Airspace-style luggage bins and lighting",
+      "Lowest noise footprint in its size class"
+    ],
+    "notableOperators": [
+      "Azul Brazilian Airlines",
+      "KLM Cityhopper",
+      "Porter Airlines",
+      "Binter Canarias"
+    ],
+    "variants": ["E195-E2"]
+  },
+  {
+    "id": "atr-42-600",
+    "name": "ATR 42-600",
+    "manufacturer": "ATR",
+    "family": "ATR 42/72",
+    "model": "42-600",
+    "icao": "AT46",
+    "iata": "AT4",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#008080",
+    "history": {
+      "firstFlight": "1984-08-16",
+      "introductionDate": "1985-12-09",
+      "productionStatus": "In Production",
+      "numberBuilt": 490,
+      "originCountry": "France/Italy"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 24.57,
+        "lengthMeters": 22.67,
+        "heightMeters": 7.59,
+        "fuselageWidth": 2.57,
+        "wingAreaSquareMeters": 54.5
+      },
+      "performance": {
+        "maxRangeNm": 716,
+        "maxRangeKm": 1326,
+        "cruisingSpeedMach": 0.45,
+        "serviceCeilingFt": 25000,
+        "takeoffDistanceM": 1107,
+        "landingDistanceM": 966,
+        "maxOperatingSpeedKt": 300
+      },
+      "weights": {
+        "operatingEmptyWeight": 11700,
+        "maxTakeoffWeightKg": 18600,
+        "maxLandingWeightKg": 18300,
+        "maxPayloadKg": 5250,
+        "fuelCapacityKg": 4500
+      },
+      "engines": {
+        "engineType": "Turboprop",
+        "engineOptions": ["Pratt & Whitney Canada PW127M"],
+        "engineManufacturer": "Pratt & Whitney Canada",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 36.0
+      },
+      "capacity": {
+        "minSeating": 42,
+        "typicalSeating": 48,
+        "maxSeating": 50,
+        "flightCrew": 2,
+        "cabinCrew": 1,
+        "cargoVolumeCubicMeters": 12.5
+      }
+    },
+    "manufacturerCountry": "France / Italy",
+    "short_description": "Short-haul regional turboprop designed for short, unpaved runways and remote destinations.",
+    "description": "The ATR 42-600 is a twin-turboprop regional airliner tailored for short-haul operations with exceptional STOL (short takeoff and landing) performance. Built by European joint venture ATR, it features modern glass cockpits and high efficiency on low-density routes.",
+    "keyFeatures": [
+      "Excellent short-field and unpaved runway capability",
+      "Thales glass cockpit with RNP approach capabilities",
+      "High fuel efficiency on short-haul island and mountain routes"
+    ],
+    "notableOperators": [
+      "Silver Airways",
+      "Japan Air Commuter",
+      "Air New Zealand Link",
+      "TAROM"
+    ],
+    "variants": ["ATR 42-300", "ATR 42-500", "ATR 42-600", "ATR 42-600S (STOL)"]
+  },
+  {
+    "id": "atr-72-600",
+    "name": "ATR 72-600",
+    "manufacturer": "ATR",
+    "family": "ATR 42/72",
+    "model": "72-600",
+    "icao": "AT76",
+    "iata": "AT7",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#005F73",
+    "history": {
+      "firstFlight": "1988-10-27",
+      "introductionDate": "1989-10-27",
+      "productionStatus": "In Production",
+      "numberBuilt": 1200,
+      "originCountry": "France/Italy"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 27.05,
+        "lengthMeters": 27.17,
+        "heightMeters": 7.65,
+        "fuselageWidth": 2.57,
+        "wingAreaSquareMeters": 61.0
+      },
+      "performance": {
+        "maxRangeNm": 820,
+        "maxRangeKm": 1518,
+        "cruisingSpeedMach": 0.43,
+        "serviceCeilingFt": 25000,
+        "takeoffDistanceM": 1367,
+        "landingDistanceM": 915,
+        "maxOperatingSpeedKt": 275
+      },
+      "weights": {
+        "operatingEmptyWeight": 13500,
+        "maxTakeoffWeightKg": 23000,
+        "maxLandingWeightKg": 22350,
+        "maxPayloadKg": 7500,
+        "fuelCapacityKg": 5000
+      },
+      "engines": {
+        "engineType": "Turboprop",
+        "engineOptions": ["Pratt & Whitney Canada PW127XT-M"],
+        "engineManufacturer": "Pratt & Whitney Canada",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 41.0
+      },
+      "capacity": {
+        "minSeating": 68,
+        "typicalSeating": 72,
+        "maxSeating": 78,
+        "flightCrew": 2,
+        "cabinCrew": 2,
+        "cargoVolumeCubicMeters": 16.0
+      }
+    },
+    "manufacturerCountry": "France / Italy",
+    "short_description": "The world's best-selling regional turboprop, stretched from the ATR 42.",
+    "description": "Stretched by 4.5 meters over the ATR 42, the ATR 72-600 is the dominant regional turboprop globally. It delivers unmatched economics on short feeder routes, consuming up to 45% less fuel than competing regional jets.",
+    "keyFeatures": [
+      "Rear-door passenger loading with integrated stairs",
+      "PW127XT engines delivering lower maintenance costs and fuel burn",
+      "Armonia cabin design with wide overhead bins"
+    ],
+    "notableOperators": [
+      "IndiGo",
+      "Wings Air",
+      "Azul Brazilian Airlines",
+      "Air NZ Link",
+      "LOGINAIR"
+    ],
+    "variants": [
+      "ATR 72-200",
+      "ATR 72-500",
+      "ATR 72-600",
+      "ATR 72-600F (Freighter)"
+    ]
+  },
+  {
+    "id": "crj-200",
+    "name": "Bombardier CRJ200",
+    "manufacturer": "Bombardier",
+    "family": "CRJ Series",
+    "model": "CRJ200",
+    "icao": "CRJ2",
+    "iata": "CR2",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#CA6702",
+    "history": {
+      "firstFlight": "1991-05-10",
+      "introductionDate": "1992-10-19",
+      "endOfProduction": "2006-08-31",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 1021,
+      "originCountry": "Canada"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 21.21,
+        "lengthMeters": 26.77,
+        "heightMeters": 6.22,
+        "fuselageWidth": 2.69,
+        "wingAreaSquareMeters": 48.35
+      },
+      "performance": {
+        "maxRangeNm": 1700,
+        "maxRangeKm": 3148,
+        "cruisingSpeedMach": 0.74,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 1918,
+        "landingDistanceM": 1479,
+        "maxOperatingSpeedKt": 464
+      },
+      "weights": {
+        "operatingEmptyWeight": 13835,
+        "maxTakeoffWeightKg": 24040,
+        "maxLandingWeightKg": 21297,
+        "maxPayloadKg": 6120,
+        "fuelCapacityKg": 6585
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric CF34-3B1"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 2,
+        "enginePlacement": "Rear-mounted",
+        "thrustKN": 41.0
+      },
+      "capacity": {
+        "minSeating": 44,
+        "typicalSeating": 50,
+        "maxSeating": 50,
+        "flightCrew": 2,
+        "cabinCrew": 1,
+        "cargoVolumeCubicMeters": 13.6
+      }
+    },
+    "manufacturerCountry": "Canada",
+    "short_description": "Pioneering 50-seat regional jet derived from the Challenger business jet.",
+    "description": "Developed from the Challenger 600 corporate jet, the Bombardier CRJ100/200 launched the regional jet boom of the 1990s by replacing slow turboprops on lower-density routes with jet speeds and altitudes.",
+    "keyFeatures": [
+      "Rear fuselage-mounted engine arrangement and T-tail",
+      "Fast cruising speeds comparable to mainline jets",
+      "Standard 2x2 seating layout"
+    ],
+    "notableOperators": [
+      "SkyWest Airlines",
+      "Air Wisconsin",
+      "Yamal Airlines",
+      "USAF (C-37B variant)"
+    ],
+    "variants": ["CRJ100", "CRJ100ER", "CRJ200ER", "CRJ200LR"]
+  },
+  {
+    "id": "crj-700",
+    "name": "Bombardier CRJ700",
+    "manufacturer": "Bombardier / Mitsubishi",
+    "family": "CRJ Series",
+    "model": "CRJ700",
+    "icao": "CRJ7",
+    "iata": "CR7",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#BB3E03",
+    "history": {
+      "firstFlight": "1999-05-27",
+      "introductionDate": "2001-01-06",
+      "endOfProduction": "2020-12-31",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 330,
+      "originCountry": "Canada"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 23.24,
+        "lengthMeters": 32.3,
+        "heightMeters": 7.57,
+        "fuselageWidth": 2.69,
+        "wingAreaSquareMeters": 70.61
+      },
+      "performance": {
+        "maxRangeNm": 1378,
+        "maxRangeKm": 2553,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 1564,
+        "landingDistanceM": 1478,
+        "maxOperatingSpeedKt": 473
+      },
+      "weights": {
+        "operatingEmptyWeight": 19731,
+        "maxTakeoffWeightKg": 32995,
+        "maxLandingWeightKg": 30390,
+        "maxPayloadKg": 8200,
+        "fuelCapacityKg": 8888
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric CF34-8C5B1"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 2,
+        "enginePlacement": "Rear-mounted",
+        "thrustKN": 61.3
+      },
+      "capacity": {
+        "minSeating": 68,
+        "typicalSeating": 70,
+        "maxSeating": 78,
+        "flightCrew": 2,
+        "cabinCrew": 2,
+        "cargoVolumeCubicMeters": 15.5
+      }
+    },
+    "manufacturerCountry": "Canada",
+    "short_description": "Stretched, re-engined regional jet fitted with slatted wings and lower floor height.",
+    "description": "The CRJ700 stretched the original CRJ chassis, adding a redesigned wing with leading-edge slats, powerful CF34-8C engines, and a lowered cabin floor to increase headroom and window height.",
+    "keyFeatures": [
+      "Leading-edge slats for enhanced takeoff and landing performance",
+      "Lower cabin floor level for enlarged passenger headroom",
+      "Scope-clause compliant 70-seat configuration"
+    ],
+    "notableOperators": [
+      "SkyWest Airlines",
+      "GoJet Airlines",
+      "PSA Airlines",
+      "Lufthansa CityLine"
+    ],
+    "variants": [
+      "CRJ700 Series 701",
+      "CRJ700 Series 702",
+      "CRJ700 NextGen",
+      "CRJ550"
+    ]
+  },
+  {
+    "id": "crj-900",
+    "name": "Bombardier CRJ900",
+    "manufacturer": "Bombardier / Mitsubishi",
+    "family": "CRJ Series",
+    "model": "CRJ900",
+    "icao": "CRJ9",
+    "iata": "CR9",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#AE2012",
+    "history": {
+      "firstFlight": "2001-02-21",
+      "introductionDate": "2003-01-30",
+      "endOfProduction": "2020-12-31",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 490,
+      "originCountry": "Canada"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 24.85,
+        "lengthMeters": 36.2,
+        "heightMeters": 7.51,
+        "fuselageWidth": 2.69,
+        "wingAreaSquareMeters": 71.1
+      },
+      "performance": {
+        "maxRangeNm": 1550,
+        "maxRangeKm": 2870,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 41000,
+        "takeoffDistanceM": 1778,
+        "landingDistanceM": 1596,
+        "maxOperatingSpeedKt": 475
+      },
+      "weights": {
+        "operatingEmptyWeight": 21432,
+        "maxTakeoffWeightKg": 38330,
+        "maxLandingWeightKg": 34020,
+        "maxPayloadKg": 10319,
+        "fuelCapacityKg": 8888
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric CF34-8C5"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 2,
+        "enginePlacement": "Rear-mounted",
+        "thrustKN": 64.5
+      },
+      "capacity": {
+        "minSeating": 76,
+        "typicalSeating": 86,
+        "maxSeating": 90,
+        "flightCrew": 2,
+        "cabinCrew": 2,
+        "cargoVolumeCubicMeters": 25.17
+      }
+    },
+    "manufacturerCountry": "Canada",
+    "short_description": "90-seat stretched variant offering high seat-mile efficiency for regional feeders.",
+    "description": "Further stretching the CRJ700 frame by nearly 4 meters, the CRJ900 added underfloor cargo volume, strengthened landing gear, and higher MTOW options to handle high-density regional routes.",
+    "keyFeatures": [
+      "Stretched airframe with two extra emergency exit doors over the wings",
+      "NextGen interior upgrade featuring larger windows and overhead bins",
+      "Common type rating with CRJ700 and CRJ1000"
+    ],
+    "notableOperators": [
+      "Endeavor Air",
+      "Mesa Airlines",
+      "Piedmont Airlines",
+      "Lufthansa CityLine"
+    ],
+    "variants": ["CRJ900", "CRJ900ER", "CRJ900LR", "CRJ900 NextGen"]
+  },
+  {
+    "id": "dash-8-q400",
+    "name": "De Havilland Dash 8 Q400",
+    "manufacturer": "De Havilland Canada",
+    "family": "Dash 8",
+    "model": "Q400",
+    "icao": "DH8D",
+    "iata": "DH4",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#9B2226",
+    "history": {
+      "firstFlight": "1998-01-31",
+      "introductionDate": "2000-02-01",
+      "productionStatus": "In Production",
+      "numberBuilt": 645,
+      "originCountry": "Canada"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 28.4,
+        "lengthMeters": 32.8,
+        "heightMeters": 8.4,
+        "fuselageWidth": 2.69,
+        "wingAreaSquareMeters": 63.1
+      },
+      "performance": {
+        "maxRangeNm": 1100,
+        "maxRangeKm": 2040,
+        "cruisingSpeedMach": 0.54,
+        "serviceCeilingFt": 27000,
+        "takeoffDistanceM": 1425,
+        "landingDistanceM": 1300,
+        "maxOperatingSpeedKt": 360
+      },
+      "weights": {
+        "operatingEmptyWeight": 17110,
+        "maxTakeoffWeightKg": 29260,
+        "maxLandingWeightKg": 28010,
+        "maxPayloadKg": 8750,
+        "fuelCapacityKg": 5220
+      },
+      "engines": {
+        "engineType": "Turboprop",
+        "engineOptions": ["Pratt & Whitney Canada PW150A"],
+        "engineManufacturer": "Pratt & Whitney Canada",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 75.6
+      },
+      "capacity": {
+        "minSeating": 74,
+        "typicalSeating": 78,
+        "maxSeating": 90,
+        "flightCrew": 2,
+        "cabinCrew": 2,
+        "cargoVolumeCubicMeters": 14.2
+      }
+    },
+    "manufacturerCountry": "Canada",
+    "short_description": "High-speed turboprop equipped with Active Noise and Vibration Suppression.",
+    "description": "The Dash 8 Q400 ('Q' for Quiet) revolutionized turboprop flying by pairing jet-like cruise speeds (up to 360 knots) with active noise-suppression technology inside the cabin, significantly blunting the typical turboprop vibration.",
+    "keyFeatures": [
+      "ANVS (Active Noise and Vibration Suppression) system in cabin",
+      "PW150A engines developing over 5,000 shaft horsepower each",
+      "High cruise speed approaching regional jet velocity"
+    ],
+    "notableOperators": [
+      "Horizon Air",
+      "Porter Airlines",
+      "Ethiopian Airlines",
+      "QantasLink"
+    ],
+    "variants": [
+      "Dash 8 Q400",
+      "Q400 NextGen",
+      "Q400MR (Water Bomber)",
+      "Q400 Combi"
+    ]
+  },
+  {
+    "id": "douglas-dc-3",
+    "name": "Douglas DC-3",
+    "manufacturer": "Douglas",
+    "family": "DC Series",
+    "model": "DC-3",
+    "icao": "DC3",
+    "iata": "D3S",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#8B0000",
+    "history": {
+      "firstFlight": "1935-12-17",
+      "introductionDate": "1936-06-25",
+      "endOfProduction": "1950-12-31",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 16079,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 29.0,
+        "lengthMeters": 19.7,
+        "heightMeters": 5.16,
+        "fuselageWidth": 2.5,
+        "wingAreaSquareMeters": 91.7
+      },
+      "performance": {
+        "maxRangeNm": 1300,
+        "maxRangeKm": 2400,
+        "cruisingSpeedMach": 0.27,
+        "serviceCeilingFt": 23200,
+        "takeoffDistanceM": 610,
+        "landingDistanceM": 550,
+        "maxOperatingSpeedKt": 200
+      },
+      "weights": {
+        "operatingEmptyWeight": 7650,
+        "maxTakeoffWeightKg": 11430,
+        "maxLandingWeightKg": 11430,
+        "maxPayloadKg": 3780,
+        "fuelCapacityKg": 2400
+      },
+      "engines": {
+        "engineType": "Radial Engine",
+        "engineOptions": [
+          "Wright R-1820 Cyclone",
+          "Pratt & Whitney R-1830 Twin Wasp"
+        ],
+        "engineManufacturer": "Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 17.8
+      },
+      "capacity": {
+        "minSeating": 21,
+        "typicalSeating": 28,
+        "maxSeating": 32,
+        "flightCrew": 2,
+        "cabinCrew": 1,
+        "cargoVolumeCubicMeters": 10.2
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "The transformative piston-powered airliner that made passenger air travel profitable.",
+    "description": "The Douglas DC-3 is one of the most significant transport aircraft in aviation history. Designed in the 1930s, its reliability, speed, and range made commercial passenger transport economic without government subsidies for the first time.",
+    "keyFeatures": [
+      "Pioneered sustainable commercial airline business models",
+      "All-metal cantilever monoplane construction",
+      "Unmatched ruggedness with hundreds remaining operational decades after production"
+    ],
+    "notableOperators": [
+      "American Airlines",
+      "Delta Air Lines",
+      "Pan Am",
+      "USAAF (C-47 Dakota)"
+    ],
+    "variants": [
+      "DC-3A",
+      "C-47 Skytrain",
+      "Dakota",
+      "Basler BT-67 (Turboprop conversion)"
+    ]
+  },
+  {
+    "id": "douglas-dc-8-63",
+    "name": "Douglas DC-8-63",
+    "manufacturer": "Douglas / McDonnell Douglas",
+    "family": "DC Series",
+    "model": "DC-8-63",
+    "icao": "DC86",
+    "iata": "D8T",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#1D3557",
+    "history": {
+      "firstFlight": "1958-05-30",
+      "introductionDate": "1959-09-18",
+      "endOfProduction": "1972-05-13",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 556,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 45.24,
+        "lengthMeters": 57.1,
+        "heightMeters": 12.92,
+        "fuselageWidth": 3.73,
+        "wingAreaSquareMeters": 271.9
+      },
+      "performance": {
+        "maxRangeNm": 4500,
+        "maxRangeKm": 8330,
+        "cruisingSpeedMach": 0.8,
+        "serviceCeilingFt": 35000,
+        "takeoffDistanceM": 3100,
+        "landingDistanceM": 1830,
+        "maxOperatingSpeedKt": 515
+      },
+      "weights": {
+        "operatingEmptyWeight": 71100,
+        "maxTakeoffWeightKg": 161000,
+        "maxLandingWeightKg": 117900,
+        "maxPayloadKg": 30500,
+        "fuelCapacityKg": 70800
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": [
+          "Pratt & Whitney JT3D-7",
+          "CFM International CFM56-2 (Super 70 series)"
+        ],
+        "engineManufacturer": "Pratt & Whitney / CFM",
+        "engineCount": 4,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 84.5
+      },
+      "capacity": {
+        "minSeating": 180,
+        "typicalSeating": 212,
+        "maxSeating": 259,
+        "flightCrew": 3,
+        "cabinCrew": 6,
+        "cargoVolumeCubicMeters": 70.0
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Douglas' classic four-engine long-range jet designed to rival the Boeing 707.",
+    "description": "The DC-8 entered service as Douglas' first jetliner. Known for its strong structural design, later 'Super 60' stretched models and re-engined 'Super 70' variants gave it unprecedented payload capacity and long service life as a freighter.",
+    "keyFeatures": [
+      "First passenger jetliner to break the sound barrier in a test dive (1961)",
+      "Super 60 stretched fuselage design holding up to 259 passengers",
+      "CFM56 re-engine program (Super 70 series) for noise and emissions compliance"
+    ],
+    "notableOperators": [
+      "United Airlines",
+      "Delta Air Lines",
+      "UPS Airlines",
+      "Trans Air Cargo Service"
+    ],
+    "variants": [
+      "DC-8-10",
+      "DC-8-30",
+      "DC-8-50",
+      "DC-8 Super 61/62/63",
+      "DC-8 Super 71/72/73"
+    ]
+  },
+  {
+    "id": "douglas-dc-9-30",
+    "name": "Douglas DC-9-30",
+    "manufacturer": "Douglas / McDonnell Douglas",
+    "family": "DC Series",
+    "model": "DC-9-30",
+    "icao": "DC93",
+    "iata": "D93",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#2A9D8F",
+    "history": {
+      "firstFlight": "1965-02-25",
+      "introductionDate": "1965-12-08",
+      "endOfProduction": "1982-10-01",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 976,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 28.47,
+        "lengthMeters": 36.37,
+        "heightMeters": 8.38,
+        "fuselageWidth": 3.34,
+        "wingAreaSquareMeters": 93.0
+      },
+      "performance": {
+        "maxRangeNm": 1670,
+        "maxRangeKm": 3095,
+        "cruisingSpeedMach": 0.77,
+        "serviceCeilingFt": 35000,
+        "takeoffDistanceM": 2130,
+        "landingDistanceM": 1490,
+        "maxOperatingSpeedKt": 485
+      },
+      "weights": {
+        "operatingEmptyWeight": 25580,
+        "maxTakeoffWeightKg": 48980,
+        "maxLandingWeightKg": 44450,
+        "maxPayloadKg": 12870,
+        "fuelCapacityKg": 11210
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Pratt & Whitney JT8D-7/9/11/15"],
+        "engineManufacturer": "Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Rear-mounted",
+        "thrustKN": 64.5
+      },
+      "capacity": {
+        "minSeating": 90,
+        "typicalSeating": 105,
+        "maxSeating": 115,
+        "flightCrew": 2,
+        "cabinCrew": 3,
+        "cargoVolumeCubicMeters": 25.3
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Highly successful twinjet tailored for short-haul and small airport operations.",
+    "description": "The DC-9 was designed as a twin-engine short-haul complement to the larger four-engine DC-8. Featuring aft-mounted engines, a T-tail, and built-in airstairs, it allowed airlines to service smaller regional airports without extensive ground support.",
+    "keyFeatures": [
+      "Rear-mounted engines creating a quiet forward cabin",
+      "Integrated ventral airstairs for self-sufficient airport turnarounds",
+      "5-abreast seating layout"
+    ],
+    "notableOperators": [
+      "Delta Air Lines",
+      "Northwest Airlines",
+      "Eastern Air Lines",
+      "Iberia"
+    ],
+    "variants": ["DC-9-10", "DC-9-20", "DC-9-30", "DC-9-40", "DC-9-50"]
+  },
+  {
+    "id": "mcdonnell-douglas-dc-10-30",
+    "name": "McDonnell Douglas DC-10-30",
+    "manufacturer": "McDonnell Douglas",
+    "family": "DC Series",
+    "model": "DC-10-30",
+    "icao": "DC10",
+    "iata": "D10",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#E76F51",
+    "history": {
+      "firstFlight": "1970-08-29",
+      "introductionDate": "1971-08-05",
+      "endOfProduction": "1988-12-31",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 446,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 50.4,
+        "lengthMeters": 55.5,
+        "heightMeters": 17.7,
+        "fuselageWidth": 6.02,
+        "wingAreaSquareMeters": 338.3
+      },
+      "performance": {
+        "maxRangeNm": 5200,
+        "maxRangeKm": 9600,
+        "cruisingSpeedMach": 0.82,
+        "serviceCeilingFt": 42000,
+        "takeoffDistanceM": 2840,
+        "landingDistanceM": 1630,
+        "maxOperatingSpeedKt": 507
+      },
+      "weights": {
+        "operatingEmptyWeight": 120630,
+        "maxTakeoffWeightKg": 263160,
+        "maxLandingWeightKg": 182800,
+        "maxPayloadKg": 48140,
+        "fuelCapacityKg": 108200
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric CF6-50C2"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 3,
+        "enginePlacement": "Trijet (2 Wing, 1 Tail/Fin)",
+        "thrustKN": 233.5
+      },
+      "capacity": {
+        "minSeating": 250,
+        "typicalSeating": 270,
+        "maxSeating": 380,
+        "flightCrew": 3,
+        "cabinCrew": 10,
+        "cargoVolumeCubicMeters": 133.0
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "First wide-body trijet airliner built for medium-to-long range intercontinental routes.",
+    "description": "The DC-10 was McDonnell Douglas' first wide-body jet, featuring a distinctive straight-through banjo duct layout for its vertical stabilizer engine. The long-range DC-10-30 became a transatlantic and transpacific workhorse.",
+    "keyFeatures": [
+      "Trijet layout with a tail-mounted vertical fin engine",
+      "Wide-body cabin with dual aisles",
+      "Basis for the USAF KC-10 Extender aerial refueling tanker"
+    ],
+    "notableOperators": [
+      "FedEx Express",
+      "American Airlines",
+      "United Airlines",
+      "KLM",
+      "Lufthansa"
+    ],
+    "variants": [
+      "DC-10-10",
+      "DC-10-15",
+      "DC-10-30",
+      "DC-10-40",
+      "MD-10 (Glass cockpit upgrade)"
+    ]
+  },
+  {
+    "id": "mcdonnell-douglas-md-11",
+    "name": "McDonnell Douglas MD-11",
+    "manufacturer": "McDonnell Douglas / Boeing",
+    "family": "MD Series",
+    "model": "MD-11",
+    "icao": "MD11",
+    "iata": "M11",
+    "role": "Passenger/Cargo",
+    "status": "In Service",
+    "bodyType": "Wide-body",
+    "accentColor": "#264653",
+    "history": {
+      "firstFlight": "1990-01-10",
+      "introductionDate": "1990-12-07",
+      "endOfProduction": "2000-02-22",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 200,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 51.97,
+        "lengthMeters": 61.21,
+        "heightMeters": 17.6,
+        "fuselageWidth": 6.02,
+        "wingAreaSquareMeters": 338.9
+      },
+      "performance": {
+        "maxRangeNm": 6725,
+        "maxRangeKm": 12455,
+        "cruisingSpeedMach": 0.83,
+        "serviceCeilingFt": 43000,
+        "takeoffDistanceM": 2990,
+        "landingDistanceM": 1900,
+        "maxOperatingSpeedKt": 528
+      },
+      "weights": {
+        "operatingEmptyWeight": 132100,
+        "maxTakeoffWeightKg": 285990,
+        "maxLandingWeightKg": 199580,
+        "maxPayloadKg": 55800,
+        "fuelCapacityKg": 117470
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": [
+          "General Electric CF6-80C2D1F",
+          "Pratt & Whitney PW4460/4462"
+        ],
+        "engineManufacturer": "General Electric / Pratt & Whitney",
+        "engineCount": 3,
+        "enginePlacement": "Trijet (2 Wing, 1 Tail/Fin)",
+        "thrustKN": 270.0
+      },
+      "capacity": {
+        "minSeating": 293,
+        "typicalSeating": 323,
+        "maxSeating": 410,
+        "flightCrew": 2,
+        "cabinCrew": 10,
+        "cargoVolumeCubicMeters": 140.0
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Advanced long-range wide-body trijet stretched from the DC-10.",
+    "description": "The MD-11 stretched the DC-10, adding winglets, high-efficiency engines, an extended tail cone, and a 2-crew glass cockpit. While its passenger service was truncated by twinjet ETOPS rivals, it established a long second life as a primary heavy freighter.",
+    "keyFeatures": [
+      "Advanced glass cockpit eliminating the flight engineer role",
+      "Upward and downward facing winglets for drag reduction",
+      "High cargo capacity favored by global logistics carriers"
+    ],
+    "notableOperators": [
+      "FedEx Express",
+      "UPS Airlines",
+      "Lufthansa Cargo",
+      "Swissair",
+      "KLM"
+    ],
+    "variants": [
+      "MD-11",
+      "MD-11F (Freighter)",
+      "MD-11C (Combi)",
+      "MD-11ER (Extended Range)"
+    ]
+  },
+  {
+    "id": "mcdonnell-douglas-md-82",
+    "name": "McDonnell Douglas MD-82",
+    "manufacturer": "McDonnell Douglas",
+    "family": "MD Series",
+    "model": "MD-82",
+    "icao": "MD82",
+    "iata": "M82",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#F4A261",
+    "history": {
+      "firstFlight": "1979-10-18",
+      "introductionDate": "1980-10-05",
+      "endOfProduction": "1999-12-28",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 1194,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 32.87,
+        "lengthMeters": 45.1,
+        "heightMeters": 9.02,
+        "fuselageWidth": 3.34,
+        "wingAreaSquareMeters": 112.3
+      },
+      "performance": {
+        "maxRangeNm": 2050,
+        "maxRangeKm": 3798,
+        "cruisingSpeedMach": 0.76,
+        "serviceCeilingFt": 37000,
+        "takeoffDistanceM": 2210,
+        "landingDistanceM": 1580,
+        "maxOperatingSpeedKt": 500
+      },
+      "weights": {
+        "operatingEmptyWeight": 35400,
+        "maxTakeoffWeightKg": 67800,
+        "maxLandingWeightKg": 58000,
+        "maxPayloadKg": 19700,
+        "fuelCapacityKg": 17700
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["Pratt & Whitney JT8D-217A/C"],
+        "engineManufacturer": "Pratt & Whitney",
+        "engineCount": 2,
+        "enginePlacement": "Rear-mounted",
+        "thrustKN": 89.0
+      },
+      "capacity": {
+        "minSeating": 135,
+        "typicalSeating": 155,
+        "maxSeating": 172,
+        "flightCrew": 2,
+        "cabinCrew": 4,
+        "cargoVolumeCubicMeters": 35.5
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Affectionately known as the 'Mad Dog', second-generation DC-9 derivative.",
+    "description": "The MD-80 series (originally DC-9 Super 80) featured a stretched fuselage, wider wingspan, and low-bypass JT8D-200 series engines. It formed the backbone of domestic US carrier fleets throughout the 1980s and 1990s.",
+    "keyFeatures": [
+      "Distinctive long narrow fuselage with rear engines",
+      "Acoustically quiet forward cabin section",
+      "5-abreast seating layout (3x2)"
+    ],
+    "notableOperators": [
+      "American Airlines",
+      "Delta Air Lines",
+      "TWA",
+      "Alitalia",
+      "SAS"
+    ],
+    "variants": ["MD-81", "MD-82", "MD-83", "MD-87 (Shortened)", "MD-88"]
+  },
+  {
+    "id": "mcdonnell-douglas-md-90-30",
+    "name": "McDonnell Douglas MD-90-30",
+    "manufacturer": "McDonnell Douglas / Boeing",
+    "family": "MD Series",
+    "model": "MD-90-30",
+    "icao": "MD90",
+    "iata": "M90",
+    "role": "Passenger",
+    "status": "Retired",
+    "bodyType": "Narrow-body",
+    "accentColor": "#3D5A80",
+    "history": {
+      "firstFlight": "1993-02-22",
+      "introductionDate": "1995-04-02",
+      "endOfProduction": "2000-10-23",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 116,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 32.87,
+        "lengthMeters": 46.5,
+        "heightMeters": 9.33,
+        "fuselageWidth": 3.34,
+        "wingAreaSquareMeters": 112.3
+      },
+      "performance": {
+        "maxRangeNm": 2085,
+        "maxRangeKm": 3860,
+        "cruisingSpeedMach": 0.76,
+        "serviceCeilingFt": 37000,
+        "takeoffDistanceM": 2110,
+        "landingDistanceM": 1530,
+        "maxOperatingSpeedKt": 500
+      },
+      "weights": {
+        "operatingEmptyWeight": 40000,
+        "maxTakeoffWeightKg": 70760,
+        "maxLandingWeightKg": 64410,
+        "maxPayloadKg": 18600,
+        "fuelCapacityKg": 17700
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["International Aero Engines IAE V2525-D5"],
+        "engineManufacturer": "IAE",
+        "engineCount": 2,
+        "enginePlacement": "Rear-mounted",
+        "thrustKN": 111.2
+      },
+      "capacity": {
+        "minSeating": 150,
+        "typicalSeating": 158,
+        "maxSeating": 172,
+        "flightCrew": 2,
+        "cabinCrew": 4,
+        "cargoVolumeCubicMeters": 36.8
+      }
+    },
+    "manufacturerCountry": "United States",
+    "short_description": "Quieter, stretched MD-80 derivative equipped with high-bypass IAE V2500 engines.",
+    "description": "The MD-90 was a modernized development of the MD-80 series featuring high-bypass IAE V2500 turbofans, an EFIS electronic flight instrument cockpit, and an extra 1.4-meter fuselage stretch. It served as the foundation for the Boeing 717 (MD-95).",
+    "keyFeatures": [
+      "Ultra-quiet high-bypass IAE V2500 engines",
+      "EFIS glass cockpit flight deck",
+      "Predecessor to the Boeing 717"
+    ],
+    "notableOperators": [
+      "Delta Air Lines",
+      "Saudi Arabian Airlines",
+      "Japan Airlines",
+      "EVA Air"
+    ],
+    "variants": ["MD-90-30", "MD-90-30ER"]
+  },
+  {
+    "id": "l-1011-tristar",
+    "name": "L-1011 TriStar",
+    "manufacturer": "Lockheed Corporation",
+    "manufacturerCountry": "United States",
+    "family": "L-1011",
+    "model": "L-1011-1",
+    "icao": "L101",
+    "iata": "L10",
+    "role": "Passenger",
+    "status": "Retired",
+    "bodyType": "Wide-body",
+    "accentColor": "#00529B",
+    "history": {
+      "firstFlight": "1970-11-16",
+      "introductionDate": "1972-04-26",
+      "endOfProduction": "1984-01-01",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 250,
+      "originCountry": "United States"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 47.34,
+        "lengthMeters": 54.17,
+        "heightMeters": 16.87,
+        "fuselageWidth": 6.02,
+        "wingAreaSquareMeters": 321.1
+      },
+      "performance": {
+        "maxRangeNm": 4250,
+        "maxRangeKm": 7870,
+        "cruisingSpeedMach": 0.85,
+        "serviceCeilingFt": 42000,
+        "takeoffDistanceM": 2410,
+        "landingDistanceM": 1730,
+        "maxOperatingSpeedKt": 520
+      },
+      "weights": {
+        "operatingEmptyWeight": 110000,
+        "maxTakeoffWeightKg": 195000,
+        "maxLandingWeightKg": 158760,
+        "maxPayloadKg": 40000,
+        "fuelCapacityKg": 91000
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["RB211-22B", "RB211-524B"],
+        "engineManufacturer": "Rolls-Royce",
+        "engineCount": 3,
+        "enginePlacement": "Mixed",
+        "thrustKN": 187
+      },
+      "capacity": {
+        "minSeating": 256,
+        "typicalSeating": 280,
+        "maxSeating": 400,
+        "flightCrew": 3,
+        "cabinCrew": 10,
+        "cargoVolumeCubicMeters": 90.5
+      }
+    },
+    "short_description": "A technologically advanced tri-jet wide-body airliner featuring an early automated landing system.",
+    "description": "The Lockheed L-1011 TriStar was a medium-to-long-range, wide-body tri-jet airliner. It was one of the most technologically advanced commercial aircraft of its era, pioneering autoland systems and direct lift control, though intense competition ultimately curtailed commercial production.",
+    "keyFeatures": [
+      "S-duct center engine integration",
+      "CAT IIIb automatic landing system",
+      "Direct Lift Control (DLC) system",
+      "Full-width lower deck galley with elevator"
+    ],
+    "notableOperators": [
+      "Eastern Air Lines",
+      "Delta Air Lines",
+      "Trans World Airlines (TWA)",
+      "British Airways",
+      "Royal Air Force"
+    ],
+    "variants": [
+      "L-1011-1",
+      "L-1011-50",
+      "L-1011-100",
+      "L-1011-200",
+      "L-1011-500"
+    ]
+  },
+  {
+    "id": "concorde",
+    "name": "Concorde",
+    "manufacturer": "Aérospatiale / British Aircraft Corporation",
+    "manufacturerCountry": ["France", "United Kingdom"],
+    "family": "Concorde",
+    "model": "Concorde Series 100",
+    "icao": "CONC",
+    "iata": "CC",
+    "role": "Passenger",
+    "status": "Retired",
+    "bodyType": "Supersonic",
+    "accentColor": "#C00000",
+    "history": {
+      "firstFlight": "1969-03-02",
+      "introductionDate": "1976-01-21",
+      "endOfProduction": "1979-01-01",
+      "productionStatus": "Out of Production",
+      "numberBuilt": 20,
+      "originCountry": ["France", "United Kingdom"]
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 25.6,
+        "lengthMeters": 61.66,
+        "heightMeters": 12.2,
+        "fuselageWidth": 2.88,
+        "wingAreaSquareMeters": 358.25
+      },
+      "performance": {
+        "maxRangeNm": 3900,
+        "maxRangeKm": 7220,
+        "cruisingSpeedMach": 2.02,
+        "serviceCeilingFt": 60000,
+        "takeoffDistanceM": 3410,
+        "landingDistanceM": 2220,
+        "maxOperatingSpeedKt": 1134
+      },
+      "weights": {
+        "operatingEmptyWeight": 78700,
+        "maxTakeoffWeightKg": 185070,
+        "maxLandingWeightKg": 111130,
+        "maxPayloadKg": 13380,
+        "fuelCapacityKg": 95680
+      },
+      "engines": {
+        "engineType": "Turbojet with Afterburner",
+        "engineOptions": ["Rolls-Royce/Snecma Olympus 593 Mk 610"],
+        "engineManufacturer": "Rolls-Royce / Snecma",
+        "engineCount": 4,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 169.2
+      },
+      "capacity": {
+        "minSeating": 92,
+        "typicalSeating": 100,
+        "maxSeating": 128,
+        "flightCrew": 3,
+        "cabinCrew": 6,
+        "cargoVolumeCubicMeters": 22.7
+      }
+    },
+    "short_description": "The world's most successful supersonic commercial airliner, cruising at Mach 2.02.",
+    "description": "Concorde was an Anglo-French turbojet-powered supersonic passenger airliner. Operated exclusively by British Airways and Air France, it flew transatlantic routes in under half the time of conventional subsonic jets until its retirement in 2003.",
+    "keyFeatures": [
+      "Ogival delta wing design",
+      "Droop-nose visor system for runway visibility",
+      "Supercruise capability (Mach 2 without continuous afterburners)",
+      "Thermal expansion airframe engineering"
+    ],
+    "notableOperators": [
+      "British Airways",
+      "Air France",
+      "Singapore Airlines (joint service)",
+      "Braniff International Airways (interchange)"
+    ],
+    "variants": [
+      "Concorde Prototype",
+      "Concorde Pre-production",
+      "Concorde Series 100"
+    ]
+  },
+  {
+    "id": "comac-c909",
+    "name": "C909",
+    "manufacturer": "COMAC",
+    "manufacturerCountry": "China",
+    "family": "ARJ21 / C909",
+    "model": "C909-700",
+    "icao": "AJ27",
+    "iata": "ARJ",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Regional",
+    "accentColor": "#DC2626",
+    "history": {
+      "firstFlight": "2008-11-28",
+      "introductionDate": "2016-06-28",
+      "productionStatus": "In Production",
+      "numberBuilt": 160,
+      "originCountry": "China"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 27.29,
+        "lengthMeters": 33.46,
+        "heightMeters": 8.44,
+        "fuselageWidth": 3.14,
+        "wingAreaSquareMeters": 79.86
+      },
+      "performance": {
+        "maxRangeNm": 2000,
+        "maxRangeKm": 3700,
+        "cruisingSpeedMach": 0.78,
+        "serviceCeilingFt": 39000,
+        "takeoffDistanceM": 1900,
+        "landingDistanceM": 1650,
+        "maxOperatingSpeedKt": 470
+      },
+      "weights": {
+        "operatingEmptyWeight": 24955,
+        "maxTakeoffWeightKg": 43500,
+        "maxLandingWeightKg": 40455,
+        "maxPayloadKg": 10150,
+        "fuelCapacityKg": 10386
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["General Electric CF34-10A"],
+        "engineManufacturer": "General Electric",
+        "engineCount": 2,
+        "enginePlacement": "Rear-mounted",
+        "thrustKN": 75.8
+      },
+      "capacity": {
+        "minSeating": 78,
+        "typicalSeating": 90,
+        "maxSeating": 95,
+        "flightCrew": 2,
+        "cabinCrew": 3,
+        "cargoVolumeCubicMeters": 20.14
+      }
+    },
+    "short_description": "China's twin-engine regional jet airliner, originally developed as the ARJ21 and rebranded as the C909.",
+    "description": "The COMAC C909 (originally launched as the ARJ21 Xiangfeng) is China's first domestically developed regional jet. Designed for short-to-medium routes and high-temperature/high-altitude operations in Western China, it was officially rebranded under COMAC's unified 'C' naming convention in 2024.",
+    "keyFeatures": [
+      "Supercritical wing design with winglets",
+      "High-temperature and high-altitude (plateau) operational capability",
+      "Rear-mounted engine configuration",
+      "Advanced glass cockpit avionics"
+    ],
+    "notableOperators": [
+      "Chengdu Airlines",
+      "Air China",
+      "China Eastern Airlines",
+      "China Southern Airlines",
+      "TransNusa"
+    ],
+    "variants": [
+      "C909-700 (ARJ21-700)",
+      "C909F (Freighter)",
+      "C909CB (Business)"
+    ]
+  },
+  {
+    "id": "comac-c919",
+    "name": "C919",
+    "manufacturer": "COMAC",
+    "manufacturerCountry": "China",
+    "family": "C919",
+    "model": "C919-100",
+    "icao": "C919",
+    "role": "Passenger",
+    "status": "In Service",
+    "bodyType": "Narrow-body",
+    "accentColor": "#166534",
+    "history": {
+      "firstFlight": "2017-05-05",
+      "introductionDate": "2023-05-28",
+      "productionStatus": "In Production",
+      "numberBuilt": 30,
+      "originCountry": "China"
+    },
+    "specs": {
+      "dimensions": {
+        "wingspanMeters": 35.8,
+        "lengthMeters": 38.9,
+        "heightMeters": 11.95,
+        "fuselageWidth": 3.96,
+        "wingAreaSquareMeters": 129.15
+      },
+      "performance": {
+        "maxRangeNm": 3000,
+        "maxRangeKm": 5555,
+        "cruisingSpeedMach": 0.785,
+        "serviceCeilingFt": 39800,
+        "takeoffDistanceM": 2125,
+        "landingDistanceM": 2133,
+        "maxOperatingSpeedKt": 480
+      },
+      "weights": {
+        "operatingEmptyWeight": 45700,
+        "maxTakeoffWeightKg": 78900,
+        "maxLandingWeightKg": 67800,
+        "maxPayloadKg": 18900,
+        "fuelCapacityKg": 19500
+      },
+      "engines": {
+        "engineType": "Turbofan",
+        "engineOptions": ["CFM International LEAP-1C", "AECC CJ-1000A"],
+        "engineManufacturer": "CFM International",
+        "engineCount": 2,
+        "enginePlacement": "Wing-mounted",
+        "thrustKN": 130
+      },
+      "capacity": {
+        "minSeating": 158,
+        "typicalSeating": 168,
+        "maxSeating": 192,
+        "flightCrew": 2,
+        "cabinCrew": 5,
+        "cargoVolumeCubicMeters": 45.2
+      }
+    },
+    "short_description": "China's premier narrow-body twinjet designed to compete with the A320neo and 737 MAX.",
+    "description": "The COMAC C919 is a mainline commercial narrow-body airliner developed by China. Designed to challenge the Airbus A320 family and Boeing 737 family, it features modern aerodynamic design, widespread use of composite materials, and advanced LEAP-1C engines.",
+    "keyFeatures": [
+      "Third-generation aluminum-lithium alloy construction",
+      "Side-stick fly-by-wire flight control system",
+      "Advanced CFM LEAP-1C high-bypass turbofans",
+      "Large 15.4-inch glass cockpit multifunction displays"
+    ],
+    "notableOperators": [
+      "China Eastern Airlines",
+      "Air China",
+      "China Southern Airlines",
+      "Hainan Airlines"
+    ],
+    "variants": ["C919 STD (Standard Range)", "C919 ER (Extended Range)"]
   }
 ]
