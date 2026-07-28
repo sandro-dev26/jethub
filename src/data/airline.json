@@ -1,17 +1,1759 @@
 [
   {
+    "id": "lufthansa",
+    "name": "Lufthansa",
+    "country": "Germany",
+    "iata": "LH",
+    "icao": "DLH",
+    "callsign": "LUFTHANSA",
+    "accentColor": "#05164D",
+    "website": "https://www.lufthansa.com",
+    "headquaters": "Frankfurt, Germany",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1953",
+      "commencedOperations": "1955",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Frankfurt Airport (FRA)", "Munich Airport (MUC)"],
+      "fleetCount": 275,
+      "destinationsServed": 220,
+      "activeFleet": [
+        "Airbus A319-100",
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A340-300",
+        "Airbus A340-600",
+        "Airbus A350-900",
+        "Airbus A380-800",
+        "Boeing 747-400",
+        "Boeing 747-8I",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "Germany's flag carrier and one of Europe's largest full-service airline groups.",
+    "description": "Deutsche Lufthansa AG is Germany's flag carrier and a founding member of the Star Alliance. Operating out of primary hubs in Frankfurt and Munich, Lufthansa maintains an extensive global network connecting Europe with North America, Asia, South America, and Africa.",
+    "keyFeatures": [
+      "Founding member of Star Alliance",
+      "Operates the world's largest passenger fleet of Boeing 747-8 Intercontinentals",
+      "Flagship Allegris premium cabin concept",
+      "Extensive global hub network via Frankfurt and Munich"
+    ]
+  },
+  {
+    "id": "british-airways",
+    "name": "British Airways",
+    "country": "United Kingdom",
+    "iata": "BA",
+    "icao": "BAW",
+    "callsign": "SPEEDBIRD",
+    "accentColor": "#00205B",
+    "website": "https://www.britishairways.com",
+    "headquaters": "London, United Kingdom",
+    "airlineType": "Full-service",
+    "alliance": "Oneworld",
+    "history": {
+      "foundedYear": "1974",
+      "commencedOperations": "1974",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "London Heathrow Airport (LHR)",
+        "London Gatwick Airport (LGW)"
+      ],
+      "fleetCount": 254,
+      "destinationsServed": 215,
+      "activeFleet": [
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A350-1000",
+        "Airbus A380-800",
+        "Boeing 777-200ER",
+        "Boeing 777-300ER",
+        "Boeing 787-8",
+        "Boeing 787-9",
+        "Boeing 787-10"
+      ]
+    },
+    "short_description": "The national flag carrier of the United Kingdom and a founding member of Oneworld.",
+    "description": "British Airways is the flag carrier of the United Kingdom, headquartered near London Heathrow Airport. Formed in 1974 following the merger of BOAC and BEA, BA is a major transcontinental carrier and a leading force within the International Airlines Group (IAG).",
+    "keyFeatures": [
+      "Founding member of the Oneworld alliance",
+      "Dominant carrier at London Heathrow Airport",
+      "Club Suite business class with closing privacy doors",
+      "Pioneer of commercial supersonic transatlantic travel with Concorde"
+    ]
+  },
+  {
+    "id": "air-france",
+    "name": "Air France",
+    "country": "France",
+    "iata": "AF",
+    "icao": "AFR",
+    "callsign": "AIRFRANS",
+    "accentColor": "#002157",
+    "website": "https://www.airfrance.com",
+    "headquaters": "Tremblay-en-France, France",
+    "airlineType": "Full-service",
+    "alliance": "SkyTeam",
+    "history": {
+      "foundedYear": "1933",
+      "commencedOperations": "1933",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Paris Charles de Gaulle Airport (CDG)",
+        "Paris Orly Airport (ORY)"
+      ],
+      "fleetCount": 232,
+      "destinationsServed": 184,
+      "activeFleet": [
+        "Airbus A220-300",
+        "Airbus A320-200",
+        "Airbus A321-200",
+        "Airbus A330-200",
+        "Airbus A350-900",
+        "Boeing 777-200ER",
+        "Boeing 777-300ER",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "France's national carrier, known for its global reach and French culinary heritage.",
+    "description": "Air France was founded in 1933 through the merger of five pioneer aviators. Operating from its principal hub at Paris Charles de Gaulle, Air France serves destinations worldwide as part of the Air France–KLM Group and a leading member of SkyTeam.",
+    "keyFeatures": [
+      "Founding member of SkyTeam alliance",
+      "Ultra-exclusive La Première first-class suites",
+      "Major long-haul operator utilizing Airbus A350 and Boeing 777 fleets",
+      "Primary global hub at Paris Charles de Gaulle Airport"
+    ]
+  },
+  {
+    "id": "klm",
+    "name": "KLM Royal Dutch Airlines",
+    "country": "Netherlands",
+    "iata": "KL",
+    "icao": "KLM",
+    "callsign": "KLM",
+    "accentColor": "#00A1E4",
+    "website": "https://www.klm.com",
+    "headquaters": "Amstelveen, Netherlands",
+    "airlineType": "Full-service",
+    "alliance": "SkyTeam",
+    "history": {
+      "foundedYear": "1919",
+      "commencedOperations": "1920",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Amsterdam Airport Schiphol (AMS)"],
+      "fleetCount": 110,
+      "destinationsServed": 145,
+      "activeFleet": [
+        "Airbus A321neo",
+        "Boeing 737-800",
+        "Boeing 737-900",
+        "Boeing 777-200ER",
+        "Boeing 777-300ER",
+        "Boeing 787-9",
+        "Boeing 787-10"
+      ]
+    },
+    "short_description": "The world's oldest airline still operating under its original name.",
+    "description": "KLM Royal Dutch Airlines is the flag carrier of the Netherlands. Founded in October 1919, KLM operates out of its single mega-hub at Amsterdam Airport Schiphol, serving an extensive intercontinental network under the Air France–KLM Group umbrella.",
+    "keyFeatures": [
+      "Oldest airline in the world operating under its original name",
+      "Single-hub efficiency at Amsterdam Airport Schiphol",
+      "Iconic Delft Blue miniature houses given to World Business Class passengers",
+      "Member of SkyTeam alliance"
+    ]
+  },
+  {
+    "id": "swiss",
+    "name": "Swiss International Air Lines",
+    "country": "Switzerland",
+    "iata": "LX",
+    "icao": "SWR",
+    "callsign": "SWISS",
+    "accentColor": "#E30613",
+    "website": "https://www.swiss.com",
+    "headquaters": "Kloten, Switzerland",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "2002",
+      "commencedOperations": "2002",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Zurich Airport (ZRH)", "Geneva Airport (GVA)"],
+      "fleetCount": 94,
+      "destinationsServed": 120,
+      "activeFleet": [
+        "Airbus A220-100",
+        "Airbus A220-300",
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A330-300",
+        "Airbus A340-300",
+        "Airbus A350-900",
+        "Boeing 777-300ER"
+      ]
+    },
+    "short_description": "Switzerland's flag carrier, delivering high-end service and connectivity via Zurich.",
+    "description": "Swiss International Air Lines (SWISS) was formed in 2002 following the restructuring of Swissair, building upon regional carrier Crossair. Now a core subsidiary of the Lufthansa Group, SWISS offers boutique premium service connecting Zurich and Geneva to key international destinations.",
+    "keyFeatures": [
+      "Member of Star Alliance",
+      "Launch customer and major operator of the Airbus A220 family",
+      "Boutique high-yield product with SWISS First Class on widebody fleet",
+      "Primary hub at Zurich Airport"
+    ]
+  },
+  {
+    "id": "ryanair",
+    "name": "Ryanair",
+    "country": "Ireland",
+    "iata": "FR",
+    "icao": "RYR",
+    "callsign": "RYANAIR",
+    "accentColor": "#073590",
+    "website": "https://www.ryanair.com",
+    "headquaters": "Swords, Dublin, Ireland",
+    "airlineType": "Low-cost",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "1984",
+      "commencedOperations": "1985",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Dublin Airport (DUB)",
+        "London Stansted Airport (STN)",
+        "Milan Bergamo Airport (BGY)"
+      ],
+      "fleetCount": 651,
+      "destinationsServed": 230,
+      "activeFleet": ["Boeing 737-800", "Boeing 737 MAX 200", "Airbus A320-200"]
+    },
+    "short_description": "Europe's largest ultra-low-cost carrier operating point-to-point short-haul routes.",
+    "description": "Ryanair Holdings plc is an Irish ultra-low-cost airline group headquartered in Dublin. Pioneering the point-to-point, ultra-low-fare business model in Europe, Ryanair operates thousands of daily flights across over 90 operational bases in Europe and North Africa.",
+    "keyFeatures": [
+      "Largest airline group in Europe by passenger volume",
+      "High-density point-to-point network using secondary and regional airports",
+      "Fleet standardization based primarily on Boeing 737-800 and 737 MAX 200 Gamechangers",
+      "Industry-leading aircraft turnaround times"
+    ]
+  },
+  {
+    "id": "easyjet",
+    "name": "easyJet",
+    "country": "United Kingdom",
+    "iata": "U2",
+    "icao": "EZY",
+    "callsign": "EASY",
+    "accentColor": "#FF6600",
+    "website": "https://www.easyjet.com",
+    "headquaters": "Luton, United Kingdom",
+    "airlineType": "Low-cost",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "1995",
+      "commencedOperations": "1995",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "London Gatwick Airport (LGW)",
+        "London Luton Airport (LTN)",
+        "Milan Malpensa Airport (MXP)"
+      ],
+      "fleetCount": 347,
+      "destinationsServed": 157,
+      "activeFleet": [
+        "Airbus A319-100",
+        "Airbus A320-200",
+        "Airbus A320neo",
+        "Airbus A321neo"
+      ]
+    },
+    "short_description": "Major European low-cost airline focusing on primary airports and business corridors.",
+    "description": "easyJet plc is a British low-cost airline group headquartered at London Luton Airport. Founded by Stelios Haji-Ioannou in 1995, easyJet operates domestic and international scheduled services on over 1,000 routes across more than 30 countries.",
+    "keyFeatures": [
+      "All-Airbus single-aisle fleet",
+      "Focus on primary, high-demand European airports rather than secondary airfields",
+      "Major presence at London Gatwick, Milan Malpensa, and Geneva",
+      "EasyJet Holidays integrated travel ecosystem"
+    ]
+  },
+  {
+    "id": "turkish-airlines",
+    "name": "Turkish Airlines",
+    "country": "Turkey",
+    "iata": "TK",
+    "icao": "THY",
+    "callsign": "TURKISH",
+    "accentColor": "#C8102E",
+    "website": "https://www.turkishairlines.com",
+    "headquaters": "Istanbul, Turkey",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1933",
+      "commencedOperations": "1933",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Istanbul Airport (IST)"],
+      "fleetCount": 450,
+      "destinationsServed": 340,
+      "activeFleet": [
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A330-200",
+        "Airbus A330-300",
+        "Airbus A350-900",
+        "Boeing 737-800",
+        "Boeing 737 MAX 8",
+        "Boeing 777-300ER",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "The national carrier of Turkey, flying to more countries than any other airline.",
+    "description": "Turkish Airlines is the national flag carrier of Turkey. Operating out of its mega-hub at Istanbul Airport, the airline flies non-stop passenger and cargo services to more countries and international destinations than any other airline in the world.",
+    "keyFeatures": [
+      "Flies to more countries than any other airline in the world",
+      "Central geographic hub advantage at Istanbul Airport connecting West and East",
+      "Member of Star Alliance",
+      "Award-winning onboard catering by Turkish Do & Co"
+    ]
+  },
+  {
+    "id": "ita-airways",
+    "name": "ITA Airways",
+    "country": "Italy",
+    "iata": "AZ",
+    "icao": "ITY",
+    "callsign": "ITARROW",
+    "accentColor": "#003399",
+    "website": "https://www.ita-airways.com",
+    "headquaters": "Rome, Italy",
+    "airlineType": "Full-service",
+    "alliance": "SkyTeam",
+    "history": {
+      "foundedYear": "2020",
+      "commencedOperations": "2021",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Rome Fiumicino Airport (FCO)",
+        "Milan Linate Airport (LIN)"
+      ],
+      "fleetCount": 98,
+      "destinationsServed": 70,
+      "activeFleet": [
+        "Airbus A220-100",
+        "Airbus A220-300",
+        "Airbus A320-200",
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A330-900",
+        "Airbus A350-900"
+      ]
+    },
+    "short_description": "Italy's state-owned flag carrier, replacing former operator Alitalia.",
+    "description": "Italia Trasporto Aereo S.p.A. (ITA Airways) is the state-owned flag carrier of Italy. Commencing operations in October 2021 as the successor to Alitalia, ITA operates a modern all-Airbus fleet connecting Rome Fiumicino and Milan Linate to Europe and the Americas.",
+    "keyFeatures": [
+      "Modern all-Airbus blue-liveried fleet (A220, A320neo, A321neo, A330neo, A350)",
+      "SkyTeam alliance member",
+      "Primary hub operations out of Rome Fiumicino (FCO)",
+      "Volare frequent flyer loyalty program"
+    ]
+  },
+  {
+    "id": "delta-air-lines",
+    "name": "Delta Air Lines",
+    "country": "United States",
+    "iata": "DL",
+    "icao": "DAL",
+    "callsign": "DELTA",
+    "accentColor": "#E01933",
+    "website": "https://www.delta.com",
+    "headquaters": "Atlanta, Georgia, United States",
+    "airlineType": "Full-service",
+    "alliance": "SkyTeam",
+    "history": {
+      "foundedYear": "1924",
+      "commencedOperations": "1929",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Hartsfield-Jackson Atlanta International Airport (ATL)",
+        "Detroit Metropolitan Airport (DTW)",
+        "Minneapolis-Saint Paul International Airport (MSP)",
+        "Salt Lake City International Airport (SLC)",
+        "John F. Kennedy International Airport (JFK)",
+        "LaGuardia Airport (LGA)",
+        "Los Angeles International Airport (LAX)",
+        "Boston Logan International Airport (BOS)",
+        "Seattle-Tacoma International Airport (SEA)"
+      ],
+      "fleetCount": 980,
+      "destinationsServed": 325,
+      "activeFleet": [
+        "Airbus A220-100",
+        "Airbus A220-300",
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A330-900neo",
+        "Airbus A350-900",
+        "Boeing 737-800",
+        "Boeing 737-900ER",
+        "Boeing 757-200",
+        "Boeing 767-300ER",
+        "Boeing 767-400ER"
+      ]
+    },
+    "short_description": "Major American legacy carrier headquartered in Atlanta and a founding member of SkyTeam.",
+    "description": "Delta Air Lines is one of the world's oldest operating commercial airlines. Headquartered in Atlanta, Georgia, Delta operates a vast domestic and international route network spanning six continents from nine primary hubs across the United States.",
+    "keyFeatures": [
+      "Founding member of the SkyTeam alliance",
+      "World's busiest hub at Hartsfield-Jackson Atlanta International Airport",
+      "Premium Delta One suit cabin and Delta Sky Club lounge network",
+      "Major operator of Airbus A350 and A330neo long-haul aircraft"
+    ]
+  },
+  {
+    "id": "american-airlines",
+    "name": "American Airlines",
+    "country": "United States",
+    "iata": "AA",
+    "icao": "AAL",
+    "callsign": "AMERICAN",
+    "accentColor": "#0078D2",
+    "website": "https://www.aa.com",
+    "headquaters": "Fort Worth, Texas, United States",
+    "airlineType": "Full-service",
+    "alliance": "Oneworld",
+    "history": {
+      "foundedYear": "1926",
+      "commencedOperations": "1936",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Dallas/Fort Worth International Airport (DFW)",
+        "Charlotte Douglas International Airport (CLT)",
+        "Chicago O'Hare International Airport (ORD)",
+        "Miami International Airport (MIA)",
+        "Phoenix Sky Harbor International Airport (PHX)",
+        "Philadelphia International Airport (PHL)",
+        "Los Angeles International Airport (LAX)",
+        "John F. Kennedy International Airport (JFK)",
+        "LaGuardia Airport (LGA)",
+        "Ronald Reagan Washington National Airport (DCA)"
+      ],
+      "fleetCount": 960,
+      "destinationsServed": 350,
+      "activeFleet": [
+        "Airbus A319-100",
+        "Airbus A320-200",
+        "Airbus A321-200",
+        "Airbus A321neo",
+        "Boeing 737-800",
+        "Boeing 737 MAX 8",
+        "Boeing 777-200ER",
+        "Boeing 777-300ER",
+        "Boeing 787-8",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "The world's largest airline by fleet size and passenger volume, headquartered in Fort Worth, Texas.",
+    "description": "American Airlines is a major U.S. carrier and a founding member of the Oneworld alliance. Formed initially in 1930 through the union of over 80 small aviation firms, American operates thousands of daily flights from its primary hub at Dallas/Fort Worth across North America, Latin America, Europe, and Asia.",
+    "keyFeatures": [
+      "Founding member of the Oneworld alliance",
+      "Largest passenger fleet and seat capacity of any global carrier",
+      "Primary gateway to Latin America and the Caribbean via Miami",
+      "Pioneered the modern AAdvantage frequent flyer loyalty program"
+    ]
+  },
+  {
+    "id": "united-airlines",
+    "name": "United Airlines",
+    "country": "United States",
+    "iata": "UA",
+    "icao": "UAL",
+    "callsign": "UNITED",
+    "accentColor": "#005DAA",
+    "website": "https://www.united.com",
+    "headquaters": "Chicago, Illinois, United States",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1926",
+      "commencedOperations": "1931",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Chicago O'Hare International Airport (ORD)",
+        "Denver International Airport (DEN)",
+        "George Bush Intercontinental Airport (IAH)",
+        "Newark Liberty International Airport (EWR)",
+        "San Francisco International Airport (SFO)",
+        "Washington Dulles International Airport (IAD)",
+        "Los Angeles International Airport (LAX)",
+        "Antonio B. Won Pat International Airport (GUM)"
+      ],
+      "fleetCount": 950,
+      "destinationsServed": 340,
+      "activeFleet": [
+        "Airbus A319-100",
+        "Airbus A320-200",
+        "Airbus A321neo",
+        "Boeing 737-800",
+        "Boeing 737 MAX 8",
+        "Boeing 737 MAX 9",
+        "Boeing 757-200",
+        "Boeing 767-300ER",
+        "Boeing 777-200ER",
+        "Boeing 777-300ER",
+        "Boeing 787-8",
+        "Boeing 787-9",
+        "Boeing 787-10"
+      ]
+    },
+    "short_description": "A founding member of Star Alliance featuring extensive transpacific and transatlantic route networks.",
+    "description": "United Airlines is a major American airline headquartered at Willis Tower in Chicago, Illinois. Operating a global network spanning six continents, United connects key US financial centers and regional markets through hubs in Chicago, Denver, Houston, Newark, and San Francisco.",
+    "keyFeatures": [
+      "Founding member of Star Alliance",
+      "Leading transpacific gateway out of San Francisco International Airport",
+      "United Polaris premium suite cabin and dedicated Polaris Lounges",
+      "Largest operator of Boeing 787 Dreamliners in North America"
+    ]
+  },
+  {
+    "id": "southwest-airlines",
+    "name": "Southwest Airlines",
+    "country": "United States",
+    "iata": "WN",
+    "icao": "SWA",
+    "callsign": "SOUTHWEST",
+    "accentColor": "#FFBF27",
+    "website": "https://www.southwest.com",
+    "headquaters": "Dallas, Texas, United States",
+    "airlineType": "Low-cost",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "1967",
+      "commencedOperations": "1971",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Dallas Love Field (DAL)",
+        "Denver International Airport (DEN)",
+        "Chicago Midway International Airport (MDW)",
+        "Baltimore/Washington International Airport (BWI)",
+        "Harry Reid International Airport (LAS)",
+        "Phoenix Sky Harbor International Airport (PHX)",
+        "William P. Hobby Airport (HOU)",
+        "Orlando International Airport (MCO)"
+      ],
+      "fleetCount": 820,
+      "destinationsServed": 121,
+      "activeFleet": ["Boeing 737-700", "Boeing 737-800", "Boeing 737 MAX 8"]
+    },
+    "short_description": "The pioneer of the modern low-cost carrier model, operating an all-Boeing 737 fleet.",
+    "description": "Southwest Airlines is a major American low-cost carrier based in Dallas, Texas. Southwest revolutionized commercial aviation by implementing rapid turnaround times, point-to-point flight routing, single-aircraft-family fleet standardization, and customer-friendly bag policies.",
+    "keyFeatures": [
+      "World's largest operator of the Boeing 737 aircraft family",
+      "Pioneered low-cost carrier (LCC) operational economics worldwide",
+      "Point-to-point domestic route model prioritizing high flight frequencies",
+      "Signature Bags Fly Free policy with no ticket change fees"
+    ]
+  },
+  {
+    "id": "jetblue",
+    "name": "JetBlue Airways",
+    "country": "United States",
+    "iata": "B6",
+    "icao": "JBU",
+    "callsign": "JETBLUE",
+    "accentColor": "#003366",
+    "website": "https://www.jetblue.com",
+    "headquaters": "Long Island City, New York, United States",
+    "airlineType": "Low-cost",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "1998",
+      "commencedOperations": "2000",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "John F. Kennedy International Airport (JFK)",
+        "Boston Logan International Airport (BOS)",
+        "Fort Lauderdale-Hollywood International Airport (FLL)",
+        "Orlando International Airport (MCO)",
+        "Luis Muñoz Marín International Airport (SJU)"
+      ],
+      "fleetCount": 290,
+      "destinationsServed": 100,
+      "activeFleet": [
+        "Airbus A220-300",
+        "Airbus A320-200",
+        "Airbus A321-200",
+        "Airbus A321neo",
+        "Airbus A321LR"
+      ]
+    },
+    "short_description": "American carrier known for its high-value customer experience and JetBlue Mint business class.",
+    "description": "JetBlue Airways is a major American airline headquartered in Long Island City, New York. Based primarily out of JFK and Boston Logan, JetBlue emphasizes passenger comfort by offering free high-speed Wi-Fi, live seatback TV, and its premium JetBlue Mint suites on select routes.",
+    "keyFeatures": [
+      "JetBlue Mint business class featuring lie-flat seats and sliding privacy doors",
+      "Complimentary high-speed Fly-Fi Wi-Fi across all flights",
+      "All-Airbus single-aisle fleet including modern A220 and A321LR aircraft",
+      "Generous standard seat pitch in coach among US airlines"
+    ]
+  },
+  {
+    "id": "air-canada",
+    "name": "Air Canada",
+    "country": "Canada",
+    "iata": "AC",
+    "icao": "ACA",
+    "callsign": "AIR CANADA",
+    "accentColor": "#D82A27",
+    "website": "https://www.aircanada.com",
+    "headquaters": "Montreal, Quebec, Canada",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1937",
+      "commencedOperations": "1937",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Toronto Pearson International Airport (YYZ)",
+        "Vancouver International Airport (YVR)",
+        "Montréal-Trudeau International Airport (YUL)",
+        "Calgary International Airport (YYC)"
+      ],
+      "fleetCount": 250,
+      "destinationsServed": 220,
+      "activeFleet": [
+        "Airbus A220-300",
+        "Airbus A320-200",
+        "Airbus A321-200",
+        "Airbus A330-300",
+        "Boeing 737 MAX 8",
+        "Boeing 777-200LR",
+        "Boeing 777-300ER",
+        "Boeing 787-8",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "Canada's flag carrier and largest airline, operating an extensive international network.",
+    "description": "Air Canada is the flag carrier and largest airline of Canada. Originally founded in 1937 as Trans-Canada Air Lines, Air Canada provides scheduled passenger and cargo services across six continents from its central Canadian hubs in Toronto, Vancouver, and Montreal.",
+    "keyFeatures": [
+      "Founding member of Star Alliance",
+      "Air Canada Signature Class lie-flat suites on widebody routes",
+      "Dense transborder network seamlessly connecting Canadian and US destinations",
+      "Revamped Aeroplan loyalty program with global partner redemption options"
+    ]
+  },
+  {
+    "id": "alaska-airlines",
+    "name": "Alaska Airlines",
+    "country": "United States",
+    "iata": "AS",
+    "icao": "ASA",
+    "callsign": "ALASKA",
+    "accentColor": "#00426A",
+    "website": "https://www.alaskaair.com",
+    "headquaters": "SeaTac, Washington, United States",
+    "airlineType": "Full-service",
+    "alliance": "Oneworld",
+    "history": {
+      "foundedYear": "1932",
+      "commencedOperations": "1932",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Seattle-Tacoma International Airport (SEA)",
+        "Portland International Airport (PDX)",
+        "Ted Stevens Anchorage International Airport (ANC)",
+        "San Francisco International Airport (SFO)",
+        "Los Angeles International Airport (LAX)"
+      ],
+      "fleetCount": 310,
+      "destinationsServed": 120,
+      "activeFleet": [
+        "Boeing 737-700",
+        "Boeing 737-800",
+        "Boeing 737-900ER",
+        "Boeing 737 MAX 8",
+        "Boeing 737 MAX 9",
+        "Embraer E175"
+      ]
+    },
+    "short_description": "Major West Coast airline headquartered near Seattle and a member of the Oneworld alliance.",
+    "description": "Alaska Airlines is a major American airline based in SeaTac, Washington. Dominating Pacific Northwest aviation, Alaska connects West Coast hubs with destinations across North America, Hawaii, Mexico, and Central America.",
+    "keyFeatures": [
+      "Member of the Oneworld global airline alliance",
+      "Dominant market position across the Pacific Northwest and the State of Alaska",
+      "Highly rated Mileage Plan loyalty program with distance-based earning options",
+      "Streamlined Boeing 737 mainline narrowbody fleet"
+    ]
+  },
+  {
     "id": "emirates",
     "name": "Emirates",
     "country": "United Arab Emirates",
     "iata": "EK",
     "icao": "UAE",
     "callsign": "EMIRATES",
-    "accentColor": "#d71921",
-    "hubAirport": "Dubai International Airport (DXB)",
-    "fleetCount": 260,
-    "foundedYear": 1985,
-    "activeFleet": ["airbus-a380-800", "boeing-777-300er"],
-    "short_description": "The flag carrier of the UAE, known for operating the world's largest A380 fleet.",
-    "description": "Emirates is one of the world's largest international airlines, operating out of its primary hub at Dubai International Airport. It operates an all-wide-body fleet consisting primarily of Airbus A380 and Boeing 777 aircraft."
+    "accentColor": "#D71921",
+    "website": "https://www.emirates.com",
+    "headquaters": "Dubai, United Arab Emirates",
+    "airlineType": "Full-service",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "1985",
+      "commencedOperations": "1985",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Dubai International Airport (DXB)"],
+      "fleetCount": 260,
+      "destinationsServed": 140,
+      "activeFleet": [
+        "Airbus A350-900",
+        "Airbus A380-800",
+        "Boeing 777-200LR",
+        "Boeing 777-300ER"
+      ]
+    },
+    "short_description": "The largest airline in the Middle East, operating an iconic all-widebody passenger fleet.",
+    "description": "Emirates is the state-owned flag carrier of the Emirate of Dubai. Operating exclusively widebody passenger aircraft out of its mega-hub at Dubai International Airport, Emirates connects travelers across six continents with industry-defining premium cabins and onboard amenities.",
+    "keyFeatures": [
+      "World's largest operator of Airbus A380 and Boeing 777 aircraft",
+      "Iconic Onboard Lounge and First Class Shower Spas on Airbus A380s",
+      "Award-winning ice in-flight entertainment system across all cabins",
+      "Primary hub at Dubai International Airport Terminal 3"
+    ]
+  },
+  {
+    "id": "qatar-airways",
+    "name": "Qatar Airways",
+    "country": "Qatar",
+    "iata": "QR",
+    "icao": "QTR",
+    "callsign": "QATARI",
+    "accentColor": "#5C0632",
+    "website": "https://www.qatarairways.com",
+    "headquaters": "Doha, Qatar",
+    "airlineType": "Full-service",
+    "alliance": "Oneworld",
+    "history": {
+      "foundedYear": "1993",
+      "commencedOperations": "1994",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Hamad International Airport (DOH)"],
+      "fleetCount": 250,
+      "destinationsServed": 170,
+      "activeFleet": [
+        "Airbus A320-200",
+        "Airbus A330-200",
+        "Airbus A330-300",
+        "Airbus A350-900",
+        "Airbus A350-1000",
+        "Airbus A380-800",
+        "Boeing 777-200LR",
+        "Boeing 777-300ER",
+        "Boeing 787-8",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "Qatar's state-owned flag carrier, renowned for its revolutionary Qsuite business class.",
+    "description": "Qatar Airways is the national airline of Qatar, headquartered in Doha. Flying to over 170 global destinations via Hamad International Airport, Qatar Airways is a leading member of the Oneworld alliance and regularly cited for its high-end cabin products and hospitality.",
+    "keyFeatures": [
+      "Proprietary Qsuite business class featuring quad-seating and double beds",
+      "Member of the Oneworld global airline alliance",
+      "World-class hub at Hamad International Airport (DOH)",
+      "High-speed Starlink Wi-Fi fleet integration"
+    ]
+  },
+  {
+    "id": "etihad-airways",
+    "name": "Etihad Airways",
+    "country": "United Arab Emirates",
+    "iata": "EY",
+    "icao": "ETD",
+    "callsign": "ETIHAD",
+    "accentColor": "#BD9B60",
+    "website": "https://www.etihad.com",
+    "headquaters": "Abu Dhabi, United Arab Emirates",
+    "airlineType": "Full-service",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "2003",
+      "commencedOperations": "2003",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Zayed International Airport (AUH)"],
+      "fleetCount": 128,
+      "destinationsServed": 110,
+      "activeFleet": [
+        "Airbus A320-200",
+        "Airbus A321neo",
+        "Airbus A350-1000",
+        "Airbus A380-800",
+        "Boeing 777-300ER",
+        "Boeing 787-9",
+        "Boeing 787-10"
+      ]
+    },
+    "short_description": "The national airline of the UAE, operating out of Zayed International Airport in Abu Dhabi.",
+    "description": "Etihad Airways is the national airline of the United Arab Emirates, established by Royal Decree in 2003. Operating from Zayed International Airport (Terminal A) in Abu Dhabi, Etihad serves passenger and cargo routes across the Middle East, Europe, Asia, Australia, and North America.",
+    "keyFeatures": [
+      "The Residence ultra-luxurious three-room suite on Airbus A380s",
+      "State-of-the-art base at Zayed International Airport (AUH)",
+      "Boutique service concept focusing on sustainable aviation growth",
+      "Extensive global equity and codeshare partner network"
+    ]
+  },
+  {
+    "id": "saudia",
+    "name": "Saudia",
+    "country": "Saudi Arabia",
+    "iata": "SV",
+    "icao": "SVA",
+    "callsign": "SAUDIA",
+    "accentColor": "#006633",
+    "website": "https://www.saudia.com",
+    "headquaters": "Jeddah, Saudi Arabia",
+    "airlineType": "Full-service",
+    "alliance": "SkyTeam",
+    "history": {
+      "foundedYear": "1945",
+      "commencedOperations": "1945",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "King Abdulaziz International Airport (JED)",
+        "King Khalid International Airport (RUH)",
+        "King Fahd International Airport (DMM)"
+      ],
+      "fleetCount": 149,
+      "destinationsServed": 100,
+      "activeFleet": [
+        "Airbus A320-200",
+        "Airbus A321-200",
+        "Airbus A321neo",
+        "Airbus A330-300",
+        "Boeing 777-300ER",
+        "Boeing 787-9",
+        "Boeing 787-10"
+      ]
+    },
+    "short_description": "The flag carrier of Saudi Arabia and a major regional hub operator in the Middle East.",
+    "description": "Saudia (formerly Saudi Arabian Airlines) is the national flag carrier of the Kingdom of Saudi Arabia. Operating primary hubs in Jeddah and Riyadh, Saudia connects domestic routes across the Kingdom with international destinations in the Middle East, Africa, Asia, Europe, and North America.",
+    "keyFeatures": [
+      "Member of the SkyTeam alliance",
+      "Primary carrier supporting Hajj and Umrah pilgrimage traffic into Jeddah and Medina",
+      "Dual-hub operational strategy focused on Jeddah (JED) and Riyadh (RUH)",
+      "Traditional Saudi hospitality with dry onboard service policies"
+    ]
+  },
+  {
+    "id": "singapore-airlines",
+    "name": "Singapore Airlines",
+    "country": "Singapore",
+    "iata": "SQ",
+    "icao": "SIA",
+    "callsign": "SINGAPORE",
+    "accentColor": "#FBAA19",
+    "website": "https://www.singaporeair.com",
+    "headquaters": "Singapore",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1947",
+      "commencedOperations": "1972",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Singapore Changi Airport (SIN)"],
+      "fleetCount": 150,
+      "destinationsServed": 75,
+      "activeFleet": [
+        "Airbus A350-900",
+        "Airbus A350-900ULR",
+        "Airbus A380-800",
+        "Boeing 737 MAX 8",
+        "Boeing 777-300ER",
+        "Boeing 787-10"
+      ]
+    },
+    "short_description": "Singapore's flagship carrier, globally acclaimed for premium cabin service and Changi hub.",
+    "description": "Singapore Airlines (SIA) is the national flag carrier of Singapore. Operating out of Singapore Changi Airport, the airline is widely regarded as one of the world's most awarded carriers, renowned for its Singapore Girl brand icon, luxury First Class Suites, and ultra-long-haul routes.",
+    "keyFeatures": [
+      "Exclusive Airbus A380 First Class Suites featuring standalone double beds",
+      "Operates the world's longest commercial flights using Airbus A350-900ULR aircraft",
+      "Founding member of Star Alliance in Asia",
+      "Flagship hub operations out of world-renowned Singapore Changi Airport"
+    ]
+  },
+  {
+    "id": "cathay-pacific",
+    "name": "Cathay Pacific",
+    "country": "Hong Kong",
+    "iata": "CX",
+    "icao": "CPA",
+    "callsign": "CATHAY",
+    "accentColor": "#006A4E",
+    "website": "https://www.cathaypacific.com",
+    "headquaters": "Hong Kong",
+    "airlineType": "Full-service",
+    "alliance": "Oneworld",
+    "history": {
+      "foundedYear": "1946",
+      "commencedOperations": "1946",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Hong Kong International Airport (HKG)"],
+      "fleetCount": 180,
+      "destinationsServed": 80,
+      "activeFleet": [
+        "Airbus A321neo",
+        "Airbus A330-300",
+        "Airbus A350-900",
+        "Airbus A350-1000",
+        "Boeing 777-300",
+        "Boeing 777-300ER"
+      ]
+    },
+    "short_description": "Hong Kong's home carrier and a founding member of the Oneworld global alliance.",
+    "description": "Cathay Pacific Airways is the flag carrier of Hong Kong, based at Hong Kong International Airport. Established in 1946 by American Roy Farrell and Australian Sydney de Kantzow, Cathay connects Hong Kong with key commercial centers across Asia, the Americas, Europe, and Australasia.",
+    "keyFeatures": [
+      "Founding member of the Oneworld alliance",
+      "World-class premium passenger lounges at Hong Kong International Airport (The Pier, The Wing)",
+      "Modern widebody passenger fleet dominated by Airbus A350s and Boeing 777-300ERs",
+      "Major transpacific passenger and freight transit hub"
+    ]
+  },
+  {
+    "id": "ana",
+    "name": "All Nippon Airways (ANA)",
+    "country": "Japan",
+    "iata": "NH",
+    "icao": "ANA",
+    "callsign": "ALL NIPPON",
+    "accentColor": "#00205B",
+    "website": "https://www.ana.co.jp",
+    "headquaters": "Tokyo, Japan",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1952",
+      "commencedOperations": "1953",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Tokyo Haneda Airport (HND)",
+        "Tokyo Narita Airport (NRT)",
+        "Kansai International Airport (KIX)",
+        "Osaka Itami Airport (ITM)"
+      ],
+      "fleetCount": 215,
+      "destinationsServed": 100,
+      "activeFleet": [
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A380-800",
+        "Boeing 737-800",
+        "Boeing 767-300ER",
+        "Boeing 777-200ER",
+        "Boeing 777-300ER",
+        "Boeing 787-8",
+        "Boeing 787-9",
+        "Boeing 787-10"
+      ]
+    },
+    "short_description": "Japan's largest airline by revenues and passenger counts, based in Tokyo.",
+    "description": "All Nippon Airways (ANA) is the largest airline in Japan. Headquartered in Tokyo, ANA operates an extensive domestic and international network across dual hubs at Haneda and Narita airports. ANA is widely known for its precision, high service standards, and 'THE Suite' First Class cabins.",
+    "keyFeatures": [
+      "Largest operator of the Boeing 787 Dreamliner family worldwide",
+      "Member of Star Alliance",
+      "FLYING HONU Airbus A380 fleet operating custom resort routes to Hawaii",
+      "'THE Suite' First Class and 'THE Room' Business Class on select Boeing 777-300ERs"
+    ]
+  },
+  {
+    "id": "japan-airlines",
+    "name": "Japan Airlines",
+    "country": "Japan",
+    "iata": "JL",
+    "icao": "JAL",
+    "callsign": "JAPAN AIR",
+    "accentColor": "#CC0000",
+    "website": "https://www.jal.co.jp",
+    "headquaters": "Tokyo, Japan",
+    "airlineType": "Full-service",
+    "alliance": "Oneworld",
+    "history": {
+      "foundedYear": "1951",
+      "commencedOperations": "1951",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Tokyo Haneda Airport (HND)",
+        "Tokyo Narita Airport (NRT)",
+        "Kansai International Airport (KIX)",
+        "Osaka Itami Airport (ITM)"
+      ],
+      "fleetCount": 155,
+      "destinationsServed": 95,
+      "activeFleet": [
+        "Boeing 737-800",
+        "Boeing 767-300ER",
+        "Boeing 777-300ER",
+        "Boeing 787-8",
+        "Boeing 787-9",
+        "Airbus A350-900",
+        "Airbus A350-1000"
+      ]
+    },
+    "short_description": "The flag carrier of Japan, celebrated for traditional Japanese Omotenashi hospitality.",
+    "description": "Japan Airlines (JAL) is the national flag carrier of Japan. Established in 1951, JAL operates domestic and international services from primary Tokyo hubs at Haneda and Narita. The carrier is noted for introducing state-of-the-art Airbus A350-1000 flagships on flagship long-haul routes.",
+    "keyFeatures": [
+      "Member of the Oneworld global alliance",
+      "Flagship Airbus A350-1000 featuring enclosed luxury First and Business Class suites",
+      "Renowned Omotenashi (Japanese hospitality) onboard culinary service",
+      "JAL Sky Suite long-haul cabin configurations"
+    ]
+  },
+  {
+    "id": "korean-air",
+    "name": "Korean Air",
+    "country": "South Korea",
+    "iata": "KE",
+    "icao": "KAL",
+    "callsign": "KOREANAIR",
+    "accentColor": "#002060",
+    "website": "https://www.koreanair.com",
+    "headquaters": "Seoul, South Korea",
+    "airlineType": "Full-service",
+    "alliance": "SkyTeam",
+    "history": {
+      "foundedYear": "1962",
+      "commencedOperations": "1969",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Incheon International Airport (ICN)",
+        "Gimpo International Airport (GMP)"
+      ],
+      "fleetCount": 160,
+      "destinationsServed": 120,
+      "activeFleet": [
+        "Airbus A220-300",
+        "Airbus A321neo",
+        "Airbus A330-300",
+        "Airbus A380-800",
+        "Boeing 737-800",
+        "Boeing 737 MAX 8",
+        "Boeing 747-8I",
+        "Boeing 777-300ER",
+        "Boeing 787-9",
+        "Boeing 787-10"
+      ]
+    },
+    "short_description": "South Korea's largest flag carrier and a founding member of the SkyTeam alliance.",
+    "description": "Korean Air is the largest airline and flag carrier of South Korea. Headquartered in Seoul with its main global hub at Incheon International Airport Terminal 2, Korean Air operates an extensive transpacific, Asian, and European passenger and cargo network.",
+    "keyFeatures": [
+      "Founding member of the SkyTeam alliance",
+      "One of the few remaining passenger operators of the Boeing 747-8 Intercontinental",
+      "Major transpacific hub carrier via Seoul Incheon Terminal 2",
+      "Kosmo Suites 2.0 First Class and Prestige Suites Business Class"
+    ]
+  },
+  {
+    "id": "asiana-airlines",
+    "name": "Asiana Airlines",
+    "country": "South Korea",
+    "iata": "OZ",
+    "icao": "AAR",
+    "callsign": "ASIANA",
+    "accentColor": "#C8102E",
+    "website": "https://www.flyasiana.com",
+    "headquaters": "Seoul, South Korea",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1988",
+      "commencedOperations": "1988",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Incheon International Airport (ICN)",
+        "Gimpo International Airport (GMP)"
+      ],
+      "fleetCount": 78,
+      "destinationsServed": 90,
+      "activeFleet": [
+        "Airbus A321-200",
+        "Airbus A321neo",
+        "Airbus A330-300",
+        "Airbus A350-900",
+        "Airbus A380-800",
+        "Boeing 767-300",
+        "Boeing 777-200ER"
+      ]
+    },
+    "short_description": "South Korea's second-largest full-service airline, based at Seoul Incheon Airport.",
+    "description": "Asiana Airlines is one of South Korea's major airlines, based at Seoul Incheon International Airport. Established in 1988, Asiana operates a short-haul regional and long-haul intercontinental network across Asia, Europe, and North America.",
+    "keyFeatures": [
+      "Member of Star Alliance",
+      "Oz Quadra Smartium direct-aisle access business class seats",
+      "A350 long-haul fleet equipped with onboard Wi-Fi and extra-legroom Economy Smartium",
+      "Comprehensive regional routing throughout China, Japan, and Southeast Asia"
+    ]
+  },
+  {
+    "id": "air-china",
+    "name": "Air China",
+    "country": "China",
+    "iata": "CA",
+    "icao": "CCA",
+    "callsign": "AIR CHINA",
+    "accentColor": "#E60012",
+    "website": "https://www.airchina.com",
+    "headquaters": "Beijing, China",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1988",
+      "commencedOperations": "1988",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Beijing Capital International Airport (PEK)",
+        "Beijing Daxing International Airport (PKX)",
+        "Chengdu Shuangliu International Airport (CTU)",
+        "Shanghai Pudong International Airport (PVG)"
+      ],
+      "fleetCount": 490,
+      "destinationsServed": 200,
+      "activeFleet": [
+        "Airbus A319-100",
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A330-200",
+        "Airbus A330-300",
+        "Airbus A350-900",
+        "Boeing 737-800",
+        "Boeing 737 MAX 8",
+        "Boeing 747-8I",
+        "Boeing 777-300ER",
+        "Boeing 787-9",
+        "COMAC C919"
+      ]
+    },
+    "short_description": "The national flag carrier of China and a major member of Star Alliance.",
+    "description": "Air China is the flag carrier of the People's Republic of China, headquartered in Beijing. Operating out of primary hubs at Beijing Capital and Beijing Daxing, Air China provides passenger VIP charter services for state officials as well as extensive scheduled international routes.",
+    "keyFeatures": [
+      "Official flag carrier carrying state emblems on its livery",
+      "Only Chinese airline operating passenger Boeing 747-8 Intercontinentals",
+      "Member of Star Alliance",
+      "Major hub carrier at Beijing Capital (PEK) and Beijing Daxing (PKX)"
+    ]
+  },
+  {
+    "id": "china-eastern-airlines",
+    "name": "China Eastern Airlines",
+    "country": "China",
+    "iata": "MU",
+    "icao": "CES",
+    "callsign": "CHINA EASTERN",
+    "accentColor": "#002060",
+    "website": "https://www.ceair.com",
+    "headquaters": "Shanghai, China",
+    "airlineType": "Full-service",
+    "alliance": "SkyTeam",
+    "history": {
+      "foundedYear": "1988",
+      "commencedOperations": "1988",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Shanghai Pudong International Airport (PVG)",
+        "Shanghai Hongqiao International Airport (SHA)",
+        "Kunming Changshui International Airport (KMG)",
+        "Xi'an Xianyang International Airport (XIY)"
+      ],
+      "fleetCount": 620,
+      "destinationsServed": 220,
+      "activeFleet": [
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A330-200",
+        "Airbus A330-300",
+        "Airbus A350-900",
+        "Boeing 737-800",
+        "Boeing 737 MAX 8",
+        "Boeing 777-300ER",
+        "Boeing 787-9",
+        "COMAC C919"
+      ]
+    },
+    "short_description": "Shanghai-based major Chinese carrier and key SkyTeam alliance member.",
+    "description": "China Eastern Airlines is one of the 'Big Three' airlines of China. Headquartered in Shanghai, the carrier dominates transit out of Shanghai Pudong and Shanghai Hongqiao airports, serving extensive routes across Asia, Europe, North America, and Australia.",
+    "keyFeatures": [
+      "Commercial launch operator and major order holder of the COMAC C919",
+      "Member of the SkyTeam alliance",
+      "Dominant position at dual Shanghai commercial hubs (PVG and SHA)",
+      "Modern long-haul fleet equipped with suite-style Business Class on A350 and B787 fleets"
+    ]
+  },
+  {
+    "id": "china-southern-airlines",
+    "name": "China Southern Airlines",
+    "country": "China",
+    "iata": "CZ",
+    "icao": "CSN",
+    "callsign": "CHINA SOUTHERN",
+    "accentColor": "#0083CA",
+    "website": "https://www.csair.com",
+    "headquaters": "Guangzhou, China",
+    "airlineType": "Full-service",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "1988",
+      "commencedOperations": "1988",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Guangzhou Baiyun International Airport (CAN)",
+        "Beijing Daxing International Airport (PKX)"
+      ],
+      "fleetCount": 660,
+      "destinationsServed": 230,
+      "activeFleet": [
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A330-200",
+        "Airbus A330-300",
+        "Airbus A350-900",
+        "Boeing 737-800",
+        "Boeing 737 MAX 8",
+        "Boeing 777-300ER",
+        "Boeing 787-8",
+        "Boeing 787-9",
+        "COMAC C919"
+      ]
+    },
+    "short_description": "Asia's largest airline by fleet size and passenger volume, based in Guangzhou.",
+    "description": "China Southern Airlines is Asia's largest passenger airline by fleet size and total annual traffic. Headquartered in Guangzhou, China Southern operates dual primary hubs at Guangzhou Baiyun and Beijing Daxing, connecting China to worldwide markets through its 'Canton Route' strategy.",
+    "keyFeatures": [
+      "Largest aircraft fleet in Asia",
+      "'Canton Route' connecting Europe and Australasia via Guangzhou Baiyun",
+      "Major anchor tenant at Beijing Daxing International Airport (PKX)",
+      "High-density domestic and regional Asian flight network"
+    ]
+  },
+  {
+    "id": "qantas",
+    "name": "Qantas",
+    "country": "Australia",
+    "iata": "QF",
+    "icao": "QFA",
+    "callsign": "QANTAS",
+    "accentColor": "#E0001B",
+    "website": "https://www.qantas.com",
+    "headquaters": "Sydney, Australia",
+    "airlineType": "Full-service",
+    "alliance": "Oneworld",
+    "history": {
+      "foundedYear": "1920",
+      "commencedOperations": "1921",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Sydney Kingsford Smith Airport (SYD)",
+        "Melbourne Airport (MEL)",
+        "Brisbane Airport (BNE)",
+        "Perth Airport (PER)"
+      ],
+      "fleetCount": 125,
+      "destinationsServed": 85,
+      "activeFleet": [
+        "Airbus A220-300",
+        "Airbus A321neo",
+        "Airbus A330-200",
+        "Airbus A330-300",
+        "Airbus A380-800",
+        "Boeing 737-800",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "Australia's flag carrier, known as 'The Flying Kangaroo' and world's second-oldest active airline.",
+    "description": "Qantas is the national flag carrier of Australia and the largest airline by fleet size in Oceania. Operating out of Sydney, Melbourne, Brisbane, and Perth, Qantas is legendary for pioneering ultra-long-haul nonstop aviation connecting Australia directly with Europe and the Americas.",
+    "keyFeatures": [
+      "Founding member of the Oneworld global airline alliance",
+      "Pioneer of 'Project Sunrise' ultra-long-haul direct flights connecting Sydney/Melbourne to London and New York",
+      "Operates the non-stop Perth to London Heathrow Boeing 787 route",
+      "Maintains the world's highest safety record among legacy carriers"
+    ]
+  },
+  {
+    "id": "air-new-zealand",
+    "name": "Air New Zealand",
+    "country": "New Zealand",
+    "iata": "NZ",
+    "icao": "ANZ",
+    "callsign": "NEW ZEALAND",
+    "accentColor": "#000000",
+    "website": "https://www.airnewzealand.com",
+    "headquaters": "Auckland, New Zealand",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1940",
+      "commencedOperations": "1940",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Auckland Airport (AKL)",
+        "Wellington International Airport (WLG)",
+        "Christchurch International Airport (CHC)"
+      ],
+      "fleetCount": 105,
+      "destinationsServed": 50,
+      "activeFleet": [
+        "ATR 72-600",
+        "De Havilland Canada Dash 8-Q300",
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Boeing 777-300ER",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "The national flag carrier of New Zealand, celebrated for innovation in cabin design.",
+    "description": "Air New Zealand is the national flag carrier of New Zealand. Operating out of its chief hub at Auckland Airport, the carrier connects the nation across a complex domestic network while linking New Zealand to key destinations in Australia, the Pacific Islands, Asia, and North America.",
+    "keyFeatures": [
+      "Creator of the patented Economy Skycouch and innovative Skynest sleep pods for long-haul routes",
+      "Member of Star Alliance",
+      "Distinctive all-black flagship aircraft liveries featuring the iconic Maori Koru logo",
+      "Pioneer in aviation sustainability initiatives and bio-fuel testing"
+    ]
+  },
+  {
+    "id": "ethiopian-airlines",
+    "name": "Ethiopian Airlines",
+    "country": "Ethiopia",
+    "iata": "ET",
+    "icao": "ETH",
+    "callsign": "ETHIOPIAN",
+    "accentColor": "#008751",
+    "website": "https://www.ethiopianairlines.com",
+    "headquaters": "Addis Ababa, Ethiopia",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1945",
+      "commencedOperations": "1946",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Addis Ababa Bole International Airport (ADD)"],
+      "fleetCount": 145,
+      "destinationsServed": 135,
+      "activeFleet": [
+        "De Havilland Canada Dash 8-Q400",
+        "Boeing 737-800",
+        "Boeing 737 MAX 8",
+        "Boeing 777-200LR",
+        "Boeing 777-300ER",
+        "Boeing 787-8",
+        "Boeing 787-9",
+        "Airbus A350-900",
+        "Airbus A350-1000"
+      ]
+    },
+    "short_description": "Africa's largest and most profitable airline, operating out of Addis Ababa.",
+    "description": "Ethiopian Airlines is the flag carrier of Ethiopia, wholly owned by the country's government. Flying out of its mega-hub at Bole International Airport in Addis Ababa, Ethiopian Airlines serves more international African destinations than any other carrier, acting as the primary gateway to the continent.",
+    "keyFeatures": [
+      "Largest airline group in Africa by revenue, passenger count, and destinations",
+      "Member of Star Alliance",
+      "First African operator of the Airbus A350-1000 and Boeing 787 Dreamliner",
+      "Dominant pan-African cargo operator via Ethiopian Cargo"
+    ]
+  },
+  {
+    "id": "egyptair",
+    "name": "EgyptAir",
+    "country": "Egypt",
+    "iata": "MS",
+    "icao": "MSR",
+    "callsign": "EGYPTAIR",
+    "accentColor": "#002B66",
+    "website": "https://www.egyptair.com",
+    "headquaters": "Cairo, Egypt",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1932",
+      "commencedOperations": "1933",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Cairo International Airport (CAI)"],
+      "fleetCount": 75,
+      "destinationsServed": 90,
+      "activeFleet": [
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A330-200",
+        "Airbus A330-300",
+        "Airbus A350-900",
+        "Boeing 737-800",
+        "Boeing 737 MAX 8",
+        "Boeing 777-300ER",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "The state-owned flag carrier of Egypt and one of the world's pioneer airlines.",
+    "description": "EgyptAir is the state-owned flag carrier of Egypt, headquartered at Cairo International Airport. Founded in 1932 as one of the world's earliest commercial airlines, EgyptAir operates extensive scheduled passenger and freight services connecting Europe, Africa, the Middle East, Asia, and North America.",
+    "keyFeatures": [
+      "First airline in North Africa to join Star Alliance",
+      "Primary gateway operator into North Africa and the Middle East out of Cairo Terminal 3",
+      "Features North Africa's first Airbus A350-900 fleet modernization program",
+      "Historical pioneer of African aviation with over 90 years of continuous operation"
+    ]
+  },
+  {
+    "id": "royal-air-maroc",
+    "name": "Royal Air Maroc",
+    "country": "Morocco",
+    "iata": "AT",
+    "icao": "RAM",
+    "callsign": "ROYALAIRMOC",
+    "accentColor": "#C1272D",
+    "website": "https://www.royalairmaroc.com",
+    "headquaters": "Casablanca, Morocco",
+    "airlineType": "Full-service",
+    "alliance": "Oneworld",
+    "history": {
+      "foundedYear": "1957",
+      "commencedOperations": "1957",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": ["Mohammed V International Airport (CMN)"],
+      "fleetCount": 55,
+      "destinationsServed": 95,
+      "activeFleet": [
+        "ATR 72-600",
+        "Embraer E190",
+        "Boeing 737-800",
+        "Boeing 737 MAX 8",
+        "Boeing 787-8",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "Morocco's national carrier connecting West Africa and Europe via Casablanca.",
+    "description": "Royal Air Maroc (commonly known as RAM) is the national flag carrier of Morocco. Operating out of Mohammed V International Airport in Casablanca, the airline acts as a vital bridge connecting West Africa, Europe, North America, and the Middle East.",
+    "keyFeatures": [
+      "First full African airline member of the Oneworld global alliance",
+      "Strategic geographic hub at Casablanca serving as a major transatlantic-African transfer point",
+      "Modern long-haul fleet composed entirely of Boeing 787 Dreamliners",
+      "Extensive regional network spanning over 30 sub-Saharan African capital cities"
+    ]
+  },
+  {
+    "id": "latam-airlines",
+    "name": "LATAM Airlines",
+    "country": "Chile",
+    "iata": "LA",
+    "icao": "LAN",
+    "callsign": "LAN CHILE",
+    "accentColor": "#1B0088",
+    "website": "https://www.latamairlines.com",
+    "headquaters": "Santiago, Chile",
+    "airlineType": "Full-service",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "2012",
+      "commencedOperations": "2012",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Arturo Merino Benítez International Airport (SCL)",
+        "São Paulo/Guarulhos International Airport (GRU)",
+        "Jorge Chávez International Airport (LIM)",
+        "El Dorado International Airport (BOG)",
+        "José Joaquín de Olmedo International Airport (GYE)"
+      ],
+      "fleetCount": 382,
+      "destinationsServed": 148,
+      "activeFleet": [
+        "Airbus A319-100",
+        "Airbus A320-200",
+        "Airbus A320neo",
+        "Airbus A321-200",
+        "Airbus A321neo",
+        "Boeing 767-300ER",
+        "Boeing 777-300ER",
+        "Boeing 787-8",
+        "Boeing 787-9"
+      ]
+    },
+    "short_description": "Latin America's largest airline group, formed by the merger of LAN Airlines and TAM Linhas Aéreas.",
+    "description": "LATAM Airlines Group is the largest airline group in Latin America, with main operating hubs across Chile, Brazil, Peru, Colombia, and Ecuador. The group connects South America with North America, Europe, Africa, and Oceania through an extensive passenger and cargo route network.",
+    "keyFeatures": [
+      "Largest commercial airline network in South America",
+      "Joint venture partnership with Delta Air Lines for North-South American traffic",
+      "Pioneer in long-haul routes from South America to Sydney, Melbourne, and Auckland",
+      "Major intra-South American multi-hub distribution system"
+    ]
+  },
+  {
+    "id": "avianca",
+    "name": "Avianca",
+    "country": "Colombia",
+    "iata": "AV",
+    "icao": "AVA",
+    "callsign": "AVIANCA",
+    "accentColor": "#E30613",
+    "website": "https://www.avianca.com",
+    "headquaters": "Bogotá, Colombia",
+    "airlineType": "Full-service",
+    "alliance": "Star Alliance",
+    "history": {
+      "foundedYear": "1919",
+      "commencedOperations": "1919",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "El Dorado International Airport (BOG)",
+        "El Salvador International Airport (SAL)",
+        "Juan Santamaría International Airport (SJO)"
+      ],
+      "fleetCount": 140,
+      "destinationsServed": 75,
+      "activeFleet": [
+        "Airbus A319-100",
+        "Airbus A320-200",
+        "Airbus A320neo",
+        "Boeing 787-8"
+      ]
+    },
+    "short_description": "The flag carrier of Colombia and second-oldest continuously operating airline in the world.",
+    "description": "Avianca is the national airline of Colombia and a leading carrier in Latin America. Operating out of its primary mega-hub in Bogotá alongside key hubs in Central America, Avianca connects North and South America with direct transatlantic service to Western Europe.",
+    "keyFeatures": [
+      "World's second-oldest airline continuously operating since December 1919",
+      "Anchor member of Star Alliance in South America",
+      "Dominant regional route network connecting Andean and Central American destinations",
+      "Comprehensive long-haul Boeing 787 Dreamliner business class experience"
+    ]
+  },
+  {
+    "id": "azul-brazilian-airlines",
+    "name": "Azul Brazilian Airlines",
+    "country": "Brazil",
+    "iata": "AD",
+    "icao": "AZU",
+    "callsign": "AZUL",
+    "accentColor": "#002060",
+    "website": "https://www.voeazul.com.br",
+    "headquaters": "Barueri, Brazil",
+    "airlineType": "Full-service",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "2008",
+      "commencedOperations": "2008",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Viracopos International Airport (VCP)",
+        "Belo Horizonte/Confins International Airport (CNF)",
+        "Recife/Guararapes International Airport (REC)"
+      ],
+      "fleetCount": 180,
+      "destinationsServed": 160,
+      "activeFleet": [
+        "ATR 72-600",
+        "Embraer E195",
+        "Embraer E195-E2",
+        "Airbus A320neo",
+        "Airbus A321neo",
+        "Airbus A330-200",
+        "Airbus A330-900neo"
+      ]
+    },
+    "short_description": "Brazil's largest domestic carrier by destinations served, founded by David Neeleman.",
+    "description": "Azul Brazilian Airlines is a major Brazilian carrier established in 2008 by JetBlue founder David Neeleman. Operating a highly diversified fleet from its central hub at Viracopos (Campinas), Azul serves more domestic Brazilian destinations than any other carrier while expanding long-haul routes to the US and Europe.",
+    "keyFeatures": [
+      "Largest domestic airline network in Brazil by total cities served",
+      "Launch operator and largest worldwide customer for the Embraer E195-E2",
+      "Unique hub network centered around Campinas Viracopos Airport",
+      "Integrated regional cargo operator via Azul Cargo Express"
+    ]
+  },
+  {
+    "id": "gol-linhas-aereas",
+    "name": "GOL Linhas Aéreas",
+    "country": "Brazil",
+    "iata": "G3",
+    "icao": "GLO",
+    "callsign": "GOL",
+    "accentColor": "#FF5A00",
+    "website": "https://www.voegol.com.br",
+    "headquaters": "Rio de Janeiro, Brazil",
+    "airlineType": "Low-cost",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "2000",
+      "commencedOperations": "2001",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "São Paulo/Congonhas Airport (CGH)",
+        "São Paulo/Guarulhos International Airport (GRU)",
+        "Rio de Janeiro/Galeão International Airport (GIG)",
+        "Brasília International Airport (BSB)"
+      ],
+      "fleetCount": 140,
+      "destinationsServed": 75,
+      "activeFleet": ["Boeing 737-700", "Boeing 737-800", "Boeing 737 MAX 8"]
+    },
+    "short_description": "Brazil's premier low-cost airline operating an all-Boeing 737 fleet.",
+    "description": "GOL Linhas Aéreas Inteligentes is a leading Brazilian airline headquartered in Rio de Janeiro. Established in 2000, GOL democratized air travel in South America through a low-cost, all-Boeing 737 model connecting major commercial centers across Brazil, South America, and the Caribbean.",
+    "keyFeatures": [
+      "Operates a single-type family all-Boeing 737 narrowbody fleet",
+      "Strategic equity and codeshare partnership with American Airlines",
+      "Key slot holder at high-density inner-city commercial hubs like São Paulo Congonhas",
+      "Part of the Abra Group commercial partnership alongside Avianca"
+    ]
+  },
+  {
+    "id": "fedex-express",
+    "name": "FedEx Express",
+    "country": "United States",
+    "iata": "FX",
+    "icao": "FDX",
+    "callsign": "FEDEX",
+    "accentColor": "#4D148C",
+    "website": "https://www.fedex.com",
+    "headquaters": "Memphis, Tennessee, United States",
+    "airlineType": "Cargo",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "1971",
+      "commencedOperations": "1973",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Memphis International Airport (MEM)",
+        "Indianapolis International Airport (IND)",
+        "Guangzhou Baiyun International Airport (CAN)",
+        "Charles de Gaulle Airport (CDG)",
+        "Ted Stevens Anchorage International Airport (ANC)"
+      ],
+      "fleetCount": 710,
+      "destinationsServed": 375,
+      "activeFleet": [
+        "Cessna 208B Grand Caravan",
+        "ATR 42-600F",
+        "ATR 72-600F",
+        "Cessna 408 SkyCourier",
+        "Boeing 757-200SF",
+        "Boeing 767-300F",
+        "Boeing 777F",
+        "McDonnell Douglas MD-11F"
+      ]
+    },
+    "short_description": "The world's largest cargo airline by freight tons flown and fleet size.",
+    "description": "FedEx Express is a major American cargo airline and the flagship subsidiary of FedEx Corporation. Headquartered in Memphis, Tennessee, FedEx Express pioneered overnight express logistics and operates the largest commercial cargo aircraft fleet globally, serving hundreds of cities across six continents.",
+    "keyFeatures": [
+      "World's largest cargo airline by aircraft fleet size and payload volume",
+      "World's largest cargo hub at Memphis International Airport SuperHub",
+      "Primary global air express operator for critical express logistics and freight",
+      "Launch customer for the ATR 72-600F and Cessna 408 SkyCourier freighters"
+    ]
+  },
+  {
+    "id": "ups-airlines",
+    "name": "UPS Airlines",
+    "country": "United States",
+    "iata": "5X",
+    "icao": "UPS",
+    "callsign": "UPS",
+    "accentColor": "#351C15",
+    "website": "https://www.ups.com",
+    "headquaters": "Louisville, Kentucky, United States",
+    "airlineType": "Cargo",
+    "alliance": "None",
+    "history": {
+      "foundedYear": "1988",
+      "commencedOperations": "1988",
+      "status": "Active"
+    },
+    "operations": {
+      "hubAirports": [
+        "Louisville Muhammad Ali International Airport (SDF)",
+        "Philadelphia International Airport (PHL)",
+        "Dallas/Fort Worth International Airport (DFW)",
+        "Cologne Bonn Airport (CGN)",
+        "Shenzhen Bao'an International Airport (SZX)"
+      ],
+      "fleetCount": 290,
+      "destinationsServed": 400,
+      "activeFleet": [
+        "Airbus A300-600F",
+        "Boeing 747-400F",
+        "Boeing 747-8F",
+        "Boeing 757-200PF",
+        "Boeing 767-300F",
+        "McDonnell Douglas MD-11F"
+      ]
+    },
+    "short_description": "Major global air cargo carrier operating out of its Worldport hub in Louisville.",
+    "description": "UPS Airlines is an American cargo airline owned by United Parcel Service Inc. Based in Louisville, Kentucky, UPS Airlines operates out of its massive 'Worldport' sorting facility, delivering time-definite package and freight air transport to more than 220 countries and territories worldwide.",
+    "keyFeatures": [
+      "Home to the UPS Worldport in Louisville, capable of processing over 400,000 packages per hour",
+      "Major global operator of the Boeing 747-8F and Boeing 767-300F heavy cargo fleet",
+      "Extensive international sorting networks centered in Cologne (Europe) and Shenzhen (Asia)",
+      "Industry leader in automated cargo handling and air freight logistics"
+    ]
   }
 ]
