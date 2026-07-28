@@ -74,11 +74,11 @@ function AircraftPage() {
                     Aircraft Manufacturer: <span>{aircraft.manufacturer}</span>
                   </p>
                   <p>
-                    Aircraft Category: <span>{aircraft.category}</span>
+                    Body Type: <span>{aircraft.bodyType}</span>
                   </p>
                   <p>
                     Aircraft Capacity:{" "}
-                    <span>{aircraft.specs.passengerCapacity}</span>
+                    <span>{aircraft.specs.capacity.maxSeating}</span>
                   </p>
                 </div>
 

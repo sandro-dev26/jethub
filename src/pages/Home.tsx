@@ -129,7 +129,7 @@ function Home() {
                   </span>
                 </p>
                 <p>
-                  Category: <span>{aircraft.category}</span>
+                  Body Type: <span>{aircraft.bodyType}</span>
                 </p>
                 <p>{aircraft.short_description}</p>
 
