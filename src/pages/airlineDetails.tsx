@@ -17,33 +17,22 @@ function AirlineDetails() {
   }
 
   return (
-    <main className="m-4 text-neutral-950 dark:text-neutral-50">
+    <main className="m-4 text-neutral-950 dark:text-neutral-50 ">
       {specAirline && (
         <div>
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-sky-500 mb-4">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-sky-500 mb-4\">
             {specAirline.name}
           </h1>
 
-          <ul className="[&_li_span]:font-normal text-md font-semibold my-2 text-neutral-700 dark:text-neutral-300">
+          <ul className="[&_li_span]:font-normal [&_li_p]:text-2xl [&_li_p]:mb-2 [&_li_p]:mt-8 [&_li_ul_li]:font-normal text-md font-semibold my-2 text-neutral-700 dark:text-neutral-300">
             <li>
-              Fleet Count: <span>{specAirline.fleetCount}</span>
-            </li>
-            <li>
-              Active Fleet:{" "}
-              <span className="flex flex-row gap-2">
-                {specAirline.activeFleet.map((airplane) => (
-                  <span key={airplane}>{airplane}</span>
-                ))}
-              </span>
+              <p>General</p>
             </li>
             <li>
               Country: <span>{specAirline.country}</span>
             </li>
             <li>
-              Founded In: <span>{specAirline.foundedYear}</span>
-            </li>
-            <li>
-              Hub Airport: <span>{specAirline.hubAirport}</span>
+              Airline Type: <span>{specAirline.airlineType}</span>
             </li>
             <li>
               Callsign: <span>{specAirline.callsign}</span>
@@ -54,7 +43,78 @@ function AirlineDetails() {
             <li>
               Icao: <span>{specAirline.icao}</span>
             </li>
-            <li className="text-2xl">
+            <li>
+              Headquaters: <span>{specAirline.headquaters}</span>
+            </li>
+            <li>
+              Alliance: <span>{specAirline.alliance}</span>
+            </li>
+            <li>
+              Website:{" "}
+              <a
+                href={specAirline.website}
+                className="hover:underline underline-offset-4"
+              >
+                {specAirline.name}
+              </a>
+            </li>
+            <li>
+              Key Features:{" "}
+              <ul className="list-disc list-inside">
+                {specAirline.keyFeatures.map((feature) => (
+                  <li key={feature}>{feature}</li>
+                ))}
+              </ul>
+            </li>
+
+            <li>
+              <p>Operations</p>
+            </li>
+            <li>
+              Fleet Count: <span>{specAirline.operations.fleetCount}</span>
+            </li>
+            <li>
+              Destinations Served{" "}
+              <span>{specAirline.operations.destinationsServed}</span>
+            </li>
+            <li>
+              Hub Airports:{" "}
+              <ul className="list-disc list-inside">
+                {specAirline.operations.hubAirports.map((airport) => (
+                  <li key={airport}>{airport}</li>
+                ))}
+              </ul>
+            </li>
+            <li>
+              Active Fleet:{" "}
+              <ul className="list-disc list-inside">
+                {specAirline.operations.activeFleet.map((airplane) => (
+                  <li key={airplane}>{airplane}</li>
+                ))}
+              </ul>
+            </li>
+
+            <li>
+              <p>History</p>
+            </li>
+            <li>
+              Funded In: <span>{specAirline.history.foundedYear}</span>
+            </li>
+            <li>
+              Commensed Operations:{" "}
+              <span>{specAirline.history.commencedOperations}</span>
+            </li>
+            <li>
+              Status: <span>{specAirline.history.status}</span>
+            </li>
+            {specAirline.history.ceasedOperations && (
+              <li>
+                Ceased Operations:{" "}
+                <span>{specAirline.history.ceasedOperations}</span>
+              </li>
+            )}
+
+            <li className="text-2xl mt-8">
               JSON:{" "}
               <pre className="bg-neutral-900 p-4 rounded-lg overflow-x-auto text-sm font-mono my-2 scrollbar-thumb-sky-400">
                 <h3 className="bg-neutral-300 text-neutral-400 dark:bg-neutral-800 mb-2 p-2 rounded-md text-md">

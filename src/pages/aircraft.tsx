@@ -58,7 +58,7 @@ function AircraftPage() {
             return (
               <li
                 key={aircraft.id}
-                className="bg-sky-50 dark:bg-sky-900 border p-2 shadow shadow-black/10 dark:shadow-sky-200 rounded-xl transition-all duration-200 hover:shadow-sky-200/50 hover:shadow-xl hover:-translate-y-2 active:translate-y-0 active:shadow"
+                className="bg-sky-50 dark:bg-sky-900 border p-2 shadow-black/10 dark:shadow-sky-200 rounded-xl transition-all duration-200 hover:shadow-sky-200/50 hover:shadow-xl hover:-translate-y-2 active:translate-y-0 active:shadow"
               >
                 <h2
                   onClick={() => {

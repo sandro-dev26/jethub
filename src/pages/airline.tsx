@@ -39,7 +39,7 @@ function AirlinePage() {
         </p>
       </header>
 
-      <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {airlines.map((airline: Airline) => {
           const isFav = favs.includes(airline.id);
 
@@ -51,16 +51,18 @@ function AirlinePage() {
               className="flex flex-col gap-4 bg-sky-100 dark:bg-sky-900 border border-sky-500 p-2 rounded-xl shadow-black/50 dark:shadow-white/50 transition-all duration-200 hover:-translate-y-2 hover:shadow-xl"
               key={airline.id}
             >
-              <h2 className="text-2xl md:text-3xl font-semibold border-sky-500 transition-all duration-200 hover:dark:bg-sky-600 hover:bg-sky-300 hover:text-sky-50 hover:border-l-4 hover:px-2 hover:rounded-sm">
+              <h2
+                className={`text-2xl md:text-3xl font-semibold border-sky-500 transition-all duration-200 hover:dark:bg-sky-600 hover:bg-sky-300 hover:text-sky-50 hover:border-l-4 hover:px-2 hover:rounded-sm`}
+              >
                 {airline.name}
               </h2>
 
               <div className="[&_p_span]:font-light">
                 <p>
-                  Fleet Count: <span>{airline.fleetCount}</span>
+                  Fleet Count: <span>{airline.operations.fleetCount}</span>
                 </p>
                 <p>
-                  Funded In: <span>{airline.foundedYear}</span>
+                  Funded In: <span>{airline.history.foundedYear}</span>
                 </p>
                 <p>
                   Contury: <span>{airline.country}</span>
