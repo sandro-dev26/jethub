@@ -24,6 +24,9 @@ function AirportPage() {
   useEffect(() => {
     localStorage.setItem("favAirports", JSON.stringify(favs));
   }, [favs]);
+  useEffect(() => {
+    document.title = "JetHub: Airports";
+  }, []);
 
   const airports: Airport[] = airportData as Airport[];
 

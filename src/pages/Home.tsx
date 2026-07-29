@@ -57,6 +57,8 @@ function Home() {
     }
 
     setData();
+
+    document.title = "JetHub: Explore Aviation";
   }, []);
 
   const navigate = useNavigate();

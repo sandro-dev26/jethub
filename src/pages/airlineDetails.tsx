@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useParams } from "react-router";
 import type { Airline } from "../types/airline";
 import NotFound from "./NotFound";
@@ -11,6 +12,9 @@ function AirlineDetails() {
   const specAirline: Airline | undefined = airlines?.find(
     (item) => item.id === airlineid,
   );
+  useEffect(() => {
+    document.title = `JetHub: ${specAirline?.name}`;
+  }, [specAirline]);
 
   if (!specAirline) {
     return <NotFound type="Airline" />;

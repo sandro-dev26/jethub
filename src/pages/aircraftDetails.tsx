@@ -8,6 +8,32 @@ import { Copy, Check } from "lucide-react";
 
 function AircraftDetails() {
   const [showCopy, setShowCopy] = useState<boolean>(true);
+  const [aircraftData, setAircraftData] = useState<Aircraft[] | null>(null);
+
+  const { aircraftid } = useParams();
+
+  useEffect(() => {
+    async function setData() {
+      const data = await fetchAircraftData();
+      setAircraftData(data);
+    }
+
+    setData();
+  }, []);
+
+  const specAircraft = aircraftData?.find((item) => item.id === aircraftid);
+
+  useEffect(() => {
+    if (specAircraft) {
+      document.title = `JetHub: ${specAircraft.name}`;
+    }
+  }, [specAircraft]);
+
+  if (!specAircraft) {
+    return <NotFound type="Aircraft" />;
+  }
+
+  const copyJson = JSON.stringify(specAircraft);
 
   const handleCopy = async () => {
     try {
@@ -22,27 +48,6 @@ function AircraftDetails() {
       console.error("Failed to copy text: ", err);
     }
   };
-
-  const [aircraftData, setAircraftData] = useState<Aircraft[] | null>(null);
-  useEffect(() => {
-    async function setData() {
-      const data = await fetchAircraftData();
-      setAircraftData(data);
-    }
-
-    setData();
-  }, []);
-  const { aircraftid } = useParams();
-
-  const specAircraft: Aircraft | undefined = aircraftData?.find(
-    (item) => item.id === aircraftid,
-  );
-
-  if (!specAircraft) {
-    return <NotFound type="Aircraft" />;
-  }
-
-  const copyJson = JSON.stringify(specAircraft);
 
   return (
     <main className="m-4 mt-12 mb-8">

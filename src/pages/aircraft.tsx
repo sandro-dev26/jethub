@@ -37,6 +37,8 @@ function AircraftPage() {
     }
 
     setData();
+
+    document.title = "JetHub: Aircraft";
   }, []);
 
   const navigate = useNavigate();

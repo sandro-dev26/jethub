@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import NotFound from "./NotFound";
 import type { Airport } from "../types/airport";
@@ -16,13 +16,17 @@ function AirportDetails() {
 
   const { airportid } = useParams();
 
+  const specAirport: Airport | undefined = airports.find(
+    (item) => item.id === airportid,
+  );
+
+  useEffect(() => {
+    document.title = `JetHub: ${specAirport?.name}`;
+  }, [specAirport?.name]);
+
   if (!airportid) {
     return <h1>404</h1>;
   }
-
-  const specAirport: Airport | undefined = airports?.find(
-    (item) => item.id === airportid,
-  );
 
   if (!specAirport) {
     return <NotFound type="airport" />;

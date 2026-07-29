@@ -24,6 +24,9 @@ function AirlinePage() {
   useEffect(() => {
     localStorage.setItem("favAirlines", JSON.stringify(favs));
   }, [favs]);
+  useEffect(() => {
+    document.title = "JetHub: Airlines";
+  }, []);
 
   const airlines: Airline[] = airlineData as Airline[];
 
