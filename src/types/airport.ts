@@ -1,8 +1,13 @@
 export interface Runway {
   id: string;
   lengthMeters: number;
+  widthMeters: number;
   surface: "Asphalt" | "Concrete" | "Bitumen";
   illuminated: boolean;
+  designator: string;
+  status: "Active" | "Closed";
+  surfaceCondition: "Good" | "Fair" | "Poor";
+  displacedThresholdMeters?: number;
 }
 
 export interface Coordinates {
@@ -13,16 +18,17 @@ export interface Coordinates {
 export interface Airport {
   id: string;
   name: string;
-  iata: string;
+  iata?: string;
   icao: string;
   city: string;
   country: string;
+  countryIsoCode: string;
   coordinates: Coordinates;
   elevationFeet: number;
-  category: "Major International" | "Regional" | "Domestic" | "Cargo Hub";
+  category: ("Major International" | "Regional" | "Domestic" | "Cargo Hub")[];
   timeZone: string;
 
-  yearlyCapacity: number;
+  annualPassengerCapacity: number;
   terminalCount: number;
   gateCount: number;
   jetBridgeCount: number;
@@ -33,6 +39,8 @@ export interface Airport {
 
   hasControlTower: boolean;
   isOpen247: boolean;
+  hasCustoms: boolean;
+  hasCargoFacilities: boolean;
 
   shortDescription: string;
   description: string;
