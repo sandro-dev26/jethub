@@ -42,20 +42,36 @@ function AirportDetails() {
             {specAirport.name}
           </h1>
 
-          <ul className="[&_li_span]:font-normal text-md font-semibold my-2 text-neutral-700 dark:text-neutral-300">
+          <ul className="[&_li_p]:text-2xl [&_li_p]:mb-2 [&_li_p]:mt-8 [&_li_span]:font-normal [&_li_ul_li]:font-normal  text-md font-semibold my-2 text-neutral-700 dark:text-neutral-300">
             <li>
-              Country: <span>{specAirport.country}</span>
+              <p>General</p>
+            </li>
+            <li>
+              Country:{" "}
+              <span className="flex gap-2">
+                {specAirport.country}
+                <img
+                  className="h-6 rounded-sm"
+                  src={`https://flagcdn.io/${specAirport.countryIsoCode.toLowerCase()}.svg`}
+                />
+              </span>
             </li>
             <li>
               City: <span>{specAirport.city}</span>
             </li>
             <li>
-              Category: <span>{specAirport.category}</span>
+              Category:{" "}
+              <ul className="list-disc list-inside">
+                {specAirport.category.map((category) => (
+                  <li key={category}>{category}</li>
+                ))}
+              </ul>
             </li>
             <li>
               Capacity:{" "}
               <span>
-                {specAirport.yearlyCapacity.toLocaleString()} passengers / yr
+                {specAirport.annualPassengerCapacity.toLocaleString()}{" "}
+                passengers / yr
               </span>
             </li>
             <li>
@@ -82,6 +98,14 @@ function AirportDetails() {
               <span>{specAirport.isOpen247 ? "True" : "False"}</span>
             </li>
             <li>
+              Has Cargo Facilities:{" "}
+              <span>{specAirport.hasCargoFacilities ? "True" : "False"}</span>
+            </li>
+            <li>
+              Has Customs:{" "}
+              <span>{specAirport.hasCustoms ? "True" : "False"}</span>
+            </li>
+            <li>
               Terminal Count: <span>{specAirport.terminalCount}</span>
             </li>
             <li>
@@ -94,27 +118,42 @@ function AirportDetails() {
               Parking Stands Count: <span>{specAirport.parkingStands}</span>
             </li>
             <li>
-              Runway Count: <span>{specAirport.runways.length}</span>
+              Main Airlines:{" "}
+              <ul className="list-disc list-inside">
+                {specAirport.airlines.map((airline) => (
+                  <li key={airline}>{airline}</li>
+                ))}
+              </ul>
             </li>
-
             <li className="my-2">
               Runways:{" "}
               <ul className="flex flex-col gap-2 list-disc list-inside">
                 {specAirport.runways.map((runway) => (
                   <li key={runway.id}>
-                    {runway.id} data:
+                    {runway.designator} data:
                     <ul className="font-normal">
-                      <li>Length: {runway.lengthMeters}</li>
+                      <li>Length: {runway.lengthMeters}m</li>
+                      <li>Width: {runway.widthMeters}m</li>
+                      <li>Status: {runway.status}</li>
                       <li>Surface: {runway.surface}</li>
+                      <li>Surface Condition: {runway.surfaceCondition}</li>
                       <li>
                         Illuminated: {runway.illuminated ? "True" : "False"}
                       </li>
+                      {runway.displacedThresholdMeters && (
+                        <li>
+                          Surface Condition: {runway.displacedThresholdMeters}
+                        </li>
+                      )}
                     </ul>
                   </li>
                 ))}
               </ul>
             </li>
 
+            <li>
+              <p>Runway</p>
+            </li>
             <li
               onClick={changeStateAirlines}
               className="cursor-pointer select-none"

@@ -3925,5 +3925,427 @@
     "hasCargoFacilities": true,
     "shortDescription": "Morocco's primary international hub and main base for Royal Air Maroc.",
     "description": "Mohammed V International Airport (GMMN) is located in Nouaceur Province, south of Casablanca. Serving as the primary hub for flag carrier Royal Air Maroc, CMN connects West Africa with Europe, North America, and the Middle East."
+  },
+  {
+    "id": "eglc",
+    "name": "London City Airport",
+    "iata": "LCY",
+    "icao": "EGLC",
+    "city": "London",
+    "country": "United Kingdom",
+    "countryIsoCode": "GB",
+    "coordinates": {
+      "latitude": 51.5053,
+      "longitude": 0.0553
+    },
+    "elevationFeet": 19,
+    "category": ["Regional", "Short-Haul International"],
+    "timeZone": "Europe/London",
+    "annualPassengerCapacity": 6500000,
+    "terminalCount": 1,
+    "gateCount": 18,
+    "jetBridgeCount": 0,
+    "parkingStands": 18,
+    "runways": [
+      {
+        "id": "eglc-09-27",
+        "lengthMeters": 1508,
+        "widthMeters": 30,
+        "surface": "Concrete",
+        "illuminated": true,
+        "designator": "09/27",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      }
+    ],
+    "airlines": [
+      "BA CityFlyer",
+      "Swiss International Air Lines",
+      "Lufthansa",
+      "KLM",
+      "Luxair",
+      "Loganair",
+      "ITA Airways"
+    ],
+    "hasControlTower": true,
+    "isOpen247": false,
+    "hasCustoms": true,
+    "hasCargoFacilities": false,
+    "shortDescription": "Centrally located London airport known for steep landing approaches and business travel.",
+    "description": "London City Airport (EGLC) is located in the Royal Docks in Newham, close to Canary Wharf and the City of London. Operating under strict noise restrictions and requiring a steep 5.5-degree approach certification, it serves short-haul business and premium regional routes."
+  },
+  {
+    "id": "lpma",
+    "name": "Cristiano Ronaldo Madeira International Airport",
+    "iata": "FNC",
+    "icao": "LPMA",
+    "city": "Funchal",
+    "country": "Portugal",
+    "countryIsoCode": "PT",
+    "coordinates": {
+      "latitude": 32.6925,
+      "longitude": -16.7745
+    },
+    "elevationFeet": 192,
+    "category": ["Regional", "International"],
+    "timeZone": "Atlantic/Madeira",
+    "annualPassengerCapacity": 4500000,
+    "terminalCount": 1,
+    "gateCount": 16,
+    "jetBridgeCount": 0,
+    "parkingStands": 24,
+    "runways": [
+      {
+        "id": "lpma-05-23",
+        "lengthMeters": 2781,
+        "widthMeters": 45,
+        "surface": "Asphalt",
+        "illuminated": true,
+        "designator": "05/23",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      }
+    ],
+    "airlines": [
+      "TAP Air Portugal",
+      "easyJet",
+      "Ryanair",
+      "Transavia",
+      "TUI Airways",
+      "Lufthansa",
+      "Condor",
+      "Discover Airlines",
+      "Eurowings",
+      "Binter Canarias"
+    ],
+    "hasControlTower": true,
+    "isOpen247": true,
+    "hasCustoms": true,
+    "hasCargoFacilities": true,
+    "shortDescription": "Famous island airport featuring a dramatic runway platform supported by 180 concrete pillars.",
+    "description": "Cristiano Ronaldo Madeira International Airport (LPMA) serves the Portuguese island of Madeira. Renowned worldwide for its challenging crosswind landings and striking engineering, its extended runway elevated on ocean pillars accommodates European tourist traffic year-round."
+  },
+  {
+    "id": "lowi",
+    "name": "Innsbruck Airport",
+    "iata": "INN",
+    "icao": "LOWI",
+    "city": "Innsbruck",
+    "country": "Austria",
+    "countryIsoCode": "AT",
+    "coordinates": {
+      "latitude": 47.2602,
+      "longitude": 11.344
+    },
+    "elevationFeet": 1906,
+    "category": ["Regional", "Seasonal International"],
+    "timeZone": "Europe/Vienna",
+    "annualPassengerCapacity": 1500000,
+    "terminalCount": 1,
+    "gateCount": 12,
+    "jetBridgeCount": 0,
+    "parkingStands": 15,
+    "runways": [
+      {
+        "id": "lowi-08-26",
+        "lengthMeters": 2000,
+        "widthMeters": 45,
+        "surface": "Asphalt",
+        "illuminated": true,
+        "designator": "08/26",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      }
+    ],
+    "airlines": [
+      "Austrian Airlines",
+      "Transavia",
+      "easyJet",
+      "British Airways",
+      "Jet2.com",
+      "Scandinavian Airlines",
+      "Eurowings",
+      "Air France"
+    ],
+    "hasControlTower": true,
+    "isOpen247": false,
+    "hasCustoms": true,
+    "hasCargoFacilities": true,
+    "shortDescription": "Scenic Alpine airport serving Tyrol, famous for demanding mountain valley flight paths.",
+    "description": "Innsbruck Airport (LOWI), also known as Kranebitten Airport, is the largest airport in Tyrol, Austria. Nestled deep inside the Inn Valley, it requires specialized captain training due to complex mountain terrain and strong Föhn winds, experiencing heavy winter ski traffic."
+  },
+  {
+    "id": "ensb",
+    "name": "Svalbard Airport, Longyear",
+    "iata": "LYR",
+    "icao": "ENSB",
+    "city": "Longyearbyen",
+    "country": "Norway",
+    "countryIsoCode": "NO",
+    "coordinates": {
+      "latitude": 78.2461,
+      "longitude": 15.4656
+    },
+    "elevationFeet": 88,
+    "category": ["Regional", "Remote Gateway"],
+    "timeZone": "Arctic/Longyearbyen",
+    "annualPassengerCapacity": 300000,
+    "terminalCount": 1,
+    "gateCount": 2,
+    "jetBridgeCount": 0,
+    "parkingStands": 6,
+    "runways": [
+      {
+        "id": "ensb-10-28",
+        "lengthMeters": 2480,
+        "widthMeters": 45,
+        "surface": "Asphalt",
+        "illuminated": true,
+        "designator": "10/28",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      }
+    ],
+    "airlines": [
+      "Scandinavian Airlines",
+      "Norwegian Air Shuttle",
+      "Lufttransport"
+    ],
+    "hasControlTower": true,
+    "isOpen247": false,
+    "hasCustoms": true,
+    "hasCargoFacilities": true,
+    "shortDescription": "The northernmost airport in the world with scheduled commercial public passenger flights.",
+    "description": "Svalbard Airport, Longyear (ENSB) is situated on the island of Spitsbergen in the Arctic archipelago of Svalbard, Norway. Built on permafrost with specialized insulation layers, LYR serves as the essential lifeling connecting the High Arctic to mainland Scandinavia."
+  },
+  {
+    "id": "fhsh",
+    "name": "Saint Helena Airport",
+    "iata": "HLE",
+    "icao": "FHSH",
+    "city": "Jamestown",
+    "country": "Saint Helena",
+    "countryIsoCode": "SH",
+    "coordinates": {
+      "latitude": -15.9592,
+      "longitude": -5.6444
+    },
+    "elevationFeet": 1020,
+    "category": ["Remote Gateway", "Regional"],
+    "timeZone": "Atlantic/St_Helena",
+    "annualPassengerCapacity": 100000,
+    "terminalCount": 1,
+    "gateCount": 2,
+    "jetBridgeCount": 0,
+    "parkingStands": 3,
+    "runways": [
+      {
+        "id": "fhsh-02-20",
+        "lengthMeters": 1950,
+        "widthMeters": 45,
+        "surface": "Concrete",
+        "illuminated": true,
+        "designator": "02/20",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      }
+    ],
+    "airlines": ["Airlink"],
+    "hasControlTower": true,
+    "isOpen247": false,
+    "hasCustoms": true,
+    "hasCargoFacilities": true,
+    "shortDescription": "Isolated South Atlantic island airport noted for extreme wind shear challenges on Prosperous Bay Plain.",
+    "description": "Saint Helena Airport (FHSH) opened in 2016 to replace commercial mail-ship connectivity for the isolated South Atlantic territory. Constructed on a filled-in valley on Prosperous Bay Plain, flight operations require careful planning due to severe wind shear conditions."
+  },
+  {
+    "id": "wssl",
+    "name": "Seletar Airport",
+    "iata": "XSP",
+    "icao": "WSSL",
+    "city": "Singapore",
+    "country": "Singapore",
+    "countryIsoCode": "SG",
+    "coordinates": {
+      "latitude": 1.4169,
+      "longitude": 103.8678
+    },
+    "elevationFeet": 46,
+    "category": ["General Aviation", "Regional"],
+    "timeZone": "Asia/Singapore",
+    "annualPassengerCapacity": 700000,
+    "terminalCount": 1,
+    "gateCount": 4,
+    "jetBridgeCount": 0,
+    "parkingStands": 30,
+    "runways": [
+      {
+        "id": "wssl-03-21",
+        "lengthMeters": 1836,
+        "widthMeters": 45,
+        "surface": "Asphalt",
+        "illuminated": true,
+        "designator": "03/21",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      }
+    ],
+    "airlines": ["Firefly"],
+    "hasControlTower": true,
+    "isOpen247": true,
+    "hasCustoms": true,
+    "hasCargoFacilities": false,
+    "shortDescription": "Singapore's historic secondary airport, serving private jets, business aviation, and regional turboprops.",
+    "description": "Seletar Airport (WSSL) was Singapore's first international civil airport, completed in 1928. Located in the northeast region, XSP today serves as Singapore's dedicated hub for business aviation, flight training, aircraft maintenance, and regional turboprop passenger services."
+  },
+  {
+    "id": "kmem",
+    "name": "Memphis International Airport",
+    "iata": "MEM",
+    "icao": "KMEM",
+    "city": "Memphis",
+    "country": "United States",
+    "countryIsoCode": "US",
+    "coordinates": {
+      "latitude": 35.0424,
+      "longitude": -89.9767
+    },
+    "elevationFeet": 341,
+    "category": ["Cargo Hub", "Major Commercial"],
+    "timeZone": "America/Chicago",
+    "annualPassengerCapacity": 10000000,
+    "terminalCount": 1,
+    "gateCount": 23,
+    "jetBridgeCount": 23,
+    "parkingStands": 180,
+    "runways": [
+      {
+        "id": "kmem-18l-36r",
+        "lengthMeters": 2743,
+        "widthMeters": 45,
+        "surface": "Concrete",
+        "illuminated": true,
+        "designator": "18L/36R",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      },
+      {
+        "id": "kmem-18c-36c",
+        "lengthMeters": 3386,
+        "widthMeters": 45,
+        "surface": "Concrete",
+        "illuminated": true,
+        "designator": "18C/36C",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      },
+      {
+        "id": "kmem-18r-36l",
+        "lengthMeters": 2835,
+        "widthMeters": 45,
+        "surface": "Concrete",
+        "illuminated": true,
+        "designator": "18R/36L",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      },
+      {
+        "id": "kmem-09-27",
+        "lengthMeters": 2715,
+        "widthMeters": 45,
+        "surface": "Asphalt",
+        "illuminated": true,
+        "designator": "09/27",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      }
+    ],
+    "airlines": [
+      "FedEx Express",
+      "Delta Air Lines",
+      "American Airlines",
+      "United Airlines",
+      "Southwest Airlines",
+      "Allegiant Air",
+      "Frontier Airlines",
+      "Spirit Airlines"
+    ],
+    "hasControlTower": true,
+    "isOpen247": true,
+    "hasCustoms": true,
+    "hasCargoFacilities": true,
+    "shortDescription": "The global superhub for FedEx Express and one of the world's highest-volume cargo airports.",
+    "description": "Memphis International Airport (KMEM) in Tennessee is world-famous as the global operational center for FedEx Express. Handling millions of metric tons of air freight annually, MEM operates massive nightly sorting operations alongside regional passenger service."
+  },
+  {
+    "id": "panc",
+    "name": "Ted Stevens Anchorage International Airport",
+    "iata": "ANC",
+    "icao": "PANC",
+    "city": "Anchorage",
+    "country": "United States",
+    "countryIsoCode": "US",
+    "coordinates": {
+      "latitude": 61.1744,
+      "longitude": -149.9963
+    },
+    "elevationFeet": 152,
+    "category": ["Cargo Hub", "Major International"],
+    "timeZone": "America/Anchorage",
+    "annualPassengerCapacity": 10000000,
+    "terminalCount": 2,
+    "gateCount": 26,
+    "jetBridgeCount": 20,
+    "parkingStands": 140,
+    "runways": [
+      {
+        "id": "panc-07l-25r",
+        "lengthMeters": 3231,
+        "widthMeters": 45,
+        "surface": "Asphalt",
+        "illuminated": true,
+        "designator": "07L/25R",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      },
+      {
+        "id": "panc-07r-25l",
+        "lengthMeters": 3800,
+        "widthMeters": 45,
+        "surface": "Asphalt",
+        "illuminated": true,
+        "designator": "07R/25L",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      },
+      {
+        "id": "panc-15-33",
+        "lengthMeters": 3341,
+        "widthMeters": 45,
+        "surface": "Asphalt",
+        "illuminated": true,
+        "designator": "15/33",
+        "status": "Active",
+        "surfaceCondition": "Good"
+      }
+    ],
+    "airlines": [
+      "Alaska Airlines",
+      "FedEx Express",
+      "UPS Airlines",
+      "Atlas Air",
+      "Delta Air Lines",
+      "United Airlines",
+      "American Airlines",
+      "Northern Air Cargo",
+      "National Air Cargo",
+      "Cathay Cargo"
+    ],
+    "hasControlTower": true,
+    "isOpen247": true,
+    "hasCustoms": true,
+    "hasCargoFacilities": true,
+    "shortDescription": "A critical transpacific air cargo refueling node situated equidistant between Asia and North America.",
+    "description": "Ted Stevens Anchorage International Airport (PANC) in Alaska occupies a strategic geographic position within 9.5 hours flying time of 90% of the industrialized world. It serves as a major refueling and cargo sorting node for transpacific air freight carriers."
   }
 ]
