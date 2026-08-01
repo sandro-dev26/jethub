@@ -118,7 +118,7 @@ function About() {
           <li>Typescript</li>
           <li>React</li>
           <li>Tailwind CSS</li>
-          <li>Motion (unused so far)</li>
+          <li>Motion</li>
         </ul>
       </section>
 
