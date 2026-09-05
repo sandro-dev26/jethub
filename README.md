@@ -9,7 +9,7 @@ A free, open-source web application for aircraft specs, airline fleet data, and 
 JetHub is project targeting to be way of accesing aviation data in combined single web app for free. It is still early in development and lacks data.
 
 > [!WARNING]
-> This website at the moment lacks SEO and more as it is frontend only React Application
+> This website at the moment lacks SEO and more as it is frontend only React Application so i will likely be moving to Next.JS alongside either Node.Js or Go, or Both, adding some social features, Auth and so security, and replacing JSON with easier way to update data like using Admin Panel so unless you want to contribute for other reasons i do not reccomend touching JSON.
 
 > [!WARNING]
 > This README.md might be outdated, as long as this note is here, if you plan to contribute to JSON regardless of note above, consider checking typescript types for each JSON files.
