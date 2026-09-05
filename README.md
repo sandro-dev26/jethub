@@ -8,6 +8,12 @@ A free, open-source web application for aircraft specs, airline fleet data, and 
 
 JetHub is project targeting to be way of accesing aviation data in combined single web app for free. It is still early in development and lacks data.
 
+> [!WARNING]
+> This website at the moment lacks SEO and more as it is frontend only React Application
+
+> [!WARNING]
+> This README.md might be outdated, as long as this note is here, if you plan to contribute to JSON regardless of note above, consider checking typescript types for each JSON files.
+
 ## Key Features
 
 Features that currently work
@@ -33,7 +39,7 @@ Follow these steps to run JetHub on your computer or contribute to the project.
 
 ### Prerequisites
 
-> [!NOTE]
+> [!IMPORTANT]
 > Make sure you have [Node.js](https://nodejs.org/) installed on your system before starting.
 
 ---
@@ -274,9 +280,6 @@ export interface Airport {
 
 > [!TIP]
 > Make sure to add a comma (,) between aircraft objects inside the JSON array, and verify there are no trailing commas at the end of the file.
-
-> [!NOTE]
-> The current `aircraft.json` contains some placeholder image URLs. If you wish, feel free to update them with working links via a Pull Request.
 
 > [!NOTE]
 > Found a bug or issue? Feel free to fix it and open a Pull Request
