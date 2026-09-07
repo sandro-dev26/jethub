@@ -27,10 +27,10 @@ function Navbar() {
           <NavLink
             key={item}
             className={({ isActive }) =>
-              `text-sm transition-all duration-200 hover:font-bold ${
+              `relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-[#fafafa] after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:origin-left hover:after:scale-x-100 text-sm transition-all duration-200 ${
                 isActive
-                  ? "font-semibold border-b-2 border-neutral-50 transition-all duration-200"
-                  : "font-light border-b-0 border-neutral-50 transition-all duration-200"
+                  ? "font-bold border-neutral-50 transition-all duration-200"
+                  : "font-light border-neutral-50 transition-all duration-200"
               }`
             }
             to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
