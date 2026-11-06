@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 function Footer() {
   return (
-    <footer className="flex w-full items-center justify-center mt-8 bg-sky-600 border-sky-500 border-t-4 pt-8 pb-16">
+    <footer className="flex w-full items-center justify-center mt-8 bg-sky-600 border-sky-500 border-t-4 pt-8 pb-24">
       <p className="w-[80%] text-center text-sm font-light font-sans text-neutral-800 dark:text-neutral-100 hover:dark:text-neutral-300 hover:text-neutral-500">
         This is a free, non-commercial, open-source web app dedicated to
         aviation. JetHub is not affiliated with or endorsed by any airline,
