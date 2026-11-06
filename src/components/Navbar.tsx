@@ -31,7 +31,7 @@ function Navbar() {
             }
             to={item.page === "Home" ? "/" : `/${item.page.toLowerCase()}`}
           >
-            <item.icon size={20} strokeWidth={2} />
+            <item.icon size={20} strokeWidth={2} className="block md:hidden" />
             {item.page}
           </NavLink>
         ))}
